@@ -1,0 +1,38 @@
+{
+    "theme": "job-market-trends",
+    "slug": "trends-demo",
+    "title": "AI Job Market Trends Demo",
+    "description": "Insights into the booming AI job market in India, with growth projections and skill demands.",
+    "industry": "Artificial Intelligence",
+    "region": "India",
+    "year": 2026,
+    "key_stats": [
+        {
+            "metric": "Job Growth",
+            "value": "45%"
+        },
+        {
+            "metric": "Avg Package",
+            "value": "₹18-25L"
+        },
+        {
+            "metric": "Remote Openings",
+            "value": "30%"
+        }
+    ],
+    "trending_skills": [
+        {
+            "name": "LLM Fine-tuning",
+            "demand": "rising"
+        },
+        {
+            "name": "Standard Python",
+            "demand": "stable"
+        },
+        {
+            "name": "Basic SEO Writing",
+            "demand": "cooling"
+        }
+    ],
+    "body": "The Indian tech sector is pivoting hard towards AI. Professionals who can integrate AI into traditional workflows are fetching the highest premiums."
+}

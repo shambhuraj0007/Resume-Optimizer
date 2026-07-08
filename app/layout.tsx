@@ -1,0 +1,200 @@
+import './globals.css';
+import type { Metadata, Viewport } from 'next';
+import { Inter } from 'next/font/google';
+import { ThemeWrapper } from '@/components/ThemeWrapper';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
+import SessionProvider from '@/components/SessionProvider';
+import PostHogProvider from '@/components/PostHogProvider';
+import Script from 'next/script';
+import { GoogleTagManager } from '@next/third-parties/google';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#ffffff',
+};
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://shortlistai.cv'),
+  verification: {
+    google: 'M2Z7Zz6OPkvY_GCiJPLgjLjTll_DT9XCkOcpoNL4vC8',
+  },
+  title: 'Free ATS Resume Checker | AI Resume Score & Optimization Tool - ShortlistAI',
+  description:
+    "Analyze your resume's ATS compatibility in 10 seconds. Get instant feedback, callback probability score, and personalized tips. 100% free, no signup required.",
+  keywords: [
+    'ATS resume checker',
+    'resume ATS score',
+    'ATS optimization',
+    'resume callback rate',
+    'ATS-friendly resume',
+  ],
+  alternates: {
+    canonical: 'https://shortlistai.cv/',
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://shortlistai.cv/',
+    title: 'Free ATS Resume Checker | Boost Your Interview Chances to 100%',
+    description:
+      'Get instant ATS score, callback probability, and actionable tips. Analyze your resume against any job description in under 10 seconds.',
+    images: [
+      {
+        url: 'https://shortlistai.cv/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ShortlistAI - ATS Resume Checker',
+      },
+    ],
+    siteName: 'ShortlistAI',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free ATS Resume Checker | AI Resume Optimization',
+    description:
+      'Analyze your resume in 10 seconds. Get ATS score + callback rate + personalized feedback.',
+    images: ['https://shortlistai.cv/twitter-image.png'],
+    creator: '@shortlistai',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+};
+
+const jsonLdSoftware = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'ShortlistAI',
+  applicationCategory: 'BusinessApplication',
+  applicationSubCategory: 'Resume Analysis Tool',
+  operatingSystem: 'Web Browser',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.8',
+    ratingCount: '127',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  description:
+    'AI-powered ATS resume checker that analyzes your resume against job descriptions in under 10 seconds.',
+  featureList: [
+    'ATS Compatibility Score',
+    'Callback Probability Analysis',
+    'Keyword Matching',
+    'Personalized Feedback',
+    'Job Description Comparison',
+    'Instant Analysis (10 seconds)',
+  ],
+  screenshot: 'https://shortlistai.cv/screenshot.png',
+  softwareVersion: '1.0',
+  url: 'https://shortlistai.cv/',
+  author: { '@type': 'Organization', name: 'ShortlistAI', url: 'https://shortlistai.cv/' },
+};
+
+const jsonLdWebSite = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'ShortlistAI',
+  url: 'https://shortlistai.cv/',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://shortlistai.cv/search?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+const jsonLdOrg = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'ShortlistAI',
+  url: 'https://shortlistai.cv/',
+  logo: 'https://shortlistai.cv/logo.png',
+  sameAs: [
+    'https://www.linkedin.com/company/shortlistai',
+    'https://twitter.com/shortlistai',
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'Customer Support',
+    email: 'support@shortlistai.com',
+    availableLanguage: ['English', 'Hindi'],
+  },
+};
+
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const session = await getServerSession(authOptions);
+
+  return (
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
+      <head>
+        {/* Preconnect to top origins (Lighthouse-identified savings) */}
+        <link rel="preconnect" href="https://cdn.cookie-script.com" />
+        <link rel="preconnect" href="https://us-assets.i.posthog.com" />
+        <link rel="dns-prefetch" href="https://us.i.posthog.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" crossOrigin="anonymous" />
+        {/* dns-prefetch as fallback for browsers that don't support preconnect */}
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://scripts.clarity.ms" />
+        <link rel="dns-prefetch" href="https://checkout.razorpay.com" />
+        <link rel="manifest" href="/manifest.json" />
+
+        {/* CookieScript — logic updated to avoid layout shift and reduce TBT */}
+        {process.env.NEXT_PUBLIC_COOKIESCRIPT_ID && (
+          <Script
+            id="cookie-script"
+            strategy="lazyOnload"
+            src={`//cdn.cookie-script.com/s/${process.env.NEXT_PUBLIC_COOKIESCRIPT_ID}.js`}
+          />
+        )}
+      </head>
+      <body>
+        {/* Google Tag Manager via @next/third-parties (optimised loading) */}
+        <GoogleTagManager gtmId="GTM-T2V4BQ4P" />
+
+        <SessionProvider session={session}>
+          <PostHogProvider>
+            <ThemeWrapper>{children}</ThemeWrapper>
+          </PostHogProvider>
+        </SessionProvider>
+
+        {/* Inject JSON-LD Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSoftware) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
+        />
+      </body>
+    </html>
+  );
+}

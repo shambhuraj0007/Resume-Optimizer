@@ -1,0 +1,2387 @@
+[
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for software engineer salary india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Software Engineer Salary India",
+            "slug": "/career-hub/salary-insights/software-engineer-salary-india",
+            "primary_keyword": "software engineer salary india",
+            "secondary_keywords": [
+                "software developer salary india",
+                "software engineer salary per month india",
+                "fresher software engineer salary india",
+                "senior software engineer salary india",
+                "product company software engineer salary india",
+                "software engineer salary bangalore"
+            ],
+            "notes": "India focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level software engineers evaluating compensation and career growth.",
+            "seo_title": "Software Engineer Salary India (2026 Guide)",
+            "seo_description": "Explore software engineer salary in India by experience, city, and company type. Includes negotiation tips and salary growth strategy."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Software engineer salary in India varies significantly by experience level, company type, city, and skill specialization. Freshers typically start in lower entry-level bands, while engineers in product companies and high-demand domains (backend, cloud, AI) command higher packages. Understanding market ranges and positioning your skills correctly is key to maximizing compensation.",
+                "bullets": [
+                    "Fresher roles often range in typical bands like ₹3–8 LPA depending on company type and campus tier.",
+                    "Engineers with 2–5 years experience commonly see mid-level ranges such as ₹8–20+ LPA in product-focused roles.",
+                    "Senior engineers in top product firms may earn ₹25–45+ LPA including bonuses and ESOP components.",
+                    "Backend, cloud, and AI specialization can increase compensation by 20–40% compared to generic roles."
+                ]
+            },
+            "h1": "Software Engineer Salary India: Complete 2026 Compensation Guide",
+            "intro_paragraph": "If you are evaluating software engineer salary in India—whether as a fresher, mid-level developer, or senior engineer—this guide will help you understand realistic compensation ranges and growth paths. Salaries vary widely depending on company type, city, specialization, and negotiation skills. This article breaks down salary bands by experience, location, company type, and provides practical strategies to increase your earning potential.",
+            "sections": [
+                {
+                    "heading": "Overview of Software Engineer Salary in India",
+                    "paragraphs": [
+                        "Software engineering remains one of the highest-paying career paths in India. However, compensation varies significantly between service-based firms, product companies, startups, and global tech firms.",
+                        "Salary structures may include fixed pay, performance bonus, joining bonus, and ESOPs (especially in startups and product companies)."
+                    ],
+                    "bullets": [
+                        "Service-based companies: Generally moderate starting packages with stable increments.",
+                        "Product companies: Higher fixed pay with strong performance bonuses.",
+                        "Startups: Competitive fixed pay + ESOP components.",
+                        "Global tech firms: Higher compensation bands with structured growth paths."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Software Engineer Salary by Experience Level",
+                    "paragraphs": [
+                        "Experience is the most significant salary driver. Compensation typically grows sharply in the first 5–7 years with skill depth and system design expertise."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Fresher (0–1 Years)",
+                            "paragraphs": [
+                                "Entry-level roles in service companies often fall in typical bands such as ₹3–6 LPA. Product companies and strong campus placements may offer ₹6–12 LPA depending on skill level and institute tier."
+                            ],
+                            "bullets": [
+                                "Campus placement (Tier 1 colleges): Higher-end packages possible.",
+                                "Off-campus service roles: Lower entry bands.",
+                                "Strong DSA + internships can significantly increase offers."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level (2–5 Years)",
+                            "paragraphs": [
+                                "Engineers with strong backend, system design, and cloud exposure often see ranges such as ₹8–20+ LPA. Switching companies strategically can accelerate growth."
+                            ],
+                            "bullets": [
+                                "Product company roles typically on higher end.",
+                                "Skill specialization increases compensation.",
+                                "Negotiation becomes more impactful."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior Level (6+ Years)",
+                            "paragraphs": [
+                                "Senior engineers and tech leads in product firms may command ₹20–45+ LPA depending on scale handled and leadership scope."
+                            ],
+                            "bullets": [
+                                "Architecture and system design expertise is critical.",
+                                "Team leadership responsibilities increase pay.",
+                                "ESOPs and bonuses form larger compensation portion."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Software Engineer Salary by City",
+                    "paragraphs": [
+                        "City significantly impacts salary due to cost of living and concentration of product companies."
+                    ],
+                    "bullets": [
+                        "Bangalore: Often among highest-paying tech hubs.",
+                        "Hyderabad: Strong product company presence.",
+                        "Pune & Chennai: Competitive but moderate compared to Bangalore.",
+                        "Delhi NCR: Growing startup ecosystem."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Differences by Company Type",
+                    "paragraphs": [
+                        "Service-based IT firms typically offer stable but moderate growth. Product companies and global firms offer higher performance-based increments.",
+                        "Startups may offer lower fixed pay but equity upside."
+                    ],
+                    "bullets": [
+                        "Service firms: Structured increments.",
+                        "Product firms: Skill and performance-driven growth.",
+                        "Startups: Risk-reward model (ESOP heavy).",
+                        "MNCs: Stable bands with global exposure."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Verify Salary Ranges",
+                    "paragraphs": [
+                        "Before negotiating, research salary benchmarks across multiple public platforms and professional networks.",
+                        "Speak with peers, alumni, and recruiters to validate expectations."
+                    ],
+                    "bullets": [
+                        "Check multiple salary platforms for consistency.",
+                        "Connect with professionals in similar roles.",
+                        "Understand company pay bands before interviews.",
+                        "Differentiate between CTC and fixed salary."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Negotiate Software Engineer Salary in India",
+                    "paragraphs": [
+                        "Negotiation becomes powerful once you have an offer in hand. Always base negotiation on skills, market data, and competing offers.",
+                        "Be professional and data-driven rather than emotional."
+                    ],
+                    "bullets": [
+                        "Provide salary range instead of exact figure.",
+                        "Highlight system design expertise and measurable impact.",
+                        "Leverage competing offers if available.",
+                        "Consider total compensation (bonus + ESOP)."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Increase Your Salary as a Software Engineer",
+                    "paragraphs": [
+                        "Salary growth is strongly linked to skill depth and visible impact."
+                    ],
+                    "bullets": [
+                        "Master system design and scalable architectures.",
+                        "Gain cloud and DevOps exposure.",
+                        "Switch strategically every 2–3 years (if growth stagnates).",
+                        "Build measurable impact in projects.",
+                        "Contribute to high-visibility initiatives."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, location, skills, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Mid-Level Engineer)",
+                    "body": "Thank you for the offer. Based on my 3 years of backend experience handling systems with 200K+ daily active users and optimizing API latency by 35%, I was expecting a package closer to ₹18–20 LPA. Is there flexibility in the compensation band considering my experience and the competing offer I’m evaluating?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "What is the average starting salary for software engineers in India?",
+                    "answer": "Entry-level salaries vary widely, typically ranging from lower service-company bands to higher product-company packages depending on skills and institute tier."
+                },
+                {
+                    "question": "Does switching companies increase salary significantly?",
+                    "answer": "Yes, strategic job switches often result in larger salary jumps compared to internal increments."
+                },
+                {
+                    "question": "Are startups better paying than service companies?",
+                    "answer": "Startups may offer competitive pay plus ESOPs, but risk and variability are higher."
+                },
+                {
+                    "question": "Which skills increase software engineer salary the most?",
+                    "answer": "System design, backend scalability, cloud infrastructure, and AI/ML specialization typically command higher compensation."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Higher Salary Offers? Start with a Strong Resume",
+                "paragraph": "Higher compensation starts with getting shortlisted. Ensure your resume highlights measurable impact, system scale, and high-demand skills before applying.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Software Engineer Resume Template",
+                    "target": "/resume-templates/software-engineer"
+                },
+                {
+                    "label": "System Design Interview Preparation",
+                    "target": "/career-hub/interview-preparation/system-design-interview-preparation"
+                },
+                {
+                    "label": "Technical Interview Questions Guide",
+                    "target": "/career-hub/interview-preparation/technical-interview-questions-software-engineer"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for data analyst salary bangalore.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Data Analyst Salary Bangalore",
+            "slug": "/career-hub/salary-insights/data-analyst-salary-bangalore",
+            "primary_keyword": "data analyst salary bangalore",
+            "secondary_keywords": [
+                "data analyst salary in bangalore per month",
+                "fresher data analyst salary bangalore",
+                "senior data analyst salary bangalore",
+                "data analyst salary bangalore product company",
+                "business analyst salary bangalore",
+                "analytics salary bangalore"
+            ],
+            "notes": "Bangalore focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level professionals evaluating data analyst compensation in Bangalore.",
+            "seo_title": "Data Analyst Salary Bangalore (2026 Guide)",
+            "seo_description": "Explore data analyst salary in Bangalore by experience, company type, and skills. Includes negotiation tips and career growth insights."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Data analyst salary in Bangalore varies based on experience, company type, and technical specialization. As India’s tech hub, Bangalore offers higher-than-average compensation compared to many other cities, especially in product companies and analytics-driven startups. Skills in SQL, Python, BI tools, and business impact significantly influence salary bands.",
+                "bullets": [
+                    "Fresher data analyst roles in Bangalore commonly range in typical bands like ₹4–8 LPA depending on company and internship experience.",
+                    "Mid-level analysts (2–5 years) often see ₹8–18+ LPA, especially in product and SaaS companies.",
+                    "Senior data analysts can command ₹18–30+ LPA in high-growth startups or global product firms.",
+                    "Strong SQL + Python + dashboard expertise can increase compensation by 20–35% compared to Excel-only roles."
+                ]
+            },
+            "h1": "Data Analyst Salary Bangalore: Complete 2026 Compensation Guide",
+            "intro_paragraph": "If you're evaluating data analyst salary in Bangalore, understanding the city’s unique tech ecosystem is essential. Bangalore hosts product companies, SaaS startups, global MNCs, and analytics-driven businesses—leading to a wide salary range. This guide breaks down compensation by experience level, company type, and skill specialization, and provides practical advice on negotiation and career growth.",
+            "sections": [
+                {
+                    "heading": "Why Bangalore Pays Higher for Data Analysts",
+                    "paragraphs": [
+                        "Bangalore is India’s largest technology and startup hub. The concentration of SaaS firms, fintech startups, and global tech companies drives higher demand for skilled analysts.",
+                        "Compared to Tier-2 cities, Bangalore often offers higher base salaries but also comes with a higher cost of living."
+                    ],
+                    "bullets": [
+                        "Strong presence of product companies.",
+                        "High demand for analytics-driven decision-making.",
+                        "Competitive hiring environment.",
+                        "Higher living costs influence pay structures."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Data Analyst Salary in Bangalore by Experience",
+                    "paragraphs": [
+                        "Experience level significantly impacts compensation. Salary growth is often steep in the first 4–5 years with the right skill upgrades."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Fresher (0–1 Years)",
+                            "paragraphs": [
+                                "Entry-level roles in startups and service firms often fall in typical ranges such as ₹4–6 LPA, while strong internships and product-company roles may reach ₹6–10 LPA."
+                            ],
+                            "bullets": [
+                                "Internship experience improves offer quality.",
+                                "SQL and Excel basics are mandatory.",
+                                "Python knowledge gives competitive edge."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level (2–5 Years)",
+                            "paragraphs": [
+                                "Analysts with SQL, Python, and BI expertise often see ₹8–18+ LPA depending on domain (fintech, SaaS, e-commerce)."
+                            ],
+                            "bullets": [
+                                "Product analytics roles pay higher than reporting roles.",
+                                "Switching companies strategically can accelerate growth.",
+                                "Business impact visibility increases salary potential."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior (5+ Years)",
+                            "paragraphs": [
+                                "Senior analysts and analytics leads may command ₹18–30+ LPA, especially when handling cross-functional projects and stakeholder communication."
+                            ],
+                            "bullets": [
+                                "Leadership responsibilities increase compensation.",
+                                "Advanced analytics or ML exposure boosts pay.",
+                                "Domain specialization (fintech, SaaS) matters."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Salary Differences by Company Type in Bangalore",
+                    "paragraphs": [
+                        "Company type plays a major role in compensation differences."
+                    ],
+                    "bullets": [
+                        "Service-based companies: Moderate salary bands with structured growth.",
+                        "Product companies: Higher fixed pay with performance bonuses.",
+                        "Startups: Competitive pay + ESOP components.",
+                        "Global MNCs: Structured salary bands with stable increments."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Skills That Increase Data Analyst Salary in Bangalore",
+                    "paragraphs": [
+                        "Salary growth depends heavily on technical and business skill depth."
+                    ],
+                    "bullets": [
+                        "Advanced SQL (window functions, query optimization)",
+                        "Python (Pandas, NumPy, data cleaning)",
+                        "Power BI / Tableau dashboard development",
+                        "A/B testing and experimentation",
+                        "Cohort and funnel analysis",
+                        "Basic machine learning understanding"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Verify Salary in Bangalore",
+                    "paragraphs": [
+                        "Before negotiating, validate salary expectations using multiple public compensation platforms and peer networks.",
+                        "Always differentiate between CTC and fixed salary when comparing offers."
+                    ],
+                    "bullets": [
+                        "Compare salaries across multiple platforms.",
+                        "Speak to alumni and peers in Bangalore.",
+                        "Understand bonus and ESOP components.",
+                        "Factor in cost of living."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Negotiate Data Analyst Salary in Bangalore",
+                    "paragraphs": [
+                        "Negotiation works best when backed by measurable impact and competing offers.",
+                        "Focus on business value delivered rather than years of experience alone."
+                    ],
+                    "bullets": [
+                        "Present impact metrics from past roles.",
+                        "Quote a salary range instead of fixed number.",
+                        "Highlight high-demand skills.",
+                        "Be professional and flexible."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, skill set, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Mid-Level Analyst)",
+                    "body": "Thank you for the offer. Based on my 3 years of experience analyzing 2M+ transaction records, building 25+ KPI dashboards, and improving conversion rate by 12%, I was expecting a compensation range closer to ₹15–17 LPA in the Bangalore market. Is there flexibility in the band considering my analytics impact and domain expertise?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Is Bangalore the highest-paying city for data analysts in India?",
+                    "answer": "It is among the highest-paying cities due to strong product and startup ecosystem, though compensation depends on company and skill level."
+                },
+                {
+                    "question": "Does switching jobs increase salary significantly in Bangalore?",
+                    "answer": "Yes, strategic job switches often result in larger jumps compared to internal increments."
+                },
+                {
+                    "question": "Which skills increase data analyst salary the most?",
+                    "answer": "Advanced SQL, Python, BI tools, experimentation, and business impact ownership significantly improve compensation."
+                },
+                {
+                    "question": "Are startups better paying than service firms in Bangalore?",
+                    "answer": "Startups may offer competitive pay and ESOPs, but risk and variability are higher."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Higher Offers in Bangalore? Start with an ATS-Optimized Resume",
+                "paragraph": "To access top-paying analytics roles in Bangalore, your resume must highlight measurable business impact and relevant keywords.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Data Analyst Resume Template",
+                    "target": "/resume-templates/data-analyst"
+                },
+                {
+                    "label": "Data Analyst Interview Preparation",
+                    "target": "/career-hub/interview-preparation/data-analyst-interview-tips"
+                },
+                {
+                    "label": "Data Analyst Resume Tips India",
+                    "target": "/career-hub/resume-tips/data-analyst-cv-format"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for product manager salary trends.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Product Manager Salary Trends",
+            "slug": "/career-hub/salary-insights/product-manager-salary-trends",
+            "primary_keyword": "product manager salary trends",
+            "secondary_keywords": [
+                "product manager salary india",
+                "pm salary trends india 2026",
+                "associate product manager salary india",
+                "senior product manager salary india",
+                "product management salary growth",
+                "product manager compensation trends"
+            ],
+            "notes": "India focus – qualitative trends, approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily early to senior-level professionals evaluating product management compensation and growth.",
+            "seo_title": "Product Manager Salary Trends in India (2026 Guide)",
+            "seo_description": "Explore product manager salary trends in India by experience, company type, and skills. Includes growth patterns and negotiation insights."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Product manager salary trends in India show strong growth, especially in product-led startups and SaaS companies. Compensation varies widely by experience level, company stage, and business impact ownership. PMs who drive measurable growth metrics, monetization, or large-scale launches typically command significantly higher packages.",
+                "bullets": [
+                    "Associate Product Managers often see typical ranges like ₹8–18 LPA depending on institute tier and company type.",
+                    "Mid-level PMs (3–6 years) commonly fall in ₹18–35+ LPA bands in product companies.",
+                    "Senior PMs and Group PMs in high-growth firms may command ₹35–60+ LPA including bonus and ESOP components.",
+                    "PMs driving revenue-impact initiatives (e.g., 20%+ growth in MAU or 15% revenue uplift) often negotiate 20–40% higher offers."
+                ]
+            },
+            "h1": "Product Manager Salary Trends: 2026 India Compensation Guide",
+            "intro_paragraph": "If you’re evaluating product manager salary trends in India, understanding how compensation evolves across experience levels and company types is crucial. Over the past few years, PM salaries have grown significantly in product-led startups, SaaS firms, fintech companies, and global tech organizations. This guide explains salary ranges by level, trend shifts in the PM market, skill-based pay differences, and practical negotiation strategies.",
+            "sections": [
+                {
+                    "heading": "Overview of Product Manager Salary Trends in India",
+                    "paragraphs": [
+                        "Product management has become one of the fastest-growing and highest-paying non-coding tech roles in India. As companies prioritize product-led growth, PM compensation has increased—especially in consumer tech, fintech, and SaaS sectors.",
+                        "However, salary variation is wide. Company stage, revenue scale, and ownership scope significantly impact compensation."
+                    ],
+                    "bullets": [
+                        "Higher demand for data-driven PMs.",
+                        "Increased compensation in SaaS and fintech sectors.",
+                        "Equity-heavy packages in startups.",
+                        "Performance-linked bonuses becoming common."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Product Manager Salary by Experience Level",
+                    "paragraphs": [
+                        "Experience level remains the most significant factor in PM compensation growth."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Associate / Entry-Level PM (0–2 Years)",
+                            "paragraphs": [
+                                "Associate Product Managers (APMs) and junior PMs often fall in typical ranges such as ₹8–18 LPA. Top-tier MBA graduates or product internships may push compensation higher."
+                            ],
+                            "bullets": [
+                                "Campus MBA placements offer higher starting bands.",
+                                "Strong internships improve entry-level offers.",
+                                "Product analytics exposure increases competitiveness."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level PM (3–6 Years)",
+                            "paragraphs": [
+                                "Mid-level PMs handling feature ownership, cross-functional coordination, and measurable growth metrics typically fall within ₹18–35+ LPA depending on company scale."
+                            ],
+                            "bullets": [
+                                "Revenue and growth ownership increases pay.",
+                                "Switching from service to product firms boosts compensation.",
+                                "Specialization in growth or monetization increases value."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior PM / Group PM (7+ Years)",
+                            "paragraphs": [
+                                "Senior PMs leading product lines or managing PM teams may see ₹35–60+ LPA, particularly in product-led startups or global firms."
+                            ],
+                            "bullets": [
+                                "Leadership and P&L responsibility increase salary bands.",
+                                "Equity and bonuses form larger compensation share.",
+                                "Strategic roadmap ownership commands premium pay."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Salary Differences by Company Type",
+                    "paragraphs": [
+                        "Company stage and funding status strongly influence PM salary structures."
+                    ],
+                    "bullets": [
+                        "Early-stage startups: Moderate fixed pay + higher ESOP upside.",
+                        "Growth-stage startups: Competitive fixed + performance bonus.",
+                        "Large product companies: High fixed pay with structured bands.",
+                        "MNCs: Stable compensation with incremental growth."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Skills Driving Higher PM Salaries",
+                    "paragraphs": [
+                        "PM compensation increasingly depends on measurable business impact rather than tenure alone."
+                    ],
+                    "bullets": [
+                        "Strong analytics and SQL knowledge.",
+                        "A/B testing and experimentation experience.",
+                        "Growth and retention strategy expertise.",
+                        "Monetization and pricing ownership.",
+                        "Technical fluency with APIs and system constraints."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Emerging Salary Trends in Product Management",
+                    "paragraphs": [
+                        "Recent hiring trends show increasing demand for hybrid PMs—those comfortable with analytics, user research, and basic technical discussions.",
+                        "AI-driven product roles and growth-focused PMs are seeing stronger compensation growth compared to traditional feature-delivery roles."
+                    ],
+                    "bullets": [
+                        "Data-first PM roles gaining premium compensation.",
+                        "AI/ML product roles showing upward salary trends.",
+                        "Remote and global roles influencing compensation benchmarks.",
+                        "Performance-linked pay becoming more common."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Validate PM Salary Trends",
+                    "paragraphs": [
+                        "Before negotiating, gather compensation data from multiple public sources and peer networks.",
+                        "Always separate fixed pay, bonus, and equity when comparing offers."
+                    ],
+                    "bullets": [
+                        "Check salary benchmarks across platforms.",
+                        "Speak with peers in similar-stage companies.",
+                        "Understand pay band for target company.",
+                        "Compare total compensation, not just CTC."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Negotiating Product Manager Salary",
+                    "paragraphs": [
+                        "Negotiation works best when tied to measurable product impact and competing offers.",
+                        "PMs should emphasize metrics such as growth rate, activation improvement, retention uplift, or revenue contribution."
+                    ],
+                    "bullets": [
+                        "Present quantifiable impact from previous roles.",
+                        "Quote a salary range rather than fixed demand.",
+                        "Highlight cross-functional leadership experience.",
+                        "Negotiate equity separately if applicable."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company stage, location, performance, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Mid-Level PM)",
+                    "body": "Thank you for the offer. In my current role, I led a feature launch that improved user activation from 45% to 62% and reduced churn by 14% over two quarters. Based on this impact and current market trends for PM roles in similar-stage companies, I was expecting a compensation range closer to ₹28–32 LPA. Is there flexibility in the band considering my experience and measurable results?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Are PM salaries increasing in India?",
+                    "answer": "Yes, especially in SaaS, fintech, and AI-driven product companies where product-led growth is a priority."
+                },
+                {
+                    "question": "Do MBAs earn higher PM salaries?",
+                    "answer": "Top-tier MBA graduates often start at higher bands, but measurable product impact ultimately drives long-term salary growth."
+                },
+                {
+                    "question": "Do startups pay less than large companies?",
+                    "answer": "Startups may offer lower fixed pay but higher ESOP upside compared to established product firms."
+                },
+                {
+                    "question": "Which PM skills increase compensation the most?",
+                    "answer": "Growth ownership, monetization strategy, analytics fluency, and technical understanding significantly improve compensation potential."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Higher PM Offers? Start With a Metrics-Driven Resume",
+                "paragraph": "Top-paying PM roles require clear evidence of product impact. Ensure your resume highlights growth metrics, ownership, and strategic outcomes before applying.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Product Manager Resume Template",
+                    "target": "/resume-templates/product-manager"
+                },
+                {
+                    "label": "Product Manager Interview Preparation",
+                    "target": "/career-hub/interview-preparation/product-manager-interview-preparation"
+                },
+                {
+                    "label": "Product Manager Resume Tips",
+                    "target": "/career-hub/resume-tips/product-manager-resume-examples"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for digital marketing salary india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Digital Marketing Salary India",
+            "slug": "/career-hub/salary-insights/digital-marketing-salary-india",
+            "primary_keyword": "digital marketing salary india",
+            "secondary_keywords": [
+                "digital marketing executive salary india",
+                "digital marketing manager salary india",
+                "seo salary india",
+                "performance marketing salary india",
+                "digital marketing salary per month india",
+                "fresher digital marketing salary india"
+            ],
+            "notes": "India focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level professionals evaluating digital marketing compensation.",
+            "seo_title": "Digital Marketing Salary India (2026 Trends Guide)",
+            "seo_description": "Explore digital marketing salary in India by role, experience, and specialization. Includes SEO, performance marketing, and negotiation tips."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Digital marketing salary in India varies based on specialization, experience, and company type. Entry-level roles offer moderate starting pay, while performance marketing, growth, and analytics-focused professionals command higher compensation. Salaries increase significantly when marketers demonstrate measurable ROI and revenue impact.",
+                "bullets": [
+                    "Fresher digital marketing roles typically range in common bands like ₹2.5–6 LPA depending on skills and internships.",
+                    "Mid-level professionals (2–5 years) often see ₹6–18+ LPA, especially in performance marketing and growth roles.",
+                    "Digital marketing managers may command ₹15–30+ LPA in product companies and funded startups.",
+                    "Performance marketers improving ROAS by 30%+ or reducing CAC significantly often negotiate 20–40% higher packages."
+                ]
+            },
+            "h1": "Digital Marketing Salary India: 2026 Compensation & Growth Guide",
+            "intro_paragraph": "If you're evaluating digital marketing salary in India, it's important to understand how compensation differs by specialization, experience, and company type. Roles in SEO, paid ads, content marketing, and growth marketing offer different salary trajectories. This guide breaks down realistic salary bands across levels and provides insights on how to increase your earning potential in digital marketing.",
+            "sections": [
+                {
+                    "heading": "Overview of Digital Marketing Salary in India",
+                    "paragraphs": [
+                        "Digital marketing salaries in India vary significantly depending on skill depth and business impact. Professionals who directly influence revenue, lead generation, and customer acquisition tend to earn higher pay.",
+                        "CTC structures may include fixed salary, performance incentives, and sometimes profit-linked bonuses."
+                    ],
+                    "bullets": [
+                        "SEO and content roles: Moderate but stable growth.",
+                        "Performance marketing roles: Higher variable compensation.",
+                        "Growth marketing roles: Strong pay growth in startups.",
+                        "Agency roles vs in-house roles: Pay differences exist."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Digital Marketing Salary by Experience Level",
+                    "paragraphs": [
+                        "Experience and demonstrated ROI drive salary progression in digital marketing."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Fresher (0–1 Years)",
+                            "paragraphs": [
+                                "Entry-level digital marketing executive salaries typically fall in ₹2.5–5 LPA ranges, depending on internships and certifications."
+                            ],
+                            "bullets": [
+                                "Google Ads and SEO certifications improve offers.",
+                                "Internship experience matters significantly.",
+                                "Hands-on campaign experience increases pay."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level (2–5 Years)",
+                            "paragraphs": [
+                                "Professionals handling campaign budgets, analytics, and ROI tracking often earn ₹6–18+ LPA depending on specialization."
+                            ],
+                            "bullets": [
+                                "Performance marketers command higher bands.",
+                                "Experience managing ₹5L+ monthly ad budgets improves pay.",
+                                "Switching from agency to in-house often increases salary."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior / Manager Level (5+ Years)",
+                            "paragraphs": [
+                                "Digital marketing managers and growth heads may earn ₹15–30+ LPA, especially in funded startups and product companies."
+                            ],
+                            "bullets": [
+                                "Ownership of revenue targets increases compensation.",
+                                "Team leadership responsibilities boost pay bands.",
+                                "Data-driven marketing skills command premium pay."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Salary by Specialization",
+                    "paragraphs": [
+                        "Different digital marketing specializations offer varying salary trajectories."
+                    ],
+                    "bullets": [
+                        "SEO Specialist: Stable growth, moderate pay bands.",
+                        "Performance Marketing: Higher pay due to direct ROI ownership.",
+                        "Social Media Marketing: Moderate to mid-level bands.",
+                        "Growth Marketing: Strong upward trend in startups.",
+                        "Marketing Analytics: Increasing demand and premium compensation."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Company Type Impact on Salary",
+                    "paragraphs": [
+                        "Compensation varies across agencies, startups, and product companies."
+                    ],
+                    "bullets": [
+                        "Agencies: Lower fixed pay but broader client exposure.",
+                        "Startups: Competitive pay with performance bonuses.",
+                        "Product companies: Higher fixed pay and structured growth.",
+                        "MNCs: Stable increments and global exposure."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Skills That Increase Digital Marketing Salary",
+                    "paragraphs": [
+                        "High-paying digital marketing roles require measurable business impact and analytical thinking."
+                    ],
+                    "bullets": [
+                        "Advanced Google Ads optimization.",
+                        "Conversion rate optimization (CRO).",
+                        "A/B testing expertise.",
+                        "Data analysis using Google Analytics or GA4.",
+                        "Budget management and ROAS optimization.",
+                        "Marketing automation tools."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Verify Salary in India",
+                    "paragraphs": [
+                        "Before negotiating salary, review benchmarks across multiple public platforms and industry networks.",
+                        "Always differentiate between fixed salary and performance incentives."
+                    ],
+                    "bullets": [
+                        "Check multiple salary sources.",
+                        "Talk to peers in similar roles.",
+                        "Understand monthly vs annual CTC breakdown.",
+                        "Factor in performance bonuses."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Negotiating Digital Marketing Salary",
+                    "paragraphs": [
+                        "Negotiation works best when supported by campaign metrics and ROI improvements.",
+                        "Demonstrate direct revenue impact rather than listing tasks."
+                    ],
+                    "bullets": [
+                        "Present measurable campaign results.",
+                        "Quote salary range instead of fixed number.",
+                        "Highlight ROI improvements.",
+                        "Negotiate variable pay structure if applicable."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, specialization, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Performance Marketer)",
+                    "body": "In my current role, I manage ₹6 lakh monthly ad spend and improved ROAS from 2.9x to 4.2x within 5 months, increasing monthly revenue by 35%. Based on current digital marketing salary trends and my measurable campaign impact, I was expecting a compensation range closer to ₹14–16 LPA. Is there flexibility in the band?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Is digital marketing a high-paying career in India?",
+                    "answer": "It can be, especially in performance marketing and growth roles where measurable ROI is demonstrated."
+                },
+                {
+                    "question": "Do certifications increase digital marketing salary?",
+                    "answer": "Certifications help at entry level, but measurable campaign performance drives long-term salary growth."
+                },
+                {
+                    "question": "Which specialization pays the most in digital marketing?",
+                    "answer": "Performance marketing, growth marketing, and analytics-driven roles often command higher compensation."
+                },
+                {
+                    "question": "Is agency salary lower than in-house salary?",
+                    "answer": "Typically yes, but agencies provide faster learning and broader exposure."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Higher Digital Marketing Offers? Optimize Your Resume First",
+                "paragraph": "High-paying marketing roles require resumes that highlight measurable ROI and performance metrics. Ensure your resume is ATS-optimized before applying.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Digital Marketing Resume Template",
+                    "target": "/resume-templates/digital-marketing"
+                },
+                {
+                    "label": "Digital Marketing Interview Preparation",
+                    "target": "/career-hub/interview-preparation/digital-marketing-interview-questions"
+                },
+                {
+                    "label": "SEO Resume Tips Guide",
+                    "target": "/career-hub/resume-tips/digital-marketing-resume-format"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for fresher salary expectations india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Fresher Salary Expectations India",
+            "slug": "/career-hub/salary-insights/fresher-salary-expectations-india",
+            "primary_keyword": "fresher salary expectations india",
+            "secondary_keywords": [
+                "fresher salary in india per month",
+                "entry level salary india",
+                "campus placement salary india",
+                "first job salary india",
+                "graduate salary india",
+                "salary negotiation for freshers india"
+            ],
+            "notes": "India focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily final-year students and fresh graduates evaluating first-job compensation.",
+            "seo_title": "Fresher Salary Expectations India (2026 Guide)",
+            "seo_description": "Understand fresher salary expectations in India by role, city, and company type. Includes negotiation tips and realistic pay ranges."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Fresher salary expectations in India vary widely depending on role, industry, city, and company type. Entry-level compensation typically falls within moderate bands, with product companies and specialized roles offering higher packages than service-based firms. Setting realistic expectations and negotiating professionally can significantly impact your first offer.",
+                "bullets": [
+                    "Entry-level IT roles often fall within common bands like ₹3–8 LPA depending on company type and skills.",
+                    "Digital marketing and operations fresher roles may range ₹2.5–6 LPA based on internship exposure.",
+                    "Top-tier campus placements in product companies may exceed ₹10–15+ LPA for strong technical profiles.",
+                    "Strong internships, certifications, and measurable projects can improve offers by 20–40%."
+                ]
+            },
+            "h1": "Fresher Salary Expectations India: What You Should Realistically Expect in 2026",
+            "intro_paragraph": "If you are a final-year student or recent graduate evaluating fresher salary expectations in India, it’s important to understand how compensation varies across industries and company types. Many freshers either undervalue themselves or set unrealistic expectations without understanding market dynamics. This guide explains realistic salary ranges, what influences your first offer, and how to negotiate professionally.",
+            "sections": [
+                {
+                    "heading": "What Determines Fresher Salary in India?",
+                    "paragraphs": [
+                        "Your starting salary depends on multiple factors beyond just your degree. Recruiters evaluate skill relevance, internships, institute reputation, and job market demand.",
+                        "City and company type also significantly influence compensation."
+                    ],
+                    "bullets": [
+                        "Industry and role demand",
+                        "Technical or specialized skills",
+                        "Internship experience",
+                        "College tier and campus placement",
+                        "Company type (service, product, startup)",
+                        "Location and cost of living"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Fresher Salary Expectations by Industry",
+                    "paragraphs": [
+                        "Different industries offer varying salary levels for entry-level roles."
+                    ],
+                    "bullets": [
+                        "IT / Software Development: Typically ₹3–8 LPA in service firms; higher in product firms.",
+                        "Data Analytics: Often ₹4–10 LPA depending on skills and tools.",
+                        "Digital Marketing: Usually ₹2.5–6 LPA at entry level.",
+                        "Core Engineering: Moderate starting bands varying by sector.",
+                        "Finance & Consulting: Higher packages in top-tier firms."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Fresher Salary by Company Type",
+                    "paragraphs": [
+                        "Company type strongly impacts starting compensation."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Service-Based Companies",
+                            "paragraphs": [
+                                "These firms offer structured salary bands and stable increments but generally moderate entry-level pay."
+                            ],
+                            "bullets": [
+                                "Standardized salary packages.",
+                                "Slower initial growth.",
+                                "Good learning exposure."
+                            ]
+                        },
+                        {
+                            "subheading": "Product Companies",
+                            "paragraphs": [
+                                "Product companies often offer higher fixed pay, especially for technical roles."
+                            ],
+                            "bullets": [
+                                "Higher compensation bands.",
+                                "Stronger performance expectations.",
+                                "Better long-term growth potential."
+                            ]
+                        },
+                        {
+                            "subheading": "Startups",
+                            "paragraphs": [
+                                "Startups may offer competitive pay plus equity components, but stability can vary."
+                            ],
+                            "bullets": [
+                                "Flexible compensation structure.",
+                                "Equity (ESOP) opportunities.",
+                                "High learning curve."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Salary Expectations by City",
+                    "paragraphs": [
+                        "Metro cities generally offer higher salaries due to higher cost of living and concentration of companies."
+                    ],
+                    "bullets": [
+                        "Bangalore and Hyderabad: Higher tech salary bands.",
+                        "Mumbai and Delhi NCR: Competitive for finance and consulting roles.",
+                        "Tier-2 cities: Moderate salary bands but lower living costs."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Set Realistic Salary Expectations as a Fresher",
+                    "paragraphs": [
+                        "Before interviews, research typical pay bands for your role and city. Avoid quoting unrealistic numbers without backing.",
+                        "Your goal is to balance competitiveness with market awareness."
+                    ],
+                    "bullets": [
+                        "Research salary benchmarks across multiple sources.",
+                        "Ask seniors or alumni for realistic insights.",
+                        "Prepare a salary range rather than fixed figure.",
+                        "Be open to learning opportunities in early career."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Negotiate Salary as a Fresher",
+                    "paragraphs": [
+                        "Negotiation opportunities may be limited for campus placements but possible in off-campus roles.",
+                        "Focus on value and skills rather than comparing with peers."
+                    ],
+                    "bullets": [
+                        "Wait for offer before discussing salary in depth.",
+                        "Express enthusiasm for role first.",
+                        "Quote a reasonable range.",
+                        "Avoid aggressive negotiation tone."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes Freshers Make About Salary",
+                    "paragraphs": [
+                        "Unrealistic expectations or lack of preparation can negatively affect hiring decisions."
+                    ],
+                    "bullets": [
+                        "Demanding unrealistic packages without skills.",
+                        "Comparing with outlier offers.",
+                        "Ignoring growth and learning opportunities.",
+                        "Accepting low offers without research."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by industry, location, skills, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Salary Expectation Answer (Fresher)",
+                    "body": "Based on my internship experience in data analytics, where I automated reporting and improved dashboard accuracy by 20%, and after researching entry-level salary trends in Bangalore, I understand that the typical range for this role is between ₹5–7 LPA. I am open to discussion based on overall compensation and growth opportunities."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "What is a realistic first salary in India?",
+                    "answer": "It varies by role and company type, but most entry-level roles fall within moderate industry-specific salary bands."
+                },
+                {
+                    "question": "Can freshers negotiate salary?",
+                    "answer": "Yes, especially in off-campus hiring. However, negotiation flexibility may be limited in campus placements."
+                },
+                {
+                    "question": "Should I accept a lower salary for a better brand name?",
+                    "answer": "Sometimes yes, if learning, growth, and exposure justify it."
+                },
+                {
+                    "question": "Does city affect fresher salary?",
+                    "answer": "Yes. Metro cities typically offer higher pay but also have higher living costs."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Better Salary Offers? Start with a Strong Resume",
+                "paragraph": "Your salary offer often depends on how well your resume showcases skills and impact. Make sure your resume is ATS-optimized before applying.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Fresher Resume Template",
+                    "target": "/resume-templates/fresher"
+                },
+                {
+                    "label": "Fresher Interview Tips India",
+                    "target": "/career-hub/interview-preparation/fresher-interview-tips-india"
+                },
+                {
+                    "label": "Campus Placement Resume Tips",
+                    "target": "/career-hub/resume-tips/fresher-resume-template-india"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for tech salary trends 2026.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Tech Salary Trends 2026",
+            "slug": "/career-hub/salary-insights/tech-salary-trends-2026",
+            "primary_keyword": "tech salary trends 2026",
+            "secondary_keywords": [
+                "technology salary trends india 2026",
+                "it salary growth 2026 india",
+                "software engineer salary trends 2026",
+                "data analyst salary trends 2026",
+                "product manager salary trends 2026",
+                "highest paying tech jobs india 2026"
+            ],
+            "notes": "India focus – qualitative trends and approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to senior professionals tracking compensation trends across tech roles.",
+            "seo_title": "Tech Salary Trends 2026 in India (Role & Skill Guide)",
+            "seo_description": "Explore tech salary trends 2026 in India across software, data, product, and digital roles. Includes growth insights and negotiation tips."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Tech salary trends 2026 in India show steady growth in high-skill, impact-driven roles such as software engineering, data analytics, AI, and product management. Compensation is increasingly linked to measurable business impact, system scale ownership, and specialization rather than tenure alone. Hybrid skills (technical + business) are commanding premium salary bands.",
+                "bullets": [
+                    "Backend and cloud engineers handling 1M+ daily requests often command 20–35% higher packages than generic developer roles.",
+                    "Data professionals driving 10–20% revenue uplift via experimentation and analytics see accelerated salary growth.",
+                    "Product managers owning features impacting 100K+ users often negotiate significantly higher compensation bands.",
+                    "AI/ML engineers with production-level deployments may command premium salary bands compared to traditional development roles."
+                ]
+            },
+            "h1": "Tech Salary Trends 2026: India Compensation Outlook Across Roles",
+            "intro_paragraph": "As India’s tech ecosystem matures in 2026, salary trends are increasingly shaped by specialization, measurable impact, and business alignment. Whether you are a software engineer, data analyst, product manager, or digital marketer in tech, understanding tech salary trends 2026 helps you plan skill upgrades and negotiate effectively. This guide breaks down compensation patterns across major tech roles and explains what drives salary growth this year.",
+            "sections": [
+                {
+                    "heading": "Overall Tech Salary Trends in 2026",
+                    "paragraphs": [
+                        "Tech hiring in India continues to prioritize efficiency and business outcomes. Companies are more selective but willing to pay premium compensation for high-impact contributors.",
+                        "Salary growth is strongest in product-led startups, SaaS companies, AI-driven firms, and global capability centers."
+                    ],
+                    "bullets": [
+                        "Performance-linked compensation increasing.",
+                        "Greater emphasis on measurable outcomes.",
+                        "Premium pay for cloud, AI, and data roles.",
+                        "Remote and global roles influencing benchmarks."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Software Engineering Salary Trends 2026",
+                    "paragraphs": [
+                        "Software engineering remains one of the highest-paying tech functions. However, salary differences are widening between generic coding roles and specialized backend, cloud, and AI engineers."
+                    ],
+                    "bullets": [
+                        "Backend engineers with system design expertise see stronger growth.",
+                        "Cloud-native development skills command premium pay.",
+                        "DevOps and platform engineering roles growing steadily.",
+                        "AI integration skills increasing compensation bands."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Data & AI Salary Trends 2026",
+                    "paragraphs": [
+                        "Data analytics and AI roles continue to see upward salary movement, especially in fintech, e-commerce, and SaaS sectors.",
+                        "Companies increasingly expect analysts to influence revenue and retention, not just reporting."
+                    ],
+                    "bullets": [
+                        "Advanced SQL + Python analysts earn higher bands.",
+                        "Experimentation and A/B testing expertise boosts pay.",
+                        "AI/ML production deployment skills command premium.",
+                        "Business-facing analytics roles seeing strong demand."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Product Management Salary Trends 2026",
+                    "paragraphs": [
+                        "Product management compensation continues to rise in growth-stage startups and global tech firms.",
+                        "PMs who directly influence revenue, retention, or monetization strategies command higher salary growth."
+                    ],
+                    "bullets": [
+                        "Growth and monetization PMs seeing higher packages.",
+                        "AI product managers in increasing demand.",
+                        "Equity-heavy compensation in startups.",
+                        "Data-driven PMs preferred over feature-delivery PMs."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Digital and Growth Marketing Trends 2026",
+                    "paragraphs": [
+                        "In tech companies, digital marketing roles tied directly to acquisition and revenue are gaining stronger salary growth compared to generic content roles."
+                    ],
+                    "bullets": [
+                        "Performance marketing with strong ROAS expertise valued.",
+                        "Marketing analytics skills increasing compensation.",
+                        "Growth marketers with experimentation mindset in demand.",
+                        "Automation and AI marketing tools increasing role value."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Skills Driving Higher Tech Salaries in 2026",
+                    "paragraphs": [
+                        "Across roles, specialization and measurable business impact drive compensation increases."
+                    ],
+                    "bullets": [
+                        "System design and scalable architecture.",
+                        "Cloud infrastructure and DevOps automation.",
+                        "Advanced analytics and experimentation.",
+                        "AI/ML integration knowledge.",
+                        "Cross-functional leadership and ownership."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Validate Tech Salary Trends",
+                    "paragraphs": [
+                        "Before making career decisions, validate salary expectations using multiple public compensation sources and peer networks.",
+                        "Always evaluate total compensation including bonus and equity."
+                    ],
+                    "bullets": [
+                        "Check role-specific salary benchmarks.",
+                        "Speak to professionals in similar companies.",
+                        "Understand pay bands by experience level.",
+                        "Compare fixed pay vs variable components."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Position Yourself for Higher Salary in 2026",
+                    "paragraphs": [
+                        "To benefit from positive salary trends, focus on measurable impact and skill depth."
+                    ],
+                    "bullets": [
+                        "Upgrade to high-demand technical skills.",
+                        "Build scalable, production-level projects.",
+                        "Track and quantify business impact.",
+                        "Switch strategically when growth stagnates.",
+                        "Prepare strong negotiation strategy."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, specialization, location, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Example: Positioning for 2026 Salary Growth",
+                    "body": "A mid-level backend engineer handling microservices processing 500K+ daily transactions transitioned into cloud-native architecture ownership. By highlighting system scalability improvements (reducing downtime by 40% and improving latency by 30%), they negotiated a 30% higher package when switching to a product company aligned with 2026 market trends."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Are tech salaries increasing in India in 2026?",
+                    "answer": "Yes, especially in high-skill and high-impact roles such as AI, backend engineering, data analytics, and product management."
+                },
+                {
+                    "question": "Which tech roles pay the most in 2026?",
+                    "answer": "AI/ML engineers, senior backend engineers, growth-focused product managers, and advanced analytics professionals often command higher compensation bands."
+                },
+                {
+                    "question": "Is job switching necessary for salary growth?",
+                    "answer": "Strategic job switching often accelerates salary growth compared to internal increments."
+                },
+                {
+                    "question": "Do startups pay more in 2026?",
+                    "answer": "Startups may offer competitive fixed pay with ESOP upside, especially for high-impact roles."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want to Benefit from 2026 Tech Salary Trends?",
+                "paragraph": "Higher salaries start with a resume that highlights measurable impact and in-demand skills. Ensure your resume is optimized before applying to top-paying tech roles.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Software Engineer Salary India",
+                    "target": "/career-hub/salary-insights/software-engineer-salary-india"
+                },
+                {
+                    "label": "Data Analyst Salary Bangalore",
+                    "target": "/career-hub/salary-insights/data-analyst-salary-bangalore"
+                },
+                {
+                    "label": "Product Manager Salary Trends",
+                    "target": "/career-hub/salary-insights/product-manager-salary-trends"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for average salary software engineer bangalore.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Average Salary Software Engineer Bangalore",
+            "slug": "/career-hub/salary-insights/average-salary-software-engineer-bangalore",
+            "primary_keyword": "average salary software engineer bangalore",
+            "secondary_keywords": [
+                "software engineer salary bangalore per month",
+                "fresher software engineer salary bangalore",
+                "senior software engineer salary bangalore",
+                "product company salary bangalore software engineer",
+                "it salary bangalore 2026",
+                "developer salary bangalore"
+            ],
+            "notes": "Bangalore focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to senior software engineers evaluating compensation in Bangalore.",
+            "seo_title": "Average Salary Software Engineer Bangalore (2026 Guide)",
+            "seo_description": "Explore the average salary for software engineers in Bangalore by experience, company type, and skills. Includes negotiation tips."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "The average salary for a software engineer in Bangalore varies widely depending on experience, specialization, and company type. As India’s largest tech hub, Bangalore typically offers higher compensation compared to most other cities. Backend, cloud, AI, and system design expertise significantly increase earning potential.",
+                "bullets": [
+                    "Fresher software engineers in Bangalore often see typical ranges like ₹4–10 LPA depending on company tier and skills.",
+                    "Engineers with 2–5 years experience commonly fall within ₹10–25+ LPA in product companies.",
+                    "Senior engineers (6+ years) may command ₹25–50+ LPA including bonus and ESOP components.",
+                    "Specialization in cloud, backend scalability, or AI can increase compensation by 20–40% over generic roles."
+                ]
+            },
+            "h1": "Average Salary Software Engineer Bangalore: 2026 Compensation Guide",
+            "intro_paragraph": "If you are researching the average salary for software engineers in Bangalore, it’s important to understand that compensation varies significantly by experience level, company type, and skill specialization. Bangalore, being India’s primary tech hub, offers higher salary bands due to strong demand for engineering talent and the concentration of product companies and global tech firms. This guide breaks down realistic salary ranges and explains how to position yourself for higher compensation.",
+            "sections": [
+                {
+                    "heading": "Why Bangalore Offers Higher Software Engineer Salaries",
+                    "paragraphs": [
+                        "Bangalore hosts a dense ecosystem of SaaS companies, fintech startups, global capability centers, and large product firms. This creates strong competition for experienced engineers.",
+                        "Higher cost of living also influences salary bands compared to Tier-2 cities."
+                    ],
+                    "bullets": [
+                        "Strong product company presence.",
+                        "High demand for backend and cloud engineers.",
+                        "Startup and unicorn ecosystem.",
+                        "Competitive hiring environment."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Average Salary by Experience Level",
+                    "paragraphs": [
+                        "Experience remains the strongest driver of salary growth for software engineers in Bangalore."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Fresher (0–1 Years)",
+                            "paragraphs": [
+                                "Entry-level salaries in service firms may fall in ₹4–7 LPA ranges, while product companies and strong campus placements can offer ₹8–15+ LPA depending on skill level and institute tier."
+                            ],
+                            "bullets": [
+                                "Strong DSA and internships increase offer quality.",
+                                "Campus placements often offer structured packages.",
+                                "Off-campus roles vary significantly."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level (2–5 Years)",
+                            "paragraphs": [
+                                "Engineers with system design knowledge, cloud exposure, and strong backend skills often see ₹10–25+ LPA depending on company scale."
+                            ],
+                            "bullets": [
+                                "Switching companies strategically boosts pay.",
+                                "Product companies offer higher bands than service firms.",
+                                "Performance and ownership influence growth."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior (6+ Years)",
+                            "paragraphs": [
+                                "Senior engineers and tech leads may command ₹25–50+ LPA in funded startups or global product firms."
+                            ],
+                            "bullets": [
+                                "Architecture ownership increases compensation.",
+                                "Leadership roles command premium pay.",
+                                "Bonuses and ESOPs form larger share of CTC."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Salary Differences by Company Type in Bangalore",
+                    "paragraphs": [
+                        "Company type plays a major role in compensation variation."
+                    ],
+                    "bullets": [
+                        "Service-based companies: Moderate fixed pay and stable increments.",
+                        "Product companies: Higher base pay with performance bonuses.",
+                        "Startups: Competitive pay + ESOP upside.",
+                        "Global tech firms: Structured high salary bands."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Specializations That Increase Salary in Bangalore",
+                    "paragraphs": [
+                        "Certain technical skills command premium pay in Bangalore’s competitive job market."
+                    ],
+                    "bullets": [
+                        "Backend development and system design.",
+                        "Cloud infrastructure (AWS, Azure, GCP).",
+                        "DevOps and platform engineering.",
+                        "AI/ML and data engineering.",
+                        "Microservices and distributed systems."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Validate Average Salary",
+                    "paragraphs": [
+                        "Always verify salary expectations using multiple public sources and peer networks before interviews.",
+                        "Understand the difference between fixed salary, bonus, and total CTC."
+                    ],
+                    "bullets": [
+                        "Check salary platforms for role-specific ranges.",
+                        "Speak with peers in Bangalore tech firms.",
+                        "Compare fixed vs variable pay.",
+                        "Factor in cost of living."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Negotiating Software Engineer Salary in Bangalore",
+                    "paragraphs": [
+                        "Negotiation works best when tied to measurable impact and competing offers.",
+                        "Highlight system scale, optimization, and business outcomes rather than years of experience alone."
+                    ],
+                    "bullets": [
+                        "Present quantified achievements.",
+                        "Provide salary range instead of fixed demand.",
+                        "Leverage competing offers if available.",
+                        "Consider total compensation, not just base pay."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Increase Your Salary in Bangalore’s Tech Market",
+                    "paragraphs": [
+                        "Continuous skill upgrades and visible project impact are essential for higher compensation."
+                    ],
+                    "bullets": [
+                        "Master system design and distributed systems.",
+                        "Gain cloud certifications or hands-on projects.",
+                        "Contribute to high-scale systems.",
+                        "Switch roles strategically every 2–3 years if growth stagnates."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, specialization, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Mid-Level Engineer in Bangalore)",
+                    "body": "Thank you for the offer. In my current role, I handled backend services processing 300K+ daily transactions and reduced API latency by 35% through caching and query optimization. Based on average salary benchmarks for mid-level engineers in Bangalore, I was expecting a compensation range closer to ₹22–25 LPA. Is there flexibility in the pay band considering my experience and impact?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Is Bangalore the highest-paying city for software engineers in India?",
+                    "answer": "It is among the highest-paying cities due to its strong product and startup ecosystem."
+                },
+                {
+                    "question": "Does switching companies increase salary significantly in Bangalore?",
+                    "answer": "Yes, strategic job switches often result in larger salary increases compared to internal increments."
+                },
+                {
+                    "question": "Which skills increase software engineer salary the most?",
+                    "answer": "System design, cloud infrastructure, backend scalability, and AI/ML expertise significantly increase compensation."
+                },
+                {
+                    "question": "Are startups better paying than service firms in Bangalore?",
+                    "answer": "Startups may offer competitive fixed pay plus ESOPs, but compensation structures vary by funding stage."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Higher Salary Offers in Bangalore?",
+                "paragraph": "Your compensation depends on how well your resume reflects scale, impact, and in-demand skills. Ensure your resume is optimized before applying to top-paying roles.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Software Engineer Salary India",
+                    "target": "/career-hub/salary-insights/software-engineer-salary-india"
+                },
+                {
+                    "label": "System Design Interview Preparation",
+                    "target": "/career-hub/interview-preparation/system-design-interview-preparation"
+                },
+                {
+                    "label": "Technical Interview Questions Guide",
+                    "target": "/career-hub/interview-preparation/technical-interview-questions-software-engineer"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for salary negotiation tips india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Salary Negotiation Tips India",
+            "slug": "/career-hub/salary-insights/salary-negotiation-tips-india",
+            "primary_keyword": "salary negotiation tips india",
+            "secondary_keywords": [
+                "how to negotiate salary india",
+                "salary negotiation for freshers india",
+                "salary negotiation after job offer india",
+                "ctc negotiation tips india",
+                "how to ask for higher salary in india",
+                "salary discussion hr round india"
+            ],
+            "notes": "India focus – qualitative guidance, no fabricated stats",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level professionals preparing to negotiate salary offers.",
+            "seo_title": "Salary Negotiation Tips India (2026 Practical Guide)",
+            "seo_description": "Learn practical salary negotiation tips in India with scripts, HR round strategies, CTC breakdown guidance, and fresher-specific advice."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Salary negotiation in India works best when it is data-driven, professional, and tied to measurable impact. Whether you are a fresher or experienced professional, the key is to research realistic salary ranges, wait for the offer stage, and negotiate using business value—not emotion. Always evaluate total CTC, including fixed pay, bonus, and benefits.",
+                "bullets": [
+                    "Negotiated 25% higher offer by highlighting system handling 300K+ daily transactions and 35% latency reduction.",
+                    "Secured ₹3 LPA increase by presenting competing offer and quantifiable growth metrics (15% revenue uplift).",
+                    "Converted lower fixed pay into higher fixed component instead of variable-heavy structure.",
+                    "Improved joining bonus by negotiating based on relocation and competing offer leverage."
+                ]
+            },
+            "h1": "Salary Negotiation Tips India: How to Negotiate Smartly in 2026",
+            "intro_paragraph": "Salary negotiation can feel uncomfortable, especially in the Indian job market where many candidates hesitate to discuss compensation openly. However, negotiating professionally is expected and often rewarded. Whether you are negotiating your first job offer or switching companies for a higher package, this guide explains salary negotiation tips in India, including how to prepare, what to say, common mistakes, and sample scripts.",
+            "sections": [
+                {
+                    "heading": "When Should You Negotiate Salary?",
+                    "paragraphs": [
+                        "The best time to negotiate is after you receive a formal offer. Avoid discussing exact numbers too early in the interview process.",
+                        "Once the company expresses strong interest, you gain leverage."
+                    ],
+                    "bullets": [
+                        "After receiving written offer.",
+                        "When you have competing offers.",
+                        "When salary band was discussed earlier.",
+                        "When role scope expands during discussion."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Research Before You Negotiate",
+                    "paragraphs": [
+                        "Effective negotiation starts with understanding realistic salary bands for your role, city, and experience level.",
+                        "Always compare total compensation, not just headline CTC."
+                    ],
+                    "bullets": [
+                        "Check multiple salary platforms.",
+                        "Speak with peers in similar roles.",
+                        "Understand fixed vs variable breakdown.",
+                        "Research company pay structure."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Answer: What Are Your Salary Expectations?",
+                    "paragraphs": [
+                        "Instead of giving a single number, provide a researched range. This keeps negotiation flexible.",
+                        "Tie your expectations to skills, impact, and market benchmarks."
+                    ],
+                    "bullets": [
+                        "Avoid saying “I’m okay with anything.”",
+                        "Provide a realistic salary range.",
+                        "Reference market standards professionally.",
+                        "Express flexibility based on total package."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Negotiation Tips for Freshers in India",
+                    "paragraphs": [
+                        "Negotiation flexibility is often limited in campus placements but possible in off-campus roles.",
+                        "Focus on growth opportunities if the salary band is fixed."
+                    ],
+                    "bullets": [
+                        "Research entry-level salary bands.",
+                        "Avoid aggressive tone.",
+                        "Highlight internships and certifications.",
+                        "Negotiate fixed component if possible."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Negotiation Tips for Experienced Professionals",
+                    "paragraphs": [
+                        "Experienced candidates have more leverage, especially when switching roles.",
+                        "Quantifiable achievements significantly strengthen negotiation."
+                    ],
+                    "bullets": [
+                        "Present measurable impact (revenue, cost savings, scale).",
+                        "Leverage competing offers if available.",
+                        "Highlight leadership or ownership scope.",
+                        "Negotiate joining bonus or retention bonus."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Understanding CTC Structure in India",
+                    "paragraphs": [
+                        "CTC (Cost to Company) includes fixed pay, bonuses, PF contributions, insurance, and sometimes ESOPs.",
+                        "Focus on fixed salary when comparing offers."
+                    ],
+                    "bullets": [
+                        "Fixed salary (monthly in-hand impact).",
+                        "Performance bonus (variable).",
+                        "Joining bonus (one-time).",
+                        "ESOPs or equity (startup roles).",
+                        "Benefits and allowances."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Salary Negotiation Mistakes",
+                    "paragraphs": [
+                        "Poorly handled negotiation can harm your offer. Avoid these mistakes."
+                    ],
+                    "bullets": [
+                        "Demanding unrealistic hikes.",
+                        "Comparing emotionally with peers.",
+                        "Threatening to reject offer aggressively.",
+                        "Ignoring total compensation structure.",
+                        "Negotiating before offer stage."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Sample Salary Negotiation Scripts (India Context)",
+                    "paragraphs": [
+                        "Use polite, professional language while negotiating."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Long-Term Salary Growth Strategy",
+                    "paragraphs": [
+                        "Negotiation is only one part of salary growth. Skill upgrades and visible impact matter more long-term."
+                    ],
+                    "bullets": [
+                        "Upgrade high-demand technical skills.",
+                        "Track and quantify achievements.",
+                        "Switch strategically if growth stagnates.",
+                        "Build strong professional network."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by company, role, performance, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Script (Experienced Professional)",
+                    "body": "Thank you for the offer. Based on my 4 years of experience handling backend systems processing 400K+ daily requests and improving performance by 30%, along with current market standards in Bangalore, I was expecting a range closer to ₹22–25 LPA. Is there flexibility within the compensation band considering my impact and competing offer?"
+                },
+                {
+                    "label": "Sample Script (Fresher)",
+                    "body": "Thank you for the offer. Based on my internship experience and research on entry-level salary benchmarks for this role in Hyderabad, I understand the typical range is ₹5–7 LPA. I am very interested in the opportunity and wanted to check if there is flexibility within the offered package."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Is it okay to negotiate salary in India?",
+                    "answer": "Yes, professional negotiation is common and expected after receiving an offer."
+                },
+                {
+                    "question": "How much hike should I ask for when switching jobs?",
+                    "answer": "It depends on role, skills, and market demand. Research realistic industry ranges before quoting numbers."
+                },
+                {
+                    "question": "Should I negotiate CTC or fixed salary?",
+                    "answer": "Focus on increasing the fixed component, as variable pay may not be guaranteed."
+                },
+                {
+                    "question": "Can negotiating cost me the offer?",
+                    "answer": "Professional and reasonable negotiation rarely leads to offer withdrawal, but aggressive demands can."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want Stronger Negotiation Power?",
+                "paragraph": "Higher salary offers start with a resume that clearly shows measurable impact and in-demand skills. Optimize your resume before entering salary discussions.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Fresher Salary Expectations India",
+                    "target": "/career-hub/salary-insights/fresher-salary-expectations-india"
+                },
+                {
+                    "label": "Software Engineer Salary India",
+                    "target": "/career-hub/salary-insights/software-engineer-salary-india"
+                },
+                {
+                    "label": "Tech Salary Trends 2026",
+                    "target": "/career-hub/salary-insights/tech-salary-trends-2026"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for ca salary package india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Ca Salary Package India",
+            "slug": "/career-hub/salary-insights/ca-salary-package-india",
+            "primary_keyword": "ca salary package india",
+            "secondary_keywords": [
+                "chartered accountant salary india",
+                "ca fresher salary india",
+                "ca salary per month india",
+                "big 4 ca salary india",
+                "ca salary after 5 years india",
+                "average ca salary india"
+            ],
+            "notes": "India focus – approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily CA students, fresh Chartered Accountants, and finance professionals evaluating compensation.",
+            "seo_title": "CA Salary Package India (2026 Complete Guide)",
+            "seo_description": "Explore CA salary package in India by experience, Big 4 vs industry roles, city differences, and negotiation tips."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "CA salary package in India varies based on experience, company type (Big 4, corporate, consulting, startup), and specialization such as taxation, audit, or finance strategy. Fresh Chartered Accountants typically start with competitive entry-level packages, while experienced CAs in corporate finance, consulting, and leadership roles command significantly higher compensation.",
+                "bullets": [
+                    "Fresh CA salary packages commonly fall within ₹6–12 LPA depending on firm type and rank.",
+                    "Big 4 audit and advisory roles often offer structured packages with strong brand value and growth.",
+                    "CAs with 3–5 years experience may earn ₹12–25+ LPA in corporate finance or consulting roles.",
+                    "Senior finance managers and controllers with 8+ years experience may command ₹25–50+ LPA depending on company scale."
+                ]
+            },
+            "h1": "CA Salary Package India: 2026 Compensation Guide for Chartered Accountants",
+            "intro_paragraph": "If you are researching CA salary package in India, it’s important to understand that compensation depends heavily on experience, specialization, and employer type. Chartered Accountancy remains one of the most respected and stable finance careers in India. From Big 4 audit firms to multinational corporations and high-growth startups, salary bands vary significantly. This guide breaks down realistic CA salary ranges and explains how to maximize your earning potential.",
+            "sections": [
+                {
+                    "heading": "Overview of CA Salary in India",
+                    "paragraphs": [
+                        "Chartered Accountants are in demand across audit, taxation, consulting, risk management, and corporate finance roles. Compensation grows steadily with experience and domain expertise.",
+                        "CA salary packages often include fixed pay, performance bonus, and sometimes profit-sharing or incentives."
+                    ],
+                    "bullets": [
+                        "Audit and assurance roles.",
+                        "Taxation and compliance roles.",
+                        "Corporate finance and FP&A.",
+                        "Risk advisory and consulting.",
+                        "Startup finance leadership roles."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "CA Salary by Experience Level",
+                    "paragraphs": [
+                        "Experience plays a critical role in salary progression for Chartered Accountants."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Fresher CA (0–1 Years)",
+                            "paragraphs": [
+                                "Freshly qualified CAs typically earn ₹6–12 LPA depending on attempt history, articleship exposure, and employer type."
+                            ],
+                            "bullets": [
+                                "Rank holders may receive higher packages.",
+                                "Big 4 roles offer brand value and learning.",
+                                "Industry roles may offer better fixed pay."
+                            ]
+                        },
+                        {
+                            "subheading": "Mid-Level CA (2–5 Years)",
+                            "paragraphs": [
+                                "CAs with post-qualification experience often see ₹12–25+ LPA depending on specialization and company scale."
+                            ],
+                            "bullets": [
+                                "FP&A and corporate finance roles pay higher.",
+                                "Consulting roles offer strong variable bonuses.",
+                                "Switching firms accelerates growth."
+                            ]
+                        },
+                        {
+                            "subheading": "Senior CA (6+ Years)",
+                            "paragraphs": [
+                                "Senior managers, finance controllers, and finance heads may earn ₹25–50+ LPA, especially in large corporates or funded startups."
+                            ],
+                            "bullets": [
+                                "Leadership and P&L responsibility increases pay.",
+                                "Startup CFO-track roles may include equity.",
+                                "Domain specialization increases earning potential."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Big 4 vs Industry CA Salary",
+                    "paragraphs": [
+                        "Big 4 firms (audit and consulting) offer strong brand recognition and structured growth paths, though fixed pay may be moderate at entry level.",
+                        "Corporate industry roles often offer higher fixed compensation but may have slower promotion cycles."
+                    ],
+                    "bullets": [
+                        "Big 4: Structured increments and global exposure.",
+                        "Industry: Higher fixed pay in some cases.",
+                        "Startups: Competitive pay + performance incentives.",
+                        "Consulting firms: Bonus-heavy compensation models."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "CA Salary by City",
+                    "paragraphs": [
+                        "Metro cities generally offer higher CA salary packages due to corporate presence and cost of living."
+                    ],
+                    "bullets": [
+                        "Mumbai: Strong demand in finance and consulting.",
+                        "Bangalore: Growing startup finance ecosystem.",
+                        "Delhi NCR: Corporate and consulting roles.",
+                        "Tier-2 cities: Moderate salary bands."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Specializations That Increase CA Salary",
+                    "paragraphs": [
+                        "Certain specializations significantly increase earning potential."
+                    ],
+                    "bullets": [
+                        "Financial Planning & Analysis (FP&A).",
+                        "International taxation.",
+                        "Risk advisory and compliance.",
+                        "Investment banking exposure.",
+                        "Startup finance and fundraising support."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Research and Negotiate CA Salary",
+                    "paragraphs": [
+                        "Research realistic salary benchmarks before interviews. Use peer networks and alumni insights.",
+                        "When negotiating, highlight domain expertise, client exposure, and measurable business outcomes."
+                    ],
+                    "bullets": [
+                        "Present revenue impact or cost savings.",
+                        "Quote salary range instead of fixed number.",
+                        "Consider performance bonus and growth path.",
+                        "Evaluate work-life balance and learning exposure."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Long-Term Salary Growth Strategy for CAs",
+                    "paragraphs": [
+                        "Continuous skill upgrades and leadership development significantly influence long-term salary growth."
+                    ],
+                    "bullets": [
+                        "Develop strategic finance skills.",
+                        "Gain cross-functional exposure.",
+                        "Build strong professional network.",
+                        "Consider global certifications if aligned with goals."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by firm, specialization, location, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (Mid-Level CA)",
+                    "body": "Thank you for the offer. With 3 years of post-qualification experience handling statutory audits for listed companies and improving reporting accuracy by 20%, along with managing client portfolios worth ₹50+ crore, I was expecting a compensation range closer to ₹18–22 LPA based on current CA salary benchmarks. Is there flexibility within the band?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "What is the starting salary of a CA in India?",
+                    "answer": "Fresh CA salary packages typically fall within moderate to competitive industry bands depending on firm type and performance."
+                },
+                {
+                    "question": "Do Big 4 firms pay higher to CAs?",
+                    "answer": "Big 4 firms offer strong brand value and structured growth, though fixed pay may be moderate compared to some industry roles."
+                },
+                {
+                    "question": "Which specialization pays the most for CAs?",
+                    "answer": "Corporate finance, FP&A, international taxation, consulting, and investment banking-related roles generally offer higher compensation."
+                },
+                {
+                    "question": "Does city impact CA salary?",
+                    "answer": "Yes. Metro cities such as Mumbai, Bangalore, and Delhi NCR typically offer higher salary packages."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want a Higher CA Salary Package?",
+                "paragraph": "Your salary offer depends on how clearly your resume highlights domain expertise and measurable financial impact. Optimize your resume before applying to top finance roles.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Salary Negotiation Tips India",
+                    "target": "/career-hub/salary-insights/salary-negotiation-tips-india"
+                },
+                {
+                    "label": "Fresher Salary Expectations India",
+                    "target": "/career-hub/salary-insights/fresher-salary-expectations-india"
+                },
+                {
+                    "label": "Tech Salary Trends 2026",
+                    "target": "/career-hub/salary-insights/tech-salary-trends-2026"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Salary Insights article generated for mba salary trends india.",
+        "meta": {
+            "theme": "salary_insights",
+            "topic": "Mba Salary Trends India",
+            "slug": "/career-hub/salary-insights/mba-salary-trends-india",
+            "primary_keyword": "mba salary trends india",
+            "secondary_keywords": [
+                "mba salary india",
+                "average mba salary india 2026",
+                "mba fresher salary india",
+                "top mba college salary india",
+                "mba marketing salary india",
+                "mba finance salary india"
+            ],
+            "notes": "India focus – qualitative trends and approximate ranges only",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily MBA students, aspirants, and early to mid-career professionals evaluating compensation trends.",
+            "seo_title": "MBA Salary Trends India (2026 Complete Guide)",
+            "seo_description": "Explore MBA salary trends in India by specialization, college tier, and experience. Includes realistic salary ranges and negotiation tips."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "MBA salary trends in India vary significantly based on college tier, specialization, prior experience, and industry. Graduates from top-tier institutes typically command higher starting packages, while specialization in finance, consulting, and product management often leads to stronger salary growth. Long-term compensation depends more on performance and impact than just the MBA degree itself.",
+                "bullets": [
+                    "Top-tier MBA graduates often secure packages exceeding ₹20–35+ LPA in consulting, finance, and product roles.",
+                    "Mid-tier MBA placements commonly fall in ₹8–18 LPA ranges depending on specialization.",
+                    "MBA graduates transitioning into product or consulting roles may see 30–50% salary jumps compared to pre-MBA pay.",
+                    "Specializations tied to revenue, P&L ownership, or analytics command higher salary growth."
+                ]
+            },
+            "h1": "MBA Salary Trends India: 2026 Compensation Guide by Specialization",
+            "intro_paragraph": "If you are evaluating MBA salary trends in India, it’s important to understand that compensation varies widely based on institute tier, specialization, and prior work experience. While top business schools often report high average packages, real salary outcomes depend heavily on role selection and career positioning. This guide breaks down MBA salary trends by college tier, specialization, industry, and long-term growth potential.",
+            "sections": [
+                {
+                    "heading": "Overview of MBA Salary Trends in India",
+                    "paragraphs": [
+                        "MBA salaries in India have remained competitive in 2026, particularly in consulting, finance, product management, and analytics-driven roles.",
+                        "However, salary dispersion is wide between Tier-1, Tier-2, and Tier-3 colleges."
+                    ],
+                    "bullets": [
+                        "Tier-1 institutes report highest average packages.",
+                        "Industry and specialization matter more than degree alone.",
+                        "Prior work experience significantly influences pay.",
+                        "Performance-based compensation increasing."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "MBA Salary by College Tier",
+                    "paragraphs": [
+                        "College reputation strongly influences entry-level MBA compensation."
+                    ],
+                    "subsections": [
+                        {
+                            "subheading": "Tier-1 MBA Colleges",
+                            "paragraphs": [
+                                "Graduates from top institutes often secure ₹20–35+ LPA packages in consulting, investment banking, and product roles."
+                            ],
+                            "bullets": [
+                                "Strong alumni network advantage.",
+                                "Higher probability of consulting placements.",
+                                "Competitive peer group raises benchmarks."
+                            ]
+                        },
+                        {
+                            "subheading": "Tier-2 MBA Colleges",
+                            "paragraphs": [
+                                "Placements often fall within ₹8–18 LPA ranges depending on specialization and company type."
+                            ],
+                            "bullets": [
+                                "Corporate roles common.",
+                                "Marketing and operations placements strong.",
+                                "Compensation varies widely."
+                            ]
+                        },
+                        {
+                            "subheading": "Tier-3 MBA Colleges",
+                            "paragraphs": [
+                                "Entry-level salaries may range ₹4–10 LPA depending on role and region."
+                            ],
+                            "bullets": [
+                                "Greater focus on regional companies.",
+                                "Growth depends on individual performance.",
+                                "Switching jobs often accelerates pay growth."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "MBA Salary by Specialization",
+                    "paragraphs": [
+                        "Specialization plays a major role in determining salary outcomes."
+                    ],
+                    "bullets": [
+                        "Finance: High potential in investment banking and corporate finance.",
+                        "Consulting: Strong compensation with performance bonuses.",
+                        "Product Management: Growing high-paying domain in tech.",
+                        "Marketing: Variable pay tied to performance.",
+                        "Operations & Supply Chain: Stable but moderate growth."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "MBA Salary Trends by Experience",
+                    "paragraphs": [
+                        "Pre-MBA experience significantly impacts post-MBA salary."
+                    ],
+                    "bullets": [
+                        "Fresh graduates: Moderate entry-level bands.",
+                        "2–4 years experience before MBA: Higher entry packages.",
+                        "5+ years experience: Leadership-track roles with premium pay.",
+                        "Career switchers: Initial adjustment possible before growth."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Industry-Wise MBA Salary Trends",
+                    "paragraphs": [
+                        "Industry choice affects compensation trajectory."
+                    ],
+                    "bullets": [
+                        "Consulting firms: High base + performance bonus.",
+                        "Investment banking: Premium pay, high pressure.",
+                        "Tech companies: Product and strategy roles growing.",
+                        "FMCG & Retail: Strong marketing career paths.",
+                        "Startups: Competitive pay + equity upside."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Factors Driving MBA Salary Growth in 2026",
+                    "paragraphs": [
+                        "Salary growth depends on more than just degree prestige."
+                    ],
+                    "bullets": [
+                        "Revenue and P&L ownership.",
+                        "Analytics and data fluency.",
+                        "Leadership and stakeholder management.",
+                        "Industry specialization.",
+                        "Strategic job switching."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Negotiate MBA Salary in India",
+                    "paragraphs": [
+                        "Negotiation works best when supported by performance metrics and market research.",
+                        "Highlight business impact rather than degree prestige."
+                    ],
+                    "bullets": [
+                        "Present measurable business outcomes.",
+                        "Quote salary range instead of fixed figure.",
+                        "Consider total compensation (bonus + benefits).",
+                        "Stay professional and flexible."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Long-Term MBA Salary Growth Strategy",
+                    "paragraphs": [
+                        "The MBA degree opens doors, but sustained salary growth depends on skill depth and execution capability."
+                    ],
+                    "bullets": [
+                        "Build strong domain expertise.",
+                        "Track quantifiable business impact.",
+                        "Expand cross-functional exposure.",
+                        "Upgrade analytics and technology skills."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Salary Disclaimer",
+                    "paragraphs": [
+                        "Salary and demand estimates are approximate and based on public compensation data and general hiring trends as of 2026. Actual compensation varies by institute, specialization, company, and negotiation."
+                    ],
+                    "bullets": [],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Sample Negotiation Script (MBA Graduate)",
+                    "body": "Based on my prior 3 years of operations experience and my MBA specialization in finance, where I led a live project improving working capital efficiency by 18%, I was expecting a compensation range closer to ₹18–22 LPA in the current market. Is there flexibility in the offered package considering my business impact and role scope?"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Do MBA graduates always earn high salaries in India?",
+                    "answer": "Not necessarily. Salary depends heavily on college tier, specialization, industry, and prior experience."
+                },
+                {
+                    "question": "Which MBA specialization pays the most?",
+                    "answer": "Finance, consulting, and product management roles often command higher compensation."
+                },
+                {
+                    "question": "Does prior work experience increase MBA salary?",
+                    "answer": "Yes. Candidates with relevant pre-MBA experience often secure higher starting packages."
+                },
+                {
+                    "question": "Is MBA worth it for salary growth?",
+                    "answer": "It can be, especially from strong institutes and when aligned with high-demand industries."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want to Maximize Your MBA Salary?",
+                "paragraph": "Your salary offer depends on how effectively your resume communicates business impact and specialization strengths. Optimize your resume before applying to high-paying MBA roles.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Salary Insights Hub",
+                    "target": "/career-hub/salary-insights"
+                },
+                {
+                    "label": "Salary Negotiation Tips India",
+                    "target": "/career-hub/salary-insights/salary-negotiation-tips-india"
+                },
+                {
+                    "label": "Tech Salary Trends 2026",
+                    "target": "/career-hub/salary-insights/tech-salary-trends-2026"
+                },
+                {
+                    "label": "Fresher Salary Expectations India",
+                    "target": "/career-hub/salary-insights/fresher-salary-expectations-india"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    }
+]

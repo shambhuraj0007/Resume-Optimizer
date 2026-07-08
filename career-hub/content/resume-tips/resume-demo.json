@@ -1,0 +1,2298 @@
+[
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for software engineer resume template.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Software Engineer Resume Template",
+            "slug": "/career-hub/resume-tips/software-engineer-resume-template",
+            "primary_keyword": "software engineer resume template",
+            "secondary_keywords": [
+                "software developer resume template india",
+                "software engineer resume format india",
+                "ats friendly software engineer resume",
+                "fresher software engineer resume template",
+                "backend developer resume template",
+                "software engineer resume sample india"
+            ],
+            "notes": "India focus – ATS optimized structure",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level software engineers building or improving their resumes.",
+            "seo_title": "Software Engineer Resume Template (ATS-Friendly 2026 Guide)",
+            "seo_description": "Download and structure a software engineer resume template optimized for ATS, product companies, and technical interviews in India."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "A strong software engineer resume template should be ATS-friendly, impact-driven, and structured around measurable technical achievements. Recruiters prioritize skills like backend development, system design, cloud, and data structures—backed by quantified results. Use a clean one-page format (two pages for 5+ years experience) and focus on performance, scale, and problem-solving impact.",
+                "bullets": [
+                    "Reduced API latency by 35% by implementing Redis caching and optimizing SQL queries.",
+                    "Designed microservices handling 250K+ daily active users with 99.9% uptime.",
+                    "Improved deployment time by 40% using CI/CD automation pipelines.",
+                    "Optimized database queries, reducing server costs by 18%."
+                ]
+            },
+            "h1": "Software Engineer Resume Template: ATS-Optimized Format for 2026",
+            "intro_paragraph": "Your resume is your entry ticket to coding interviews and system design rounds. A well-structured software engineer resume template can significantly increase shortlisting chances, especially in India’s competitive tech market. Whether you’re a fresher applying for campus placements or an experienced backend engineer targeting product companies, this guide explains the ideal format, sections, skills, and impact-driven bullet structure.",
+            "sections": [
+                {
+                    "heading": "Ideal Software Engineer Resume Structure",
+                    "paragraphs": [
+                        "An ATS-friendly resume follows a clean, structured layout with clear headings and keyword alignment.",
+                        "Avoid heavy graphics, tables, or complex formatting that may confuse applicant tracking systems."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn, GitHub)",
+                        "Professional Summary (2–3 lines)",
+                        "Technical Skills",
+                        "Work Experience / Internships",
+                        "Projects",
+                        "Education",
+                        "Certifications (optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example",
+                    "paragraphs": [
+                        "Keep your summary concise and impact-focused. Mention experience level, core technologies, and specialization."
+                    ],
+                    "bullets": [
+                        "Example: Backend-focused Software Engineer with 3+ years of experience building scalable APIs using Java and Spring Boot. Optimized microservices architecture handling 200K+ daily requests. Strong expertise in system design and cloud deployment."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills for Software Engineer Resumes (ATS Keywords)",
+                    "paragraphs": [
+                        "Include both technical and platform-specific keywords relevant to your target role."
+                    ],
+                    "bullets": [
+                        "Data Structures and Algorithms",
+                        "Java / Python / C++",
+                        "Spring Boot / Node.js / Django",
+                        "REST APIs",
+                        "Microservices Architecture",
+                        "System Design",
+                        "SQL / PostgreSQL / MySQL",
+                        "MongoDB / NoSQL",
+                        "Redis / Caching",
+                        "AWS / Azure / GCP",
+                        "Docker / Kubernetes",
+                        "CI/CD Pipelines",
+                        "Git / Version Control",
+                        "Unit Testing",
+                        "Agile / Scrum"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Work Experience Section (Impact-Driven Format)",
+                    "paragraphs": [
+                        "Each bullet should follow: Action Verb + What You Did + Tools + Measurable Result.",
+                        "Avoid generic statements like 'Worked on backend development.'"
+                    ],
+                    "bullets": [
+                        "Built RESTful APIs using Node.js serving 100K+ monthly users, improving response time by 28%.",
+                        "Refactored legacy codebase, reducing production bugs by 30%.",
+                        "Implemented CI/CD pipeline using Jenkins, cutting deployment time by 40%.",
+                        "Designed scalable microservice architecture reducing system downtime by 22%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Projects Section for Freshers",
+                    "paragraphs": [
+                        "If you are a fresher, projects are critical. Focus on real-world, scalable, and deployed projects."
+                    ],
+                    "bullets": [
+                        "Developed e-commerce platform supporting 10K+ users using MERN stack.",
+                        "Built URL shortener handling 5K+ daily redirects with Redis caching.",
+                        "Created expense tracking app with JWT authentication and role-based access.",
+                        "Deployed full-stack application on AWS EC2 with Docker containerization."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Resume Mistakes Software Engineers Make",
+                    "paragraphs": [
+                        "Even strong developers get rejected due to resume errors."
+                    ],
+                    "bullets": [
+                        "Listing tools without impact.",
+                        "No quantifiable achievements.",
+                        "Overly long resume (3+ pages for 2 years experience).",
+                        "Irrelevant coursework overload.",
+                        "Missing GitHub or project links."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One-Page Resume Template Layout (Example)",
+                    "paragraphs": [
+                        "Below is a simplified structure you can follow:"
+                    ],
+                    "bullets": [
+                        "Name | Phone | Email | LinkedIn | GitHub",
+                        "Professional Summary",
+                        "Technical Skills (categorized)",
+                        "Experience (Most recent first)",
+                        "Projects (with metrics)",
+                        "Education"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor Resume for Product Companies",
+                    "paragraphs": [
+                        "Product companies prioritize system design, scale, and ownership.",
+                        "Highlight scale metrics, performance optimization, and problem-solving depth."
+                    ],
+                    "bullets": [
+                        "Mention user scale (DAU/MAU).",
+                        "Highlight latency and optimization metrics.",
+                        "Explain architecture decisions.",
+                        "Show ownership and leadership."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist",
+                    "paragraphs": [
+                        "Before applying, ensure your resume is ATS-optimized."
+                    ],
+                    "bullets": [
+                        "Use standard headings (Experience, Skills).",
+                        "Include role-specific keywords.",
+                        "Avoid images and graphics.",
+                        "Use PDF format (if allowed).",
+                        "Match resume keywords to job description."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Before vs After Bullet Improvement",
+                    "body": "Before: Worked on backend development using Java.\nAfter: Developed Java-based REST APIs handling 150K+ monthly requests, reducing average response time by 32% through query optimization and caching."
+                },
+                {
+                    "label": "Fresher Resume Project Example",
+                    "body": "Designed and deployed a full-stack task management app using React and Node.js, supporting 2,000+ users. Implemented JWT authentication and optimized MongoDB queries, reducing load time by 25%."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should a software engineer resume be one page?",
+                    "answer": "Yes, for 0–5 years experience. Two pages may be acceptable for senior roles."
+                },
+                {
+                    "question": "Is summary necessary in resume?",
+                    "answer": "Yes, especially for experienced candidates to clarify specialization."
+                },
+                {
+                    "question": "Should I include DSA skills in resume?",
+                    "answer": "Yes, especially if applying for product companies and coding-heavy roles."
+                },
+                {
+                    "question": "Do recruiters check GitHub?",
+                    "answer": "Often yes, especially for freshers and open-source contributors."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want an ATS-Optimized Software Engineer Resume?",
+                "paragraph": "Don’t guess what recruiters want. Use AI to build and optimize your resume with the right keywords, metrics, and structure.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Software Engineer Resume Template",
+                    "target": "/resume-templates/software-engineer"
+                },
+                {
+                    "label": "Technical Interview Questions Guide",
+                    "target": "/career-hub/interview-preparation/technical-interview-questions-software-engineer"
+                },
+                {
+                    "label": "System Design Interview Preparation",
+                    "target": "/career-hub/interview-preparation/system-design-interview-preparation"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for data analyst cv format.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Data Analyst Cv Format",
+            "slug": "/career-hub/resume-tips/data-analyst-cv-format",
+            "primary_keyword": "data analyst cv format",
+            "secondary_keywords": [
+                "data analyst resume format india",
+                "data analyst cv sample india",
+                "ats friendly data analyst cv",
+                "fresher data analyst cv format",
+                "business analyst cv format india",
+                "data analytics resume template"
+            ],
+            "notes": "India focus – ATS optimized CV structure",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level data analysts building or optimizing their CV.",
+            "seo_title": "Data Analyst CV Format (ATS-Friendly 2026 Guide)",
+            "seo_description": "Learn the best data analyst CV format for India with ATS keywords, project examples, and metric-driven bullet samples."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "The ideal data analyst CV format should be ATS-friendly, skill-focused, and built around measurable business impact. Recruiters prioritize SQL, Python, dashboarding tools, and analytics-driven results. A clean one-page CV (two pages for 5+ years experience) with quantified achievements significantly improves shortlisting chances.",
+                "bullets": [
+                    "Analyzed 2M+ transaction records using SQL, improving reporting accuracy by 28%.",
+                    "Built 25+ Power BI dashboards reducing manual reporting time by 40%.",
+                    "Improved customer retention by 12% through cohort analysis and A/B testing insights.",
+                    "Automated Excel reports using Python scripts, saving 6 hours per week."
+                ]
+            },
+            "h1": "Data Analyst CV Format: ATS-Optimized Structure for 2026",
+            "intro_paragraph": "Your CV determines whether you get shortlisted for data analyst interviews. In India’s competitive analytics job market, simply listing tools like SQL and Excel is not enough. Recruiters look for measurable impact, business insights, and structured formatting. This guide explains the best data analyst CV format, required sections, top skills, fresher-specific advice, and examples of impact-driven bullets.",
+            "sections": [
+                {
+                    "heading": "Ideal Data Analyst CV Structure",
+                    "paragraphs": [
+                        "An ATS-friendly CV should follow a clear, text-based format without heavy graphics or complex tables.",
+                        "Use reverse chronological order for experience and projects."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn, Portfolio/GitHub)",
+                        "Professional Summary",
+                        "Technical Skills",
+                        "Work Experience / Internships",
+                        "Projects",
+                        "Education",
+                        "Certifications (optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example (Data Analyst)",
+                    "paragraphs": [
+                        "Keep it concise (2–3 lines) and focused on analytics specialization and tools."
+                    ],
+                    "bullets": [
+                        "Example: Data Analyst with 3+ years of experience in SQL, Python, and Power BI. Built automated dashboards for 10+ business units and improved decision-making accuracy through data-driven insights. Strong experience in A/B testing and cohort analysis."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills for Data Analyst CV (ATS Keywords)",
+                    "paragraphs": [
+                        "Include both technical and business-focused keywords relevant to analytics roles."
+                    ],
+                    "bullets": [
+                        "SQL (Joins, Window Functions, Query Optimization)",
+                        "Python (Pandas, NumPy)",
+                        "Power BI / Tableau",
+                        "Advanced Excel",
+                        "Data Cleaning & Wrangling",
+                        "A/B Testing",
+                        "Cohort Analysis",
+                        "Data Visualization",
+                        "Statistical Analysis",
+                        "Dashboard Development",
+                        "Google Analytics / GA4",
+                        "ETL Processes",
+                        "Data Modeling",
+                        "Business Intelligence",
+                        "Stakeholder Communication"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Work Experience Section (Impact-Driven Writing)",
+                    "paragraphs": [
+                        "Each bullet must show business impact. Avoid generic statements like 'Created reports in Excel.'",
+                        "Follow: Action + Tool + Scale + Result."
+                    ],
+                    "bullets": [
+                        "Developed SQL queries to analyze 1.5M+ customer records, identifying churn drivers and reducing churn by 9%.",
+                        "Built 18 automated dashboards in Power BI, cutting reporting time by 35%.",
+                        "Performed cohort analysis improving customer retention strategy and increasing repeat purchases by 14%.",
+                        "Optimized ETL pipeline reducing data refresh time by 22%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Projects Section for Freshers",
+                    "paragraphs": [
+                        "If you are a fresher, projects are critical. Focus on real datasets and practical insights."
+                    ],
+                    "bullets": [
+                        "Analyzed e-commerce dataset (100K+ rows) using SQL and Python to identify top-selling categories.",
+                        "Built sales performance dashboard in Power BI tracking KPIs across 12 regions.",
+                        "Performed A/B testing simulation to optimize marketing conversion rates.",
+                        "Created predictive churn model with 82% accuracy using logistic regression."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Fresher Data Analyst CV Format Tips",
+                    "paragraphs": [
+                        "Without full-time experience, highlight internships, certifications, and academic projects.",
+                        "Demonstrate tool proficiency and measurable output."
+                    ],
+                    "bullets": [
+                        "Mention certifications (Google Data Analytics, etc.).",
+                        "Include GitHub or portfolio link.",
+                        "Highlight business insights from projects.",
+                        "Quantify academic assignments."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Data Analyst CV Mistakes",
+                    "paragraphs": [
+                        "Small errors can significantly reduce shortlisting chances."
+                    ],
+                    "bullets": [
+                        "Listing tools without measurable outcomes.",
+                        "Using vague statements like 'Responsible for reporting.'",
+                        "Overcrowded CV with irrelevant coursework.",
+                        "No metrics or data scale mentioned.",
+                        "Using graphic-heavy templates not ATS-friendly."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One-Page CV Layout Example",
+                    "paragraphs": [
+                        "Use a clean, structured format:"
+                    ],
+                    "bullets": [
+                        "Name | Contact | LinkedIn",
+                        "Professional Summary",
+                        "Technical Skills (Categorized)",
+                        "Experience (Most Recent First)",
+                        "Projects with Metrics",
+                        "Education"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor CV for Product Companies",
+                    "paragraphs": [
+                        "Product companies prioritize experimentation, growth metrics, and business impact.",
+                        "Highlight A/B testing, funnel analysis, and data-driven decision-making."
+                    ],
+                    "bullets": [
+                        "Mention revenue or conversion improvements.",
+                        "Highlight stakeholder collaboration.",
+                        "Include experimentation frameworks.",
+                        "Show SQL depth (advanced queries)."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist",
+                    "paragraphs": [
+                        "Before applying, ensure your CV passes ATS screening."
+                    ],
+                    "bullets": [
+                        "Use standard headings (Experience, Skills).",
+                        "Match keywords with job description.",
+                        "Avoid tables and images.",
+                        "Use simple PDF format.",
+                        "Keep formatting consistent."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Before vs After Bullet Improvement",
+                    "body": "Before: Created dashboards in Power BI.\nAfter: Designed 12 Power BI dashboards tracking sales KPIs across 8 regions, reducing manual reporting effort by 40% and improving decision turnaround time."
+                },
+                {
+                    "label": "Fresher Project Example",
+                    "body": "Analyzed 150K+ ride-sharing trip records using SQL and Python, identified peak demand hours, and proposed surge-pricing strategy projected to increase revenue by 11%."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should a data analyst CV be one page?",
+                    "answer": "Yes, for 0–5 years experience. Two pages are acceptable for senior roles."
+                },
+                {
+                    "question": "Is SQL mandatory on a data analyst CV?",
+                    "answer": "Yes, SQL is one of the most important ATS keywords for analytics roles."
+                },
+                {
+                    "question": "Should I include academic projects?",
+                    "answer": "Yes, especially for freshers without full-time experience."
+                },
+                {
+                    "question": "Do recruiters check portfolios?",
+                    "answer": "Yes, especially for freshers and analysts showcasing dashboards or GitHub projects."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want an ATS-Optimized Data Analyst CV?",
+                "paragraph": "Don’t rely on generic templates. Use AI to structure your CV with the right keywords, metrics, and formatting to improve shortlisting chances.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Data Analyst Resume Template",
+                    "target": "/resume-templates/data-analyst"
+                },
+                {
+                    "label": "Data Analyst Interview Preparation",
+                    "target": "/career-hub/interview-preparation/data-analyst-interview-tips"
+                },
+                {
+                    "label": "Data Analyst Salary Bangalore",
+                    "target": "/career-hub/salary-insights/data-analyst-salary-bangalore"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for fresher resume template india.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Fresher Resume Template India",
+            "slug": "/career-hub/resume-tips/fresher-resume-template-india",
+            "primary_keyword": "fresher resume template india",
+            "secondary_keywords": [
+                "fresher resume format india",
+                "resume format for freshers india",
+                "ats friendly fresher resume india",
+                "first job resume template india",
+                "college student resume format india",
+                "entry level resume template india"
+            ],
+            "notes": "India focus – ATS-friendly and campus placement ready",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily final-year students and recent graduates creating their first professional resume.",
+            "seo_title": "Fresher Resume Template India (ATS-Friendly 2026 Guide)",
+            "seo_description": "Use this fresher resume template India guide to build an ATS-friendly resume with projects, internships, and measurable impact."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "A strong fresher resume template in India should be one page, ATS-friendly, and focused on skills, internships, and measurable projects. Since you may not have full-time experience, recruiters look for practical exposure, certifications, and quantifiable achievements. Use a clean format with clear sections and avoid decorative templates.",
+                "bullets": [
+                    "Built SQL-based sales dashboard analyzing 50K+ rows, improving reporting efficiency by 30%.",
+                    "Led college fest team of 12 members, managing ₹2L+ budget and increasing event participation by 40%.",
+                    "Completed internship optimizing digital campaigns, improving click-through rate by 18%.",
+                    "Developed full-stack project deployed on AWS serving 1,000+ test users."
+                ]
+            },
+            "h1": "Fresher Resume Template India: ATS-Optimized Format for 2026",
+            "intro_paragraph": "If you are creating your first resume, choosing the right fresher resume template in India is critical. Recruiters spend less than 10 seconds scanning each resume, especially during campus placements and mass hiring drives. This guide explains the ideal structure, what to include (even without work experience), common mistakes to avoid, and how to build an ATS-friendly resume that increases interview calls.",
+            "sections": [
+                {
+                    "heading": "Ideal Fresher Resume Structure (India Format)",
+                    "paragraphs": [
+                        "For freshers, clarity and relevance matter more than design. Keep your resume to one page and use standard headings that ATS systems recognize."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn)",
+                        "Career Objective or Professional Summary",
+                        "Skills (Technical and Soft Skills)",
+                        "Internships / Experience",
+                        "Projects",
+                        "Education",
+                        "Certifications / Achievements (Optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Career Objective Example for Freshers",
+                    "paragraphs": [
+                        "Keep it short (2–3 lines). Focus on skills and learning mindset instead of generic statements."
+                    ],
+                    "bullets": [
+                        "Example: Detail-oriented Computer Science graduate with strong foundation in data structures and SQL. Completed internship in backend development and built scalable academic projects. Seeking entry-level software role to apply problem-solving skills."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills to Include in a Fresher Resume (ATS Keywords)",
+                    "paragraphs": [
+                        "Your skills section should match the job description. Include both technical and role-relevant keywords."
+                    ],
+                    "bullets": [
+                        "Communication Skills",
+                        "Problem Solving",
+                        "MS Excel / Power BI / SQL",
+                        "Python / Java / C++",
+                        "Data Analysis",
+                        "Team Collaboration",
+                        "Time Management",
+                        "Presentation Skills",
+                        "Digital Marketing Tools (if relevant)",
+                        "Financial Analysis (if commerce background)",
+                        "Customer Service Skills",
+                        "Research and Reporting"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Internship Section (How to Write Impact-Driven Bullets)",
+                    "paragraphs": [
+                        "Even short internships can be written with measurable outcomes.",
+                        "Use Action + Tool + Result format."
+                    ],
+                    "bullets": [
+                        "Analyzed 25K+ customer records using Excel to identify repeat purchase trends, improving campaign targeting accuracy by 15%.",
+                        "Supported backend team in building REST APIs, reducing response time by 20%.",
+                        "Assisted in managing social media campaigns, increasing engagement rate by 22%.",
+                        "Prepared financial reports improving reconciliation efficiency by 18%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Projects Section for Freshers",
+                    "paragraphs": [
+                        "Projects are the most important part of a fresher resume.",
+                        "Focus on practical, real-world problem solving."
+                    ],
+                    "bullets": [
+                        "Built expense tracking app using React and Node.js supporting 500+ users.",
+                        "Created Power BI dashboard analyzing sales across 10 regions.",
+                        "Developed machine learning model achieving 80% accuracy in churn prediction.",
+                        "Designed marketing strategy case study increasing mock conversion by 25%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Education Section (India Format)",
+                    "paragraphs": [
+                        "Mention degree, university, graduation year, and CGPA (if strong).",
+                        "Avoid listing too many irrelevant subjects."
+                    ],
+                    "bullets": [
+                        "B.Tech in Computer Science – XYZ University (2026) – CGPA: 8.4/10",
+                        "Relevant Coursework: Data Structures, DBMS, Operating Systems"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes in Fresher Resumes",
+                    "paragraphs": [
+                        "Avoid these errors that reduce interview chances."
+                    ],
+                    "bullets": [
+                        "Using 2–3 page resumes without experience.",
+                        "Writing generic objectives like 'To work in a reputed organization.'",
+                        "Listing responsibilities without results.",
+                        "Using fancy templates with graphics.",
+                        "Spelling and formatting errors."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One-Page Fresher Resume Template Layout",
+                    "paragraphs": [
+                        "Use this simple structure:"
+                    ],
+                    "bullets": [
+                        "Name | Contact Details",
+                        "Career Objective",
+                        "Skills (Bullet Format)",
+                        "Internship / Experience",
+                        "Projects with Metrics",
+                        "Education"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor Resume for Campus Placements",
+                    "paragraphs": [
+                        "Campus hiring focuses heavily on academic projects, internships, and core subject knowledge.",
+                        "Customize your resume based on role (IT, marketing, finance, etc.)."
+                    ],
+                    "bullets": [
+                        "Highlight technical skills for IT roles.",
+                        "Focus on ROI and campaigns for marketing roles.",
+                        "Emphasize financial modeling for finance roles.",
+                        "Match resume keywords with job description."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist for Freshers",
+                    "paragraphs": [
+                        "Before submitting your resume, ensure it passes ATS filters."
+                    ],
+                    "bullets": [
+                        "Use standard fonts (Arial, Calibri).",
+                        "Avoid tables and images.",
+                        "Use job-specific keywords.",
+                        "Save as PDF (if allowed).",
+                        "Keep consistent formatting."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Before vs After Improvement (Fresher)",
+                    "body": "Before: Worked on college project using Python.\nAfter: Developed Python-based inventory management system tracking 5,000+ items and reducing stock mismatch errors by 20%."
+                },
+                {
+                    "label": "Leadership Example (Non-Technical Fresher)",
+                    "body": "Led 10-member college event team managing ₹1.5L budget, increasing sponsorship revenue by 35% through targeted outreach strategy."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should a fresher resume be one page?",
+                    "answer": "Yes, ideally one page unless you have significant internships or achievements."
+                },
+                {
+                    "question": "Is career objective necessary?",
+                    "answer": "Yes, especially for freshers to clarify career direction."
+                },
+                {
+                    "question": "Can I include college projects?",
+                    "answer": "Yes, projects are essential for freshers without full-time experience."
+                },
+                {
+                    "question": "Do recruiters check LinkedIn for freshers?",
+                    "answer": "Often yes. Keep your LinkedIn profile updated and aligned with your resume."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want a Professionally Structured Fresher Resume?",
+                "paragraph": "Instead of guessing the right format, use AI to build and optimize your resume with the correct keywords, structure, and measurable achievements.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Fresher Resume Template",
+                    "target": "/resume-templates/fresher"
+                },
+                {
+                    "label": "Fresher Interview Tips India",
+                    "target": "/career-hub/interview-preparation/fresher-interview-tips-india"
+                },
+                {
+                    "label": "Fresher Salary Expectations India",
+                    "target": "/career-hub/salary-insights/fresher-salary-expectations-india"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for product manager resume examples.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Product Manager Resume Examples",
+            "slug": "/career-hub/resume-tips/product-manager-resume-examples",
+            "primary_keyword": "product manager resume examples",
+            "secondary_keywords": [
+                "product manager resume india",
+                "associate product manager resume example",
+                "senior product manager resume sample",
+                "ats friendly product manager resume",
+                "product owner resume example india",
+                "product management resume format"
+            ],
+            "notes": "India focus – ATS-friendly, impact-driven examples",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily aspiring and mid-level product managers preparing strong, metrics-driven resumes.",
+            "seo_title": "Product Manager Resume Examples (ATS-Friendly 2026 Guide)",
+            "seo_description": "Explore product manager resume examples with metrics, ATS keywords, and real bullet samples for APM, PM, and Senior PM roles."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "Strong product manager resume examples focus on ownership, business impact, and measurable outcomes—not feature lists. Recruiters prioritize metrics like revenue growth, user acquisition, retention improvement, and experimentation results. Use an ATS-friendly format with clear sections and quantified product impact.",
+                "bullets": [
+                    "Led launch of new onboarding flow increasing activation rate by 27% and reducing drop-offs by 18%.",
+                    "Owned product roadmap impacting 150K+ monthly active users and driving 22% revenue growth.",
+                    "Reduced customer churn by 12% through cohort analysis and targeted feature releases.",
+                    "Improved sprint delivery predictability by 30% through refined backlog prioritization."
+                ]
+            },
+            "h1": "Product Manager Resume Examples: ATS-Optimized Templates for 2026",
+            "intro_paragraph": "If you're applying for product roles in India’s competitive tech ecosystem, reviewing strong product manager resume examples can significantly improve your chances of shortlisting. Recruiters look for ownership, strategy, experimentation, and measurable business impact. Whether you're an Associate Product Manager (APM), mid-level PM, or Senior PM, this guide provides structured examples and best practices to build a high-impact resume.",
+            "sections": [
+                {
+                    "heading": "Ideal Product Manager Resume Structure",
+                    "paragraphs": [
+                        "A product manager resume should be clean, structured, and impact-focused. Avoid overly designed templates and stick to ATS-friendly formatting.",
+                        "Keep it one page (two pages acceptable for 6+ years experience)."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn)",
+                        "Professional Summary",
+                        "Core Skills",
+                        "Work Experience",
+                        "Projects (if applicable)",
+                        "Education",
+                        "Certifications (Optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills for Product Manager Resumes (ATS Keywords)",
+                    "paragraphs": [
+                        "Include strategic, analytical, and execution-focused keywords aligned with product roles."
+                    ],
+                    "bullets": [
+                        "Product Roadmap Planning",
+                        "Agile / Scrum",
+                        "User Research",
+                        "A/B Testing",
+                        "Product Analytics",
+                        "SQL / Data Analysis",
+                        "Stakeholder Management",
+                        "Go-to-Market Strategy",
+                        "User Story Writing",
+                        "PRD Documentation",
+                        "Growth Metrics",
+                        "Funnel Analysis",
+                        "Prioritization Frameworks (RICE, MoSCoW)",
+                        "Customer Journey Mapping",
+                        "Cross-Functional Leadership"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Associate Product Manager (APM) Resume Example",
+                    "paragraphs": [
+                        "APM resumes should highlight experimentation, analytics exposure, and collaboration."
+                    ],
+                    "bullets": [
+                        "Conducted user research interviews with 50+ customers, identifying 3 key friction points improving onboarding completion by 15%.",
+                        "Designed and executed A/B test increasing feature adoption rate by 19%.",
+                        "Collaborated with engineering team of 8 to deliver MVP in 10-week sprint cycle.",
+                        "Built SQL queries to analyze funnel drop-offs across 120K monthly users."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Mid-Level Product Manager Resume Example",
+                    "paragraphs": [
+                        "Mid-level PMs should emphasize roadmap ownership, revenue impact, and cross-functional leadership."
+                    ],
+                    "bullets": [
+                        "Owned quarterly roadmap impacting 200K+ MAU, increasing subscription revenue by 24%.",
+                        "Launched pricing optimization experiment improving ARPU by 17%.",
+                        "Reduced feature backlog by 35% through RICE prioritization framework.",
+                        "Improved NPS from 42 to 58 within 6 months by addressing top customer pain points."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Senior Product Manager Resume Example",
+                    "paragraphs": [
+                        "Senior PM resumes must show strategic decision-making, P&L ownership, and large-scale impact."
+                    ],
+                    "bullets": [
+                        "Led cross-functional team of 25 across engineering, design, and marketing delivering ₹10Cr+ annual revenue feature.",
+                        "Scaled product from 300K to 1M+ users within 12 months through growth-led initiatives.",
+                        "Reduced CAC by 22% through optimized acquisition funnel.",
+                        "Drove international expansion strategy entering 3 new markets."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example (Product Manager)",
+                    "paragraphs": [
+                        "Your summary should clearly state specialization and impact."
+                    ],
+                    "bullets": [
+                        "Example: Product Manager with 4+ years experience driving growth and monetization for SaaS platforms. Led cross-functional teams delivering features impacting 250K+ monthly users. Strong background in experimentation, analytics, and revenue optimization."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes in Product Manager Resumes",
+                    "paragraphs": [
+                        "Many PM resumes focus on tasks instead of results."
+                    ],
+                    "bullets": [
+                        "Listing features without business outcomes.",
+                        "No user or revenue metrics.",
+                        "Overly generic statements like 'Worked with stakeholders.'",
+                        "Missing experimentation or analytics data.",
+                        "Too long and unfocused resume."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Before vs After Bullet Example",
+                    "paragraphs": [
+                        "Transform weak statements into impact-driven bullets."
+                    ],
+                    "bullets": [
+                        "Before: Managed product backlog.",
+                        "After: Prioritized backlog using RICE framework, improving sprint velocity by 28% and reducing release delays."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor Resume for Product Companies",
+                    "paragraphs": [
+                        "Product companies value ownership, experimentation, and measurable growth."
+                    ],
+                    "bullets": [
+                        "Highlight revenue or retention metrics.",
+                        "Mention A/B testing results.",
+                        "Quantify user base scale (MAU/DAU).",
+                        "Show strategic decision-making examples."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist",
+                    "paragraphs": [
+                        "Ensure your resume passes automated screening."
+                    ],
+                    "bullets": [
+                        "Use standard headings.",
+                        "Include product-specific keywords.",
+                        "Avoid graphics and complex layouts.",
+                        "Match keywords to job description.",
+                        "Keep formatting clean and consistent."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Full Resume Bullet Sample (Growth PM)",
+                    "body": "Led redesign of user onboarding funnel impacting 180K+ new users per month, increasing activation rate by 26% and reducing time-to-value by 34% through structured experimentation and behavioral analytics."
+                },
+                {
+                    "label": "Data-Driven PM Example",
+                    "body": "Built product analytics dashboards using SQL and Mixpanel to track funnel performance, identifying drop-off point that improved conversion rate by 21% after feature optimization."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should product manager resumes be one page?",
+                    "answer": "Yes, unless you have 6+ years of experience, where two pages may be acceptable."
+                },
+                {
+                    "question": "Do I need technical skills on a PM resume?",
+                    "answer": "Yes, especially analytics tools, SQL, and familiarity with Agile processes."
+                },
+                {
+                    "question": "How many metrics should I include?",
+                    "answer": "Every major bullet point should ideally include at least one measurable metric."
+                },
+                {
+                    "question": "Is MBA required to get shortlisted for PM roles?",
+                    "answer": "Not necessarily. Demonstrated product impact and execution often matter more."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want a High-Impact Product Manager Resume?",
+                "paragraph": "Use AI to structure your product manager resume with the right metrics, keywords, and strategic positioning to improve shortlisting chances.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Product Manager Resume Template",
+                    "target": "/resume-templates/product-manager"
+                },
+                {
+                    "label": "Product Manager Interview Preparation",
+                    "target": "/career-hub/interview-preparation/product-manager-interview-preparation"
+                },
+                {
+                    "label": "Product Manager Salary Trends",
+                    "target": "/career-hub/salary-insights/product-manager-salary-trends"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for ats friendly resume template.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Ats Friendly Resume Template",
+            "slug": "/career-hub/resume-tips/ats-friendly-resume-template",
+            "primary_keyword": "ats friendly resume template",
+            "secondary_keywords": [
+                "ats optimized resume format",
+                "resume format for ats",
+                "how to make resume ats friendly",
+                "ats resume template india",
+                "applicant tracking system resume format",
+                "ai readable resume template"
+            ],
+            "notes": "India focus – ATS and AI-screening optimized format",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level professionals looking to optimize resumes for ATS screening.",
+            "seo_title": "ATS Friendly Resume Template (2026 Complete Guide)",
+            "seo_description": "Use this ATS friendly resume template to pass automated screening systems and increase interview shortlists in India."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "An ATS friendly resume template uses simple formatting, standard section headings, and job-specific keywords so Applicant Tracking Systems can correctly parse and rank your resume. Avoid graphics, tables, and fancy layouts. Focus on measurable achievements and include relevant skills aligned with the job description.",
+                "bullets": [
+                    "Reduced customer churn by 15% through SQL-driven cohort analysis and targeted retention campaigns.",
+                    "Improved API response time by 32% using caching and query optimization.",
+                    "Increased campaign ROI by 22% by optimizing ad spend allocation using analytics dashboards.",
+                    "Automated reporting workflows saving 8 hours per week using Python scripts."
+                ]
+            },
+            "h1": "ATS Friendly Resume Template: How to Pass Applicant Tracking Systems in 2026",
+            "intro_paragraph": "Most companies in India and globally use Applicant Tracking Systems (ATS) to filter resumes before a recruiter sees them. If your resume is not ATS-friendly, it may get rejected automatically—even if you are qualified. This guide explains what an ATS friendly resume template looks like, how to structure it, what keywords to include, and how to optimize your resume for both software screening and human recruiters.",
+            "sections": [
+                {
+                    "heading": "What Is an ATS and Why It Matters",
+                    "paragraphs": [
+                        "An Applicant Tracking System scans resumes for keywords, structure, and relevance before ranking candidates.",
+                        "If your resume cannot be parsed properly, important information may not be read correctly."
+                    ],
+                    "bullets": [
+                        "Parses resume sections automatically.",
+                        "Matches keywords with job description.",
+                        "Ranks candidates based on relevance.",
+                        "Filters out resumes with poor formatting."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Core Elements of an ATS Friendly Resume Template",
+                    "paragraphs": [
+                        "The goal is clarity, simplicity, and keyword alignment."
+                    ],
+                    "bullets": [
+                        "Standard fonts (Arial, Calibri, Times New Roman).",
+                        "Clear section headings (Experience, Skills, Education).",
+                        "Reverse chronological order.",
+                        "No images, icons, or graphics.",
+                        "Minimal use of tables.",
+                        "Bullet points for achievements."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Ideal ATS Resume Structure (Universal Template)",
+                    "paragraphs": [
+                        "Use this layout for most professional roles."
+                    ],
+                    "bullets": [
+                        "Name | Phone | Email | LinkedIn",
+                        "Professional Summary (2–3 lines)",
+                        "Skills (Role-specific keywords)",
+                        "Work Experience (with measurable impact)",
+                        "Projects (if applicable)",
+                        "Education",
+                        "Certifications (Optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Use Keywords Properly",
+                    "paragraphs": [
+                        "Keywords are critical for ATS ranking. Extract them directly from the job description.",
+                        "Include both technical and soft skills where relevant."
+                    ],
+                    "bullets": [
+                        "Match job title exactly (e.g., 'Data Analyst').",
+                        "Include tools and technologies mentioned.",
+                        "Use variations (e.g., 'SQL' and 'Structured Query Language').",
+                        "Avoid keyword stuffing without context."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Example of ATS-Optimized Work Experience Bullet",
+                    "paragraphs": [
+                        "Weak statements reduce ATS score. Strong, keyword-rich bullets improve ranking."
+                    ],
+                    "bullets": [
+                        "Before: Responsible for handling backend tasks.",
+                        "After: Developed REST APIs using Node.js handling 120K+ monthly users, reducing response time by 28% through query optimization."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common ATS Resume Mistakes",
+                    "paragraphs": [
+                        "These mistakes can cause automatic rejection."
+                    ],
+                    "bullets": [
+                        "Using infographic or graphic-heavy templates.",
+                        "Placing key information in headers/footers.",
+                        "Uploading image-based PDFs.",
+                        "Missing job-specific keywords.",
+                        "Overusing abbreviations without full forms."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Resume Template for Freshers",
+                    "paragraphs": [
+                        "Freshers should focus on skills, internships, and projects with measurable outcomes."
+                    ],
+                    "bullets": [
+                        "Highlight certifications relevant to role.",
+                        "Include academic projects with metrics.",
+                        "Mention internships clearly.",
+                        "Match keywords to entry-level job description."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Resume Template for Experienced Professionals",
+                    "paragraphs": [
+                        "Experienced candidates should emphasize impact and specialization."
+                    ],
+                    "bullets": [
+                        "Quantify revenue, cost savings, or efficiency improvements.",
+                        "Highlight leadership and ownership.",
+                        "Show domain expertise with tools.",
+                        "Keep resume 1–2 pages maximum."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Test If Your Resume Is ATS Friendly",
+                    "paragraphs": [
+                        "Before applying, test your resume against ATS simulators.",
+                        "Compare extracted keywords with job description."
+                    ],
+                    "bullets": [
+                        "Copy-paste resume into plain text editor to check formatting.",
+                        "Scan for missing keywords.",
+                        "Check if section headings are standard.",
+                        "Review keyword density naturally."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS-Friendly Resume Example Layout (Text Version)",
+                    "paragraphs": [
+                        "Below is a simplified format you can copy:"
+                    ],
+                    "bullets": [
+                        "Name | Contact Information",
+                        "Professional Summary",
+                        "Skills: SQL, Python, Power BI, Data Analysis, A/B Testing",
+                        "Experience: Role – Company – Impact Bullets",
+                        "Projects: Project Name – Tools – Measurable Results",
+                        "Education"
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Before vs After ATS Optimization",
+                    "body": "Before: Created dashboards and reports.\nAfter: Designed 15 Power BI dashboards analyzing 200K+ transaction records, reducing reporting turnaround time by 35% and improving data-driven decision making."
+                },
+                {
+                    "label": "Keyword Optimization Example",
+                    "body": "If job description mentions 'Agile Scrum' and 'Stakeholder Management,' ensure your experience bullet includes: Collaborated with cross-functional stakeholders in Agile Scrum environment to deliver feature releases 20% faster."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "What format is best for ATS resumes?",
+                    "answer": "A simple, text-based format with standard headings and no graphics works best."
+                },
+                {
+                    "question": "Should I use PDF or Word format?",
+                    "answer": "PDF is generally safe if text-based. Some companies prefer Word format—always check instructions."
+                },
+                {
+                    "question": "Do ATS systems reject graphic resumes?",
+                    "answer": "Yes, infographic-style resumes often fail parsing and reduce ATS score."
+                },
+                {
+                    "question": "How many keywords should I include?",
+                    "answer": "Include all relevant keywords from the job description naturally within context."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want to Check If Your Resume Is ATS Friendly?",
+                "paragraph": "Don’t guess your ATS score. Use AI to scan your resume, match keywords, and optimize structure before applying.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Software Engineer Resume Template",
+                    "target": "/resume-templates/software-engineer"
+                },
+                {
+                    "label": "Data Analyst Resume Template",
+                    "target": "/resume-templates/data-analyst"
+                },
+                {
+                    "label": "Fresher Resume Template",
+                    "target": "/resume-templates/fresher"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for digital marketing resume format.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Digital Marketing Resume Format",
+            "slug": "/career-hub/resume-tips/digital-marketing-resume-format",
+            "primary_keyword": "digital marketing resume format",
+            "secondary_keywords": [
+                "digital marketing resume india",
+                "digital marketing cv format india",
+                "seo resume format",
+                "performance marketing resume sample",
+                "ats friendly marketing resume",
+                "fresher digital marketing resume format"
+            ],
+            "notes": "India focus – ATS-friendly, ROI-driven format",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers to mid-level digital marketing professionals optimizing their resumes.",
+            "seo_title": "Digital Marketing Resume Format (ATS-Friendly 2026 Guide)",
+            "seo_description": "Learn the best digital marketing resume format for India with ROI-driven examples, ATS keywords, and fresher-friendly structure."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "The ideal digital marketing resume format should be ATS-friendly, results-driven, and focused on measurable ROI. Recruiters prioritize campaign performance metrics such as CTR, conversions, ROAS, and traffic growth over generic responsibilities. Use a clean one-page format (two pages for experienced candidates) and quantify every major achievement.",
+                "bullets": [
+                    "Increased website traffic by 45% in 6 months through SEO optimization and content strategy.",
+                    "Improved Google Ads ROAS from 2.5x to 4.1x by restructuring keyword targeting and bidding strategy.",
+                    "Reduced CPL by 28% through A/B testing ad creatives and landing pages.",
+                    "Grew Instagram engagement rate by 35% via data-driven content calendar."
+                ]
+            },
+            "h1": "Digital Marketing Resume Format: ATS-Optimized Guide for 2026",
+            "intro_paragraph": "In India’s competitive digital marketing job market, simply listing tools like Google Ads or SEO is not enough. Recruiters want measurable performance, ROI improvement, and data-driven decision-making. This guide explains the best digital marketing resume format, what sections to include, top ATS keywords, and strong bullet examples for freshers and experienced professionals.",
+            "sections": [
+                {
+                    "heading": "Ideal Digital Marketing Resume Structure",
+                    "paragraphs": [
+                        "Your resume should be clear, structured, and optimized for both ATS software and recruiters.",
+                        "Avoid graphic-heavy templates and focus on measurable results."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn, Portfolio)",
+                        "Professional Summary",
+                        "Core Skills",
+                        "Work Experience / Internships",
+                        "Projects (if applicable)",
+                        "Education",
+                        "Certifications"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example (Digital Marketing)",
+                    "paragraphs": [
+                        "Keep the summary concise and focused on specialization (SEO, performance marketing, content, etc.)."
+                    ],
+                    "bullets": [
+                        "Example: Performance-driven Digital Marketing Specialist with 3+ years experience managing Google Ads budgets of ₹20L+ annually. Improved ROAS by 35% and increased organic traffic by 50% through SEO and data-backed optimization strategies."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills for Digital Marketing Resume (ATS Keywords)",
+                    "paragraphs": [
+                        "Include role-specific keywords aligned with the job description."
+                    ],
+                    "bullets": [
+                        "Search Engine Optimization (SEO)",
+                        "Google Ads / PPC Campaigns",
+                        "Meta Ads (Facebook & Instagram)",
+                        "Conversion Rate Optimization (CRO)",
+                        "Google Analytics / GA4",
+                        "Keyword Research",
+                        "Content Marketing",
+                        "Email Marketing",
+                        "Marketing Automation",
+                        "A/B Testing",
+                        "Lead Generation",
+                        "Funnel Optimization",
+                        "Performance Marketing",
+                        "Social Media Strategy",
+                        "Campaign Budget Management"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Work Experience Section (ROI-Driven Writing)",
+                    "paragraphs": [
+                        "Marketing resumes must show business impact. Avoid vague statements like 'Handled social media accounts.'"
+                    ],
+                    "bullets": [
+                        "Managed ₹15L annual Google Ads budget, increasing conversions by 32% while reducing CPC by 18%.",
+                        "Executed SEO strategy improving organic rankings for 25+ keywords into top 3 positions.",
+                        "Optimized landing pages through A/B testing, improving conversion rate from 2.1% to 3.4%.",
+                        "Launched email campaigns achieving 24% open rate and 8% click-through rate."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Digital Marketing Resume Format for Freshers",
+                    "paragraphs": [
+                        "Freshers should highlight internships, certifications, and live projects.",
+                        "Even academic or freelance projects can be written with metrics."
+                    ],
+                    "bullets": [
+                        "Created SEO audit report for small business website improving traffic by 20%.",
+                        "Ran mock Google Ads campaign achieving 3.5x simulated ROAS.",
+                        "Completed Google Ads Certification and HubSpot Email Marketing course.",
+                        "Built social media calendar increasing engagement by 30% over 3 months."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Before vs After Bullet Example",
+                    "paragraphs": [
+                        "Strong bullets significantly increase ATS ranking and recruiter interest."
+                    ],
+                    "bullets": [
+                        "Before: Managed Facebook ads campaigns.",
+                        "After: Managed Meta Ads campaigns with ₹5L monthly spend, improving ROAS from 2.8x to 4.0x through audience segmentation and creative testing."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Certifications That Strengthen Marketing Resume",
+                    "paragraphs": [
+                        "Relevant certifications improve credibility."
+                    ],
+                    "bullets": [
+                        "Google Ads Certification",
+                        "Google Analytics Certification",
+                        "HubSpot Content Marketing",
+                        "Meta Blueprint Certification",
+                        "SEO Specialization Courses"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Digital Marketing Resume Mistakes",
+                    "paragraphs": [
+                        "Avoid these errors that reduce shortlisting chances."
+                    ],
+                    "bullets": [
+                        "No ROI metrics mentioned.",
+                        "Listing tools without context.",
+                        "Overloading resume with buzzwords.",
+                        "Using design-heavy templates not ATS-friendly.",
+                        "Ignoring data and analytics aspects."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One-Page Resume Layout Example",
+                    "paragraphs": [
+                        "Use this simple layout:"
+                    ],
+                    "bullets": [
+                        "Name | Contact | LinkedIn",
+                        "Professional Summary",
+                        "Core Skills",
+                        "Experience with Metrics",
+                        "Projects",
+                        "Education & Certifications"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor Resume for Agencies vs Startups",
+                    "paragraphs": [
+                        "Different employers prioritize different outcomes."
+                    ],
+                    "bullets": [
+                        "Agencies: Highlight multi-client campaign management.",
+                        "Startups: Focus on growth metrics and experimentation.",
+                        "E-commerce firms: Emphasize ROAS and revenue impact.",
+                        "Corporate roles: Highlight reporting and analytics."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist",
+                    "paragraphs": [
+                        "Ensure your resume passes automated screening systems."
+                    ],
+                    "bullets": [
+                        "Use standard headings (Experience, Skills).",
+                        "Match keywords with job description.",
+                        "Avoid graphics and tables.",
+                        "Keep consistent formatting.",
+                        "Export as text-based PDF."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Full Performance Marketing Example",
+                    "body": "Led multi-channel performance marketing campaigns across Google and Meta with ₹25L+ annual budget, improving blended ROAS by 38% and reducing cost per acquisition by 21% through structured A/B testing and audience segmentation."
+                },
+                {
+                    "label": "SEO-Focused Resume Example",
+                    "body": "Implemented on-page and technical SEO strategies improving organic traffic by 52% within 8 months and ranking 30+ keywords on page 1 of Google."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should a digital marketing resume be one page?",
+                    "answer": "Yes, for 0–5 years experience. Two pages may be acceptable for senior roles."
+                },
+                {
+                    "question": "What metrics should I include?",
+                    "answer": "Include traffic growth, CTR, conversions, ROAS, CPL reduction, engagement rates, and revenue impact."
+                },
+                {
+                    "question": "Are certifications necessary?",
+                    "answer": "Not mandatory, but certifications like Google Ads and Analytics strengthen your profile."
+                },
+                {
+                    "question": "Is portfolio important?",
+                    "answer": "Yes, especially for SEO, content, and performance marketing roles."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want an ATS-Optimized Digital Marketing Resume?",
+                "paragraph": "Use AI to build and optimize your marketing resume with the right keywords, metrics, and performance-driven positioning.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Digital Marketing Resume Template",
+                    "target": "/resume-templates/digital-marketing"
+                },
+                {
+                    "label": "Digital Marketing Interview Questions",
+                    "target": "/career-hub/interview-preparation/digital-marketing-interview-questions"
+                },
+                {
+                    "label": "Digital Marketing Salary India",
+                    "target": "/career-hub/salary-insights/digital-marketing-salary-india"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for experienced professional resume template.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Experienced Professional Resume Template",
+            "slug": "/career-hub/resume-tips/experienced-professional-resume-template",
+            "primary_keyword": "experienced professional resume template",
+            "secondary_keywords": [
+                "resume format for experienced professionals",
+                "senior level resume template india",
+                "mid career resume format india",
+                "ats friendly resume for experienced candidates",
+                "resume template for 5 years experience",
+                "professional resume format india"
+            ],
+            "notes": "India focus – ATS-friendly and impact-driven for mid to senior professionals",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily mid-level to senior professionals (3+ years experience) optimizing resumes for higher roles and salary growth.",
+            "seo_title": "Experienced Professional Resume Template (ATS-Friendly 2026 Guide)",
+            "seo_description": "Use this experienced professional resume template to showcase measurable impact, leadership, and specialization in 2026."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "An effective experienced professional resume template focuses on measurable business impact, specialization, and leadership rather than task lists. Recruiters expect quantified achievements, ownership scope, and clear career progression. Use a clean, ATS-friendly 1–2 page format highlighting revenue impact, cost savings, efficiency gains, or scale handled.",
+                "bullets": [
+                    "Led cross-functional team of 12 members delivering ₹8Cr+ annual revenue feature, increasing customer retention by 18%.",
+                    "Reduced operational costs by 22% by automating reporting workflows using Python and SQL.",
+                    "Managed ₹30L+ annual marketing budget improving ROAS from 3.1x to 4.5x.",
+                    "Scaled backend infrastructure handling 500K+ daily requests with 99.95% uptime."
+                ]
+            },
+            "h1": "Experienced Professional Resume Template: ATS-Optimized Format for 2026",
+            "intro_paragraph": "If you have 3+ years of experience, your resume must evolve beyond listing responsibilities. Recruiters hiring mid-level and senior professionals look for ownership, measurable impact, and career progression. This guide provides a structured experienced professional resume template designed for India’s competitive job market, helping you position yourself for promotions, role switches, and higher salary bands.",
+            "sections": [
+                {
+                    "heading": "Ideal Resume Structure for Experienced Professionals",
+                    "paragraphs": [
+                        "An ATS-friendly structure ensures both automated systems and recruiters can quickly assess your profile.",
+                        "Keep your resume to 1 page (3–7 years experience) or 2 pages (8+ years experience)."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn)",
+                        "Professional Summary (Executive-style overview)",
+                        "Core Competencies / Skills",
+                        "Work Experience (Reverse Chronological)",
+                        "Key Projects (Optional)",
+                        "Education",
+                        "Certifications (Optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example (Mid-Level)",
+                    "paragraphs": [
+                        "Your summary should highlight years of experience, specialization, and impact."
+                    ],
+                    "bullets": [
+                        "Example: Results-driven Operations Manager with 6+ years experience optimizing supply chain workflows and reducing operational costs by up to 20%. Led cross-functional teams across 3 business units and implemented automation solutions improving efficiency and profitability."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Core Skills Section (ATS Keywords)",
+                    "paragraphs": [
+                        "List role-specific technical and leadership skills aligned with job descriptions."
+                    ],
+                    "bullets": [
+                        "Strategic Planning",
+                        "Stakeholder Management",
+                        "Data Analysis / Reporting",
+                        "Budget Management",
+                        "Project Management",
+                        "Process Optimization",
+                        "Team Leadership",
+                        "Agile / Scrum (if relevant)",
+                        "Performance Metrics Tracking",
+                        "Risk Management",
+                        "Client Relationship Management",
+                        "Cross-Functional Collaboration"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Work Experience: Impact-Driven Bullet Format",
+                    "paragraphs": [
+                        "Each role should demonstrate progression, ownership, and measurable results.",
+                        "Use this structure: Action Verb + Responsibility Scope + Tool/Method + Quantified Result."
+                    ],
+                    "bullets": [
+                        "Led 10-member operations team improving process efficiency by 25% through workflow automation.",
+                        "Increased annual revenue by ₹3Cr by launching optimized pricing strategy.",
+                        "Reduced project turnaround time by 30% by implementing Agile methodology.",
+                        "Negotiated vendor contracts reducing procurement costs by 18%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Showing Career Progression",
+                    "paragraphs": [
+                        "Recruiters want evidence of growth and increased responsibility."
+                    ],
+                    "bullets": [
+                        "Promoted from Analyst to Senior Analyst within 2 years.",
+                        "Expanded team leadership from 3 to 12 members.",
+                        "Handled regional operations across 4 cities.",
+                        "Managed larger budget over time."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Before vs After Resume Bullet Example",
+                    "paragraphs": [
+                        "Strong transformation improves clarity and impact."
+                    ],
+                    "bullets": [
+                        "Before: Responsible for managing sales team.",
+                        "After: Managed 8-member sales team achieving 28% year-on-year revenue growth and expanding market share across 3 regions."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Experienced Resume Template Layout Example",
+                    "paragraphs": [
+                        "Use this simplified layout:"
+                    ],
+                    "bullets": [
+                        "Name | Contact Information",
+                        "Professional Summary",
+                        "Core Competencies",
+                        "Experience (Role – Company – Dates – Impact Bullets)",
+                        "Education",
+                        "Certifications"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes Experienced Professionals Make",
+                    "paragraphs": [
+                        "Many mid-career resumes fail due to outdated formatting and lack of measurable results."
+                    ],
+                    "bullets": [
+                        "Listing responsibilities without results.",
+                        "Overloading resume with old irrelevant roles.",
+                        "Not tailoring resume for target role.",
+                        "Using generic summaries.",
+                        "Exceeding 2 pages unnecessarily."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Tailor Resume for Promotions vs Job Switch",
+                    "paragraphs": [
+                        "Different strategies apply depending on your goal."
+                    ],
+                    "bullets": [
+                        "For promotion: Highlight internal impact and leadership growth.",
+                        "For job switch: Emphasize transferable skills and measurable outcomes.",
+                        "For industry change: Showcase cross-functional expertise.",
+                        "For senior roles: Focus on strategy and P&L impact."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist for Experienced Candidates",
+                    "paragraphs": [
+                        "Before applying, ensure your resume meets ATS standards."
+                    ],
+                    "bullets": [
+                        "Use standard section headings.",
+                        "Align keywords with job description.",
+                        "Avoid graphics and images.",
+                        "Keep consistent formatting.",
+                        "Save as text-based PDF."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Leadership-Focused Example",
+                    "body": "Led cross-functional team of 15 across engineering and marketing to deliver SaaS feature generating ₹5Cr+ annual recurring revenue and improving customer retention by 20%."
+                },
+                {
+                    "label": "Cost Optimization Example",
+                    "body": "Implemented automation solution using Python reducing manual reporting effort by 50% and saving approximately ₹18L annually in operational costs."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should experienced professionals use a two-page resume?",
+                    "answer": "Yes, if you have 8+ years of relevant experience. Otherwise, aim for 1 page."
+                },
+                {
+                    "question": "Is professional summary mandatory?",
+                    "answer": "Yes, it helps recruiters quickly understand your specialization and impact."
+                },
+                {
+                    "question": "How many years of experience should be included?",
+                    "answer": "Focus on the last 8–12 years or roles most relevant to your target position."
+                },
+                {
+                    "question": "Should I include early career roles?",
+                    "answer": "Include them briefly if relevant, otherwise summarize or omit outdated roles."
+                }
+            ],
+            "final_cta": {
+                "heading": "Ready to Upgrade Your Resume for Senior Roles?",
+                "paragraph": "Optimize your resume with the right keywords, metrics, and leadership positioning to increase interview calls and negotiate higher salary offers.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "ATS Friendly Resume Template",
+                    "target": "/career-hub/resume-tips/ats-friendly-resume-template"
+                },
+                {
+                    "label": "Salary Negotiation Tips India",
+                    "target": "/career-hub/salary-insights/salary-negotiation-tips-india"
+                },
+                {
+                    "label": "Tech Salary Trends 2026",
+                    "target": "/career-hub/salary-insights/tech-salary-trends-2026"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for technical resume template india.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "Technical Resume Template India",
+            "slug": "/career-hub/resume-tips/technical-resume-template-india",
+            "primary_keyword": "technical resume template india",
+            "secondary_keywords": [
+                "technical resume format india",
+                "ats friendly technical resume",
+                "engineering resume template india",
+                "it technical resume sample",
+                "developer resume format india",
+                "technical cv format india"
+            ],
+            "notes": "India focus – ATS-friendly and impact-driven technical format",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily engineering, IT, and technical professionals building ATS-optimized resumes.",
+            "seo_title": "Technical Resume Template India (ATS-Friendly 2026 Guide)",
+            "seo_description": "Use this technical resume template India guide to build an ATS-friendly resume with quantified impact and strong technical keywords."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "A strong technical resume template in India should be ATS-friendly, skill-focused, and built around measurable technical impact. Recruiters prioritize programming languages, tools, system design exposure, and quantifiable achievements. Use a clean 1-page format (2 pages for 6+ years experience) and focus on performance, scale, optimization, and ownership.",
+                "bullets": [
+                    "Optimized backend service reducing API response time by 38% using caching and query indexing.",
+                    "Designed scalable microservices architecture handling 300K+ daily transactions with 99.9% uptime.",
+                    "Automated CI/CD pipeline cutting deployment time by 45%.",
+                    "Reduced infrastructure costs by 20% through cloud resource optimization."
+                ]
+            },
+            "h1": "Technical Resume Template India: ATS-Optimized Format for 2026",
+            "intro_paragraph": "In India’s competitive engineering and IT job market, your technical resume must go beyond listing programming languages. Recruiters and Applicant Tracking Systems (ATS) scan for specific keywords, tools, measurable outcomes, and specialization. Whether you are a software engineer, data engineer, DevOps professional, or core technical engineer, this guide explains the ideal technical resume template India format, key sections, and impact-driven examples.",
+            "sections": [
+                {
+                    "heading": "Ideal Structure for a Technical Resume (India Format)",
+                    "paragraphs": [
+                        "A technical resume should be simple, structured, and ATS-compatible. Avoid graphics, icons, and tables that may not parse correctly.",
+                        "Use reverse chronological order for experience."
+                    ],
+                    "bullets": [
+                        "Header (Name, Phone, Email, LinkedIn, GitHub/Portfolio)",
+                        "Professional Summary",
+                        "Technical Skills (Categorized)",
+                        "Work Experience",
+                        "Projects",
+                        "Education",
+                        "Certifications (Optional)"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example (Technical Role)",
+                    "paragraphs": [
+                        "Your summary should clarify specialization and scale handled."
+                    ],
+                    "bullets": [
+                        "Example: Backend-focused Software Engineer with 4+ years experience building scalable distributed systems using Java and Spring Boot. Designed microservices supporting 250K+ daily users and optimized system performance by 30%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Top Skills for Technical Resume (ATS Keywords)",
+                    "paragraphs": [
+                        "Include role-specific and tool-specific keywords aligned with job descriptions."
+                    ],
+                    "bullets": [
+                        "Data Structures and Algorithms",
+                        "Java / Python / C++",
+                        "SQL / NoSQL Databases",
+                        "REST APIs / Microservices",
+                        "System Design",
+                        "Cloud (AWS / Azure / GCP)",
+                        "Docker / Kubernetes",
+                        "CI/CD Pipelines",
+                        "Linux / Shell Scripting",
+                        "Git / Version Control",
+                        "Unit Testing / Automation",
+                        "Performance Optimization",
+                        "Distributed Systems",
+                        "DevOps Practices",
+                        "Agile / Scrum"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Work Experience Section (Impact-Driven Technical Writing)",
+                    "paragraphs": [
+                        "Avoid generic lines like 'Worked on development tasks.'",
+                        "Follow: Action + Tool + Scale + Result."
+                    ],
+                    "bullets": [
+                        "Developed RESTful APIs using Spring Boot serving 150K+ monthly active users, improving response time by 28%.",
+                        "Implemented Redis caching reducing database load by 35%.",
+                        "Deployed containerized applications using Docker and Kubernetes achieving 99.95% uptime.",
+                        "Optimized SQL queries reducing query execution time by 40%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Projects Section (Critical for Freshers & Mid-Level)",
+                    "paragraphs": [
+                        "Projects demonstrate hands-on technical skills and real-world application."
+                    ],
+                    "bullets": [
+                        "Built URL shortener handling 10K+ daily redirects using Node.js and Redis.",
+                        "Developed full-stack e-commerce platform supporting 5K+ users.",
+                        "Created machine learning model achieving 85% prediction accuracy.",
+                        "Designed DevOps pipeline automating deployments across staging and production environments."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Technical Resume Template for Core Engineering Roles",
+                    "paragraphs": [
+                        "For mechanical, electrical, or civil engineering roles, highlight technical tools and measurable project impact."
+                    ],
+                    "bullets": [
+                        "Improved manufacturing efficiency by 15% through process redesign.",
+                        "Reduced energy consumption by 12% via optimized electrical load balancing.",
+                        "Managed project worth ₹2Cr delivering within 5% budget variance.",
+                        "Implemented quality control reducing defect rate by 20%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Before vs After Technical Bullet Example",
+                    "paragraphs": [
+                        "Transform weak statements into measurable impact."
+                    ],
+                    "bullets": [
+                        "Before: Responsible for database management.",
+                        "After: Optimized PostgreSQL database queries reducing average response time by 33% and improving application performance under peak load."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes in Technical Resumes",
+                    "paragraphs": [
+                        "Avoid errors that reduce ATS ranking and recruiter interest."
+                    ],
+                    "bullets": [
+                        "Listing too many tools without depth.",
+                        "No measurable outcomes.",
+                        "Overly long resume (3+ pages).",
+                        "Using infographic templates.",
+                        "Missing GitHub or portfolio links."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist for Technical Roles",
+                    "paragraphs": [
+                        "Ensure your resume passes automated screening."
+                    ],
+                    "bullets": [
+                        "Use standard headings (Skills, Experience).",
+                        "Match keywords from job description.",
+                        "Avoid images and tables.",
+                        "Keep consistent formatting.",
+                        "Use text-based PDF."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One-Page Technical Resume Layout Example",
+                    "paragraphs": [
+                        "Use this clean format:"
+                    ],
+                    "bullets": [
+                        "Name | Contact | LinkedIn | GitHub",
+                        "Professional Summary",
+                        "Technical Skills (Categorized)",
+                        "Experience with Impact Bullets",
+                        "Projects with Metrics",
+                        "Education"
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Backend Engineer Example",
+                    "body": "Architected scalable microservices processing 400K+ daily requests, reducing system latency by 32% and achieving 99.95% uptime through optimized caching and load balancing strategies."
+                },
+                {
+                    "label": "DevOps Example",
+                    "body": "Designed CI/CD pipeline using Jenkins and Docker reducing deployment cycle time from 2 days to 4 hours and minimizing production rollback incidents by 25%."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Should a technical resume be one page?",
+                    "answer": "Yes for 0–5 years experience. Two pages are acceptable for senior roles."
+                },
+                {
+                    "question": "Is GitHub important for technical roles?",
+                    "answer": "Yes, especially for software and data-related roles."
+                },
+                {
+                    "question": "How many technical skills should I list?",
+                    "answer": "List relevant skills aligned with the job description, avoiding excessive tool lists."
+                },
+                {
+                    "question": "Should I include certifications?",
+                    "answer": "Yes, especially cloud or tool-specific certifications relevant to your role."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want an ATS-Optimized Technical Resume?",
+                "paragraph": "Don’t rely on generic templates. Use AI to build and optimize your technical resume with the right keywords, metrics, and structure.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "Software Engineer Resume Template",
+                    "target": "/resume-templates/software-engineer"
+                },
+                {
+                    "label": "Data Analyst Resume Template",
+                    "target": "/resume-templates/data-analyst"
+                },
+                {
+                    "label": "ATS Friendly Resume Template",
+                    "target": "/career-hub/resume-tips/ats-friendly-resume-template"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    },
+    {
+        "status": "ok",
+        "message": "Comprehensive Resume Tips article generated for one page resume template.",
+        "meta": {
+            "theme": "resume_tips",
+            "topic": "One Page Resume Template",
+            "slug": "/career-hub/resume-tips/one-page-resume-template",
+            "primary_keyword": "one page resume template",
+            "secondary_keywords": [
+                "one page resume format india",
+                "single page resume template",
+                "short resume format for freshers",
+                "ats friendly one page resume",
+                "compact resume template india",
+                "1 page cv format"
+            ],
+            "notes": "India focus – ATS-friendly compact format",
+            "min_word_count": 1500,
+            "depth_level": "full",
+            "author": "ShortlistAI Career Hub",
+            "audience": "Job seekers (India-first but globally relevant), primarily freshers and mid-level professionals who need concise, impact-driven resumes.",
+            "seo_title": "One Page Resume Template (ATS-Friendly 2026 Guide)",
+            "seo_description": "Use this one page resume template to create a concise, ATS-friendly resume with measurable impact and strong keywords."
+        },
+        "content": {
+            "quick_answer": {
+                "summary": "A one page resume template focuses on clarity, measurable impact, and relevant skills without unnecessary details. It is ideal for freshers and professionals with up to 5–7 years of experience. Use concise bullet points, standard headings, and quantifiable achievements to maximize shortlisting chances.",
+                "bullets": [
+                    "Improved website traffic by 42% through SEO optimization within 6 months.",
+                    "Reduced API response time by 30% by implementing caching and query optimization.",
+                    "Increased campaign ROAS from 3.0x to 4.2x through performance marketing strategy.",
+                    "Automated reporting process saving 6 hours weekly using Excel macros."
+                ]
+            },
+            "h1": "One Page Resume Template: ATS-Optimized Format for 2026",
+            "intro_paragraph": "Recruiters often spend less than 10 seconds scanning a resume. A well-structured one page resume template helps you present your skills and achievements clearly and concisely. Whether you're a fresher applying for your first job or a mid-level professional switching roles, this guide explains how to structure a powerful one-page resume that passes ATS screening and grabs recruiter attention.",
+            "sections": [
+                {
+                    "heading": "Who Should Use a One Page Resume?",
+                    "paragraphs": [
+                        "A one-page resume works best for candidates who can summarize their impact effectively without overwhelming recruiters.",
+                        "It is particularly effective in campus placements, tech roles, marketing, and fast-paced hiring environments."
+                    ],
+                    "bullets": [
+                        "Freshers and college students.",
+                        "Professionals with 0–5 years experience.",
+                        "Candidates switching roles.",
+                        "Applicants for startup and tech roles."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Ideal Structure for a One Page Resume",
+                    "paragraphs": [
+                        "Keep formatting simple and ATS-friendly. Use clear headings and avoid design-heavy templates."
+                    ],
+                    "bullets": [
+                        "Name | Phone | Email | LinkedIn",
+                        "Professional Summary (2–3 lines)",
+                        "Core Skills",
+                        "Work Experience / Internships",
+                        "Projects (if applicable)",
+                        "Education"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Professional Summary Example",
+                    "paragraphs": [
+                        "Your summary should clearly state experience level and specialization."
+                    ],
+                    "bullets": [
+                        "Example: Data-driven Marketing Executive with 3+ years experience improving campaign ROI and reducing customer acquisition cost. Managed ₹20L+ annual budget and optimized digital performance strategies."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Write Impact-Driven Bullet Points",
+                    "paragraphs": [
+                        "Each bullet must show results, not just responsibilities.",
+                        "Follow: Action + Tool/Skill + Measurable Result."
+                    ],
+                    "bullets": [
+                        "Increased organic website traffic by 35% using on-page SEO optimization.",
+                        "Developed backend API reducing processing time by 28%.",
+                        "Improved sales conversion rate from 2.1% to 3.4% through A/B testing.",
+                        "Reduced operational costs by ₹10L annually via automation."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "How to Fit Everything into One Page",
+                    "paragraphs": [
+                        "Conciseness is key. Remove outdated or irrelevant information."
+                    ],
+                    "bullets": [
+                        "Avoid objective statements longer than 2 lines.",
+                        "Limit each job to 3–5 strong bullet points.",
+                        "Exclude irrelevant coursework.",
+                        "Use concise language and remove filler words.",
+                        "Use consistent formatting and spacing."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "One Page Resume Template Layout Example",
+                    "paragraphs": [
+                        "Follow this simplified layout:"
+                    ],
+                    "bullets": [
+                        "Header: Name & Contact Details",
+                        "Professional Summary",
+                        "Skills (Keyword-focused)",
+                        "Experience (Role – Company – 3–4 Impact Bullets)",
+                        "Projects (if relevant)",
+                        "Education"
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Common Mistakes in One Page Resumes",
+                    "paragraphs": [
+                        "Trying to compress too much information can reduce readability."
+                    ],
+                    "bullets": [
+                        "Using tiny fonts to fit content.",
+                        "Overcrowding with 8–10 bullet points per job.",
+                        "Including outdated roles from 10+ years ago.",
+                        "Adding irrelevant hobbies.",
+                        "Using complex design templates."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "ATS Optimization Checklist",
+                    "paragraphs": [
+                        "Even a one-page resume must be ATS-friendly."
+                    ],
+                    "bullets": [
+                        "Use standard headings (Experience, Skills).",
+                        "Include keywords from job description.",
+                        "Avoid graphics and images.",
+                        "Use professional fonts.",
+                        "Export as text-based PDF."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "Before vs After Resume Improvement",
+                    "paragraphs": [
+                        "Transform weak bullets into impactful statements."
+                    ],
+                    "bullets": [
+                        "Before: Worked on social media campaigns.",
+                        "After: Managed Instagram and Facebook campaigns increasing engagement rate by 30% and reducing cost per lead by 22%."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "heading": "When NOT to Use a One Page Resume",
+                    "paragraphs": [
+                        "Some roles may require more detailed documentation."
+                    ],
+                    "bullets": [
+                        "Senior leadership roles (10+ years experience).",
+                        "Academic or research-heavy positions.",
+                        "Government applications requiring detailed formats."
+                    ],
+                    "subsections": []
+                }
+            ],
+            "examples": [
+                {
+                    "label": "Tech Role Example",
+                    "body": "Built scalable backend system handling 200K+ daily requests, reducing latency by 32% and achieving 99.9% uptime through optimized architecture."
+                },
+                {
+                    "label": "Marketing Role Example",
+                    "body": "Optimized Google Ads campaigns with ₹10L annual spend, improving ROAS from 2.7x to 4.1x within 5 months through keyword restructuring and creative testing."
+                }
+            ],
+            "faq": [
+                {
+                    "question": "Is a one-page resume enough?",
+                    "answer": "Yes, for freshers and professionals with under 6–7 years experience."
+                },
+                {
+                    "question": "Should I remove older jobs?",
+                    "answer": "Yes, if they are not relevant to your target role."
+                },
+                {
+                    "question": "What font size should I use?",
+                    "answer": "Typically 10–12 pt for body text with professional fonts like Calibri or Arial."
+                },
+                {
+                    "question": "Do recruiters prefer shorter resumes?",
+                    "answer": "Yes, concise resumes with measurable impact are easier to scan and shortlist."
+                }
+            ],
+            "final_cta": {
+                "heading": "Want to Build a Powerful One Page Resume?",
+                "paragraph": "Use AI to structure your resume with the right keywords, measurable achievements, and optimized formatting to increase your ATS score.",
+                "primary_button_label": "Check your ATS score",
+                "primary_button_target": "/"
+            },
+            "internal_links": [
+                {
+                    "label": "ShortlistAI Home",
+                    "target": "/"
+                },
+                {
+                    "label": "ShortlistAI Career Hub",
+                    "target": "/career-hub"
+                },
+                {
+                    "label": "Resume Tips Hub",
+                    "target": "/career-hub/resume-tips"
+                },
+                {
+                    "label": "ATS Friendly Resume Template",
+                    "target": "/career-hub/resume-tips/ats-friendly-resume-template"
+                },
+                {
+                    "label": "Fresher Resume Template India",
+                    "target": "/career-hub/resume-tips/fresher-resume-template-india"
+                },
+                {
+                    "label": "Experienced Professional Resume Template",
+                    "target": "/career-hub/resume-tips/experienced-professional-resume-template"
+                },
+                {
+                    "label": "Check your ATS score",
+                    "target": "/"
+                },
+                {
+                    "label": "AI Resume Builder",
+                    "target": "/ai-resume-builder"
+                },
+                {
+                    "label": "Resume Keyword Scanner",
+                    "target": "/resume-keyword-scanner"
+                }
+            ]
+        }
+    }
+]

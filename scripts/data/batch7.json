@@ -1,0 +1,1441 @@
+[
+{
+"slug": "cybersecurity-analyst",
+"jobTitle": "Cybersecurity Analyst",
+"jobTitleVariants": ["Security Analyst", "Information Security Analyst", "SOC Analyst", "Cyber Threat Analyst", "IT Security Analyst"],
+"industry": "Technology",
+"metaTitle": "Cybersecurity Analyst Resume Template | SOC Impact",
+"metaDescription": "ATS-optimized Cybersecurity Analyst resume template with incident response metrics, SIEM tools, and measurable threat reduction impact.",
+"quickAnswer": "A strong Cybersecurity Analyst resume must demonstrate measurable impact on threat detection, incident response speed, and vulnerability mitigation. Hiring managers expect hands-on experience with SIEM platforms such as Splunk, IBM QRadar, Microsoft Sentinel, and tools like Wireshark, Nessus, and CrowdStrike. For example: \"Monitored 5,000+ daily security events in Splunk, reducing mean time to detect (MTTD) from 4 hours to 45 minutes and lowering incident escalation rate by 32%.\" Another strong example is \"Conducted vulnerability scans using Nessus across 1,200 endpoints, reducing critical vulnerabilities by 48% within 3 months.\" These bullets clearly connect security monitoring to measurable risk reduction.\n\nYour resume should also highlight incident response and compliance alignment. For instance: \"Led response to 25+ security incidents annually, reducing mean time to respond (MTTR) from 6 hours to 2 hours using playbooks in Microsoft Sentinel.\" Mention phishing prevention and quantify outcomes such as decreasing successful phishing attempts by 41% after implementing CrowdStrike endpoint protection and employee awareness campaigns. A compelling cybersecurity analyst resume connects SIEM expertise, threat intelligence, response automation, and measurable security posture improvements.",
+"topSkills": ["Splunk", "IBM QRadar", "Microsoft Sentinel", "Wireshark", "Nessus", "CrowdStrike", "SIEM Management", "Incident Response", "Threat Hunting", "Vulnerability Assessment", "Endpoint Security", "Network Security", "Risk Analysis", "Security Monitoring", "Compliance Frameworks"],
+"resumeTips": [
+{
+"title": "Quantify Incident Detection Improvements",
+"description": "Include measurable MTTD or MTTR reductions. For example, \"Reduced mean time to detect from 3 hours to 30 minutes using Splunk dashboards.\" Detection speed is critical."
+},
+{
+"title": "Highlight Vulnerability Reduction Metrics",
+"description": "Recruiters value measurable risk mitigation. Example: \"Reduced critical vulnerabilities by 50% across 900 endpoints using Nessus remediation tracking.\" Vulnerability metrics matter."
+},
+{
+"title": "Show Incident Volume Managed",
+"description": "Mention scale of operations. For instance, \"Investigated 40+ security incidents per quarter using Microsoft Sentinel.\" Volume signals experience."
+},
+{
+"title": "Demonstrate Phishing Risk Reduction",
+"description": "Include measurable prevention outcomes. Example: \"Reduced phishing click-through rate from 18% to 7% after implementing endpoint protection in CrowdStrike.\" Prevention impact stands out."
+},
+{
+"title": "Quantify Log Monitoring Scope",
+"description": "Show system coverage. For example, \"Monitored 10,000+ daily log events across hybrid cloud infrastructure using QRadar.\" Scope signals operational depth."
+},
+{
+"title": "Structure Resume Around Security Metrics",
+"description": "Keep most cybersecurity analyst resumes to 1 page. Start with SIEM tools such as Splunk or Sentinel. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% reduction in incident response time."
+}
+],
+"commonResponsibilities": [
+"Monitor SIEM alerts and investigate security incidents",
+"Conduct vulnerability scans and remediation tracking",
+"Perform threat hunting and log analysis",
+"Respond to phishing and malware incidents",
+"Maintain security documentation and compliance controls",
+"Collaborate with IT and infrastructure teams"
+],
+"averageSalary": "$95,000 - $130,000",
+"salaryRange": "$70,000 - $180,000",
+"salaryGrowth": "Up 8–12% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Microsoft", "Google", "Amazon", "IBM", "Cisco", "Palo Alto Networks", "Deloitte", "Accenture"],
+"faqs": [
+{
+"question": "How long should a Cybersecurity Analyst resume be?",
+"answer": "Most cybersecurity analysts should keep their resume to 1 page. If managing enterprise-scale environments, a concise 2-page resume may be appropriate. Focus on measurable detection and response metrics."
+},
+{
+"question": "Should I include MTTD and MTTR metrics?",
+"answer": "Yes. Mention reducing mean time to detect or respond by specific percentages to demonstrate operational impact."
+},
+{
+"question": "How do I show threat mitigation impact?",
+"answer": "Highlight measurable results such as reducing critical vulnerabilities by 40% or lowering phishing success rates by 30%."
+},
+{
+"question": "Is SIEM experience essential?",
+"answer": "Yes. Mention tools like Splunk, QRadar, or Microsoft Sentinel and connect them to measurable improvements such as cutting detection time by hours."
+}
+],
+"relatedRoles": ["information-security-engineer", "security-engineer", "cloud-security-engineer", "network-security-engineer", "penetration-tester"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global cybersecurity hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "information-security-engineer",
+"jobTitle": "Information Security Engineer",
+"jobTitleVariants": ["Security Engineer", "IT Security Engineer", "Cybersecurity Engineer", "Infrastructure Security Engineer", "Application Security Engineer"],
+"industry": "Technology",
+"metaTitle": "Information Security Engineer Resume Template",
+"metaDescription": "ATS-optimized Information Security Engineer resume template with security architecture, automation, and measurable risk mitigation outcomes.",
+"quickAnswer": "A strong Information Security Engineer resume must demonstrate measurable improvements in system hardening, security architecture, and automated threat prevention. Hiring managers expect expertise in tools such as AWS Security Hub, Azure Security Center, Palo Alto firewalls, Fortinet, Splunk, Terraform, and Python scripting. For example: \"Hardened AWS cloud infrastructure using Security Hub and IAM policy redesign, reducing critical misconfigurations by 57% across 300+ resources.\" Another strong example is \"Automated firewall rule auditing using Python and Terraform, reducing manual review time by 65% and improving compliance score from 81% to 98%.\" These bullets clearly connect engineering work to measurable security posture improvements.\n\nYour resume should also highlight vulnerability management and DevSecOps integration. For instance: \"Integrated SAST and DAST tools into CI/CD pipeline, reducing high-severity application vulnerabilities by 44% before production release.\" Mention incident containment and quantify outcomes such as reducing breach containment time from 8 hours to 2 hours through automated alerting in Splunk. A compelling information security engineer resume connects security architecture expertise, cloud security tooling, automation, and measurable risk reduction outcomes.",
+"topSkills": ["AWS Security Hub", "Azure Security Center", "Palo Alto Networks", "Fortinet", "Splunk", "Terraform", "Python", "Cloud Security", "Firewall Configuration", "DevSecOps", "Vulnerability Management", "SAST/DAST", "IAM Policies", "Security Automation", "Incident Response Engineering"],
+"resumeTips": [
+{
+"title": "Quantify Infrastructure Hardening Impact",
+"description": "Include measurable reductions in misconfigurations. For example, \"Reduced cloud security misconfigurations by 50% using AWS Security Hub remediation workflows.\" Infrastructure security metrics matter."
+},
+{
+"title": "Highlight Automation Gains",
+"description": "Recruiters value efficiency improvements. Example: \"Automated firewall audits with Python, cutting review time by 60%.\" Automation strengthens engineering credibility."
+},
+{
+"title": "Show Vulnerability Mitigation Results",
+"description": "Mention measurable remediation outcomes. For instance, \"Reduced high-severity vulnerabilities by 45% after integrating SAST tools into CI/CD.\" Prevention metrics stand out."
+},
+{
+"title": "Demonstrate Compliance Improvements",
+"description": "Include compliance metrics. Example: \"Improved security compliance score from 80% to 97% after implementing Terraform-based policy enforcement.\" Compliance signals governance strength."
+},
+{
+"title": "Quantify Cloud Resource Coverage",
+"description": "Show scope of infrastructure protected. For example, \"Secured 500+ cloud resources across AWS and Azure environments.\" Scale signals seniority."
+},
+{
+"title": "Structure Resume Around Security Engineering Outcomes",
+"description": "Keep most information security engineer resumes to 1–2 pages. Start with cloud and automation tools such as AWS Security Hub or Terraform. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% vulnerability reduction."
+}
+],
+"commonResponsibilities": [
+"Design and implement secure infrastructure architectures",
+"Configure and manage firewalls and cloud security tools",
+"Automate security controls and policy enforcement",
+"Integrate security testing into CI/CD pipelines",
+"Conduct vulnerability remediation and hardening",
+"Respond to and contain security incidents"
+],
+"averageSalary": "$110,000 - $150,000",
+"salaryRange": "$85,000 - $220,000",
+"salaryGrowth": "Up 8–12% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Microsoft", "Google", "Amazon", "Cisco", "Palo Alto Networks", "IBM", "Accenture", "Oracle"],
+"faqs": [
+{
+"question": "How long should an Information Security Engineer resume be?",
+"answer": "Most information security engineers use 1–2 pages depending on project complexity. Focus on measurable infrastructure hardening and automation impact."
+},
+{
+"question": "Should I include cloud platforms secured?",
+"answer": "Yes. Mention securing AWS, Azure, or multi-cloud environments and tie them to measurable outcomes such as reducing misconfigurations by 50%."
+},
+{
+"question": "How do I show automation expertise?",
+"answer": "Highlight scripting in Python or infrastructure-as-code tools like Terraform and connect them to time savings such as reducing audit effort by 60%."
+},
+{
+"question": "Is DevSecOps experience important?",
+"answer": "Yes. Include examples such as integrating SAST or DAST tools that reduced production vulnerabilities by 40%."
+}
+],
+"relatedRoles": ["cybersecurity-analyst", "security-engineer", "cloud-security-engineer", "devops-engineer", "penetration-tester"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global information security engineering hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "network-engineer",
+"jobTitle": "Network Engineer",
+"jobTitleVariants": ["Senior Network Engineer", "Network Infrastructure Engineer", "Network Operations Engineer", "Cisco Network Engineer", "Enterprise Network Engineer"],
+"industry": "Technology",
+"metaTitle": "Network Engineer Resume Template | Uptime & SLA",
+"metaDescription": "ATS-optimized Network Engineer resume template with uptime metrics, SLA improvements, and measurable infrastructure performance results.",
+"quickAnswer": "A strong Network Engineer resume must demonstrate measurable improvements in network uptime, latency reduction, and infrastructure scalability. Hiring managers expect hands-on experience with Cisco, Juniper, Palo Alto, Fortinet, Wireshark, SolarWinds, and cloud networking in AWS or Azure. For example: \"Redesigned enterprise WAN using Cisco routers and Palo Alto firewalls, improving network uptime from 98.7% to 99.99% and reducing average latency by 35% across 12 branch offices.\" Another strong example is \"Monitored 1,500+ network devices using SolarWinds, reducing mean time to resolution (MTTR) from 4 hours to 1.2 hours through automated alerting.\" These bullets clearly connect engineering work to measurable reliability improvements.\n\nYour resume should also highlight security hardening and scalability initiatives. For instance: \"Migrated on-prem infrastructure to AWS VPC architecture, increasing bandwidth capacity by 60% while reducing annual hardware costs by $420K.\" Mention firewall optimization and quantify outcomes such as reducing unauthorized access incidents by 47% after implementing Fortinet policy segmentation. A compelling network engineer resume connects routing and switching expertise, monitoring automation, cloud networking, and measurable SLA performance improvements.",
+"topSkills": ["Cisco", "Juniper", "Palo Alto Networks", "Fortinet", "Wireshark", "SolarWinds", "AWS VPC", "Azure Networking", "Routing and Switching", "Firewall Configuration", "Network Monitoring", "VPN Configuration", "BGP/OSPF", "LAN/WAN Design", "SLA Management"],
+"resumeTips": [
+{
+"title": "Quantify Uptime Improvements",
+"description": "Include measurable uptime metrics. For example, \"Improved network uptime from 99.2% to 99.99% by upgrading Cisco routing architecture.\" Reliability metrics are central to network roles."
+},
+{
+"title": "Highlight Latency Reduction Gains",
+"description": "Recruiters value performance improvements. Example: \"Reduced average latency by 30% across 10 branch offices after WAN optimization.\" Performance gains strengthen credibility."
+},
+{
+"title": "Show Incident Resolution Efficiency",
+"description": "Mention MTTR improvements. For instance, \"Reduced mean time to resolution from 5 hours to 1 hour using SolarWinds alert automation.\" Speed matters."
+},
+{
+"title": "Demonstrate Security Hardening Impact",
+"description": "Include measurable reductions in security incidents. Example: \"Reduced unauthorized access attempts by 45% after firewall segmentation with Fortinet.\" Security metrics elevate profile."
+},
+{
+"title": "Quantify Infrastructure Scale",
+"description": "Show device or site coverage. For example, \"Managed 2,000+ network endpoints across 15 global sites.\" Scope signals seniority."
+},
+{
+"title": "Structure Resume Around SLA and Reliability Metrics",
+"description": "Keep most network engineer resumes to 1–2 pages. Start with vendor technologies such as Cisco or Juniper. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% reduction in downtime."
+}
+],
+"commonResponsibilities": [
+"Design and maintain LAN/WAN infrastructure",
+"Configure routers, switches, and firewalls",
+"Monitor network performance and troubleshoot outages",
+"Implement network security controls and VPNs",
+"Manage cloud networking configurations",
+"Ensure SLA compliance and uptime targets"
+],
+"averageSalary": "$95,000 - $130,000",
+"salaryRange": "$70,000 - $180,000",
+"salaryGrowth": "Up 6–10% from 2024",
+"jobGrowth": "Strong demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Cisco", "Amazon", "Google", "Microsoft", "IBM", "Oracle", "Accenture", "Dell Technologies"],
+"faqs": [
+{
+"question": "How long should a Network Engineer resume be?",
+"answer": "Most network engineers use 1–2 pages depending on project complexity. Focus on measurable uptime, latency reduction, and SLA performance metrics."
+},
+{
+"question": "Should I include number of devices managed?",
+"answer": "Yes. Mention managing 1,000+ network devices or supporting multiple global sites to demonstrate infrastructure scale."
+},
+{
+"question": "How do I show reliability impact?",
+"answer": "Highlight metrics such as improving uptime to 99.99% or reducing downtime by 40% after infrastructure upgrades."
+},
+{
+"question": "Is cloud networking important to include?",
+"answer": "Yes. Mention AWS VPC or Azure networking experience and tie it to measurable results such as increasing bandwidth capacity by 60%."
+}
+],
+"relatedRoles": ["systems-administrator", "cloud-engineer", "network-security-engineer", "devops-engineer", "site-reliability-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global network infrastructure hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "systems-administrator",
+"jobTitle": "Systems Administrator",
+"jobTitleVariants": ["System Administrator", "IT Systems Administrator", "Infrastructure Administrator", "Windows Systems Administrator", "Linux Systems Administrator"],
+"industry": "Technology",
+"metaTitle": "Systems Administrator Resume Template | Uptime",
+"metaDescription": "ATS-optimized Systems Administrator resume template with uptime improvements, automation gains, and measurable infrastructure performance impact.",
+"quickAnswer": "A strong Systems Administrator resume must demonstrate measurable improvements in server uptime, system reliability, and automation efficiency. Hiring managers expect experience with Windows Server, Linux, VMware, Active Directory, PowerShell, Bash, Azure, AWS, and monitoring tools such as Nagios or Datadog. For example: \"Managed 350+ Windows and Linux servers, improving uptime from 99.1% to 99.98% and reducing critical outages by 52% through proactive monitoring in Datadog.\" Another strong example is \"Automated user provisioning using PowerShell and Active Directory scripts, reducing onboarding setup time from 3 hours to 30 minutes and saving 25 hours per month.\" These bullets clearly connect system administration work to measurable operational reliability.\n\nYour resume should also highlight security patching and virtualization management. For instance: \"Implemented monthly patch management across VMware environment, reducing security vulnerabilities by 44% across 500 endpoints.\" Mention cloud migration and quantify outcomes such as reducing infrastructure costs by 23% after migrating workloads to Azure. A compelling systems administrator resume connects server management expertise, automation scripting, virtualization, and measurable uptime and efficiency improvements.",
+"topSkills": ["Windows Server", "Linux", "VMware", "Active Directory", "PowerShell", "Bash", "Azure", "AWS", "Nagios", "Datadog", "Patch Management", "Virtualization", "Server Administration", "Infrastructure Monitoring", "Automation Scripting"],
+"resumeTips": [
+{
+"title": "Quantify Uptime Improvements",
+"description": "Include measurable uptime metrics. For example, \"Improved server uptime from 99.0% to 99.99% after implementing proactive monitoring in Nagios.\" Reliability is central to system roles."
+},
+{
+"title": "Highlight Automation Time Savings",
+"description": "Recruiters value efficiency gains. Example: \"Reduced user provisioning time by 80% using PowerShell automation scripts.\" Automation strengthens credibility."
+},
+{
+"title": "Show Patch Management Impact",
+"description": "Mention vulnerability reductions. For instance, \"Reduced critical vulnerabilities by 40% after implementing automated patch cycles in VMware.\" Security metrics matter."
+},
+{
+"title": "Demonstrate Infrastructure Scale",
+"description": "Include number of servers or endpoints managed. Example: \"Administered 500+ servers across hybrid cloud environment.\" Scope signals experience level."
+},
+{
+"title": "Quantify Cost Optimization Gains",
+"description": "Show financial impact. For example, \"Reduced infrastructure costs by 20% after migrating workloads to Azure.\" Cost metrics elevate profile."
+},
+{
+"title": "Structure Resume Around Reliability and Automation",
+"description": "Keep most systems administrator resumes to 1–2 pages. Start with server platforms such as Windows Server or Linux. Follow with 3–4 measurable achievements per role including at least 1 metric like 50% reduction in outages."
+}
+],
+"commonResponsibilities": [
+"Maintain and monitor servers and infrastructure",
+"Administer Active Directory and user access controls",
+"Implement patch management and security updates",
+"Automate administrative tasks using scripting tools",
+"Manage virtualization and cloud environments",
+"Troubleshoot system outages and performance issues"
+],
+"averageSalary": "$85,000 - $115,000",
+"salaryRange": "$65,000 - $160,000",
+"salaryGrowth": "Up 5–9% from 2024",
+"jobGrowth": "Strong demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Microsoft", "Amazon", "Google", "IBM", "Oracle", "Accenture", "Dell Technologies", "HP Enterprise"],
+"faqs": [
+{
+"question": "How long should a Systems Administrator resume be?",
+"answer": "Most systems administrators use 1–2 pages depending on infrastructure complexity. Focus on measurable uptime, automation, and vulnerability reduction metrics."
+},
+{
+"question": "Should I include number of servers managed?",
+"answer": "Yes. Mention managing 300+ servers or 500+ endpoints to demonstrate infrastructure scale."
+},
+{
+"question": "How do I show automation expertise?",
+"answer": "Highlight scripting in PowerShell or Bash and connect it to measurable outcomes such as reducing provisioning time by 80%."
+},
+{
+"question": "Is cloud migration experience important?",
+"answer": "Yes. Mention Azure or AWS migrations and tie them to measurable results such as reducing infrastructure costs by 20%."
+}
+],
+"relatedRoles": ["network-engineer", "cloud-engineer", "devops-engineer", "site-reliability-engineer", "it-support-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global systems administration hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "cloud-architect",
+"jobTitle": "Cloud Architect",
+"jobTitleVariants": ["Senior Cloud Architect", "Enterprise Cloud Architect", "Solutions Architect - Cloud", "AWS Cloud Architect", "Azure Cloud Architect"],
+"industry": "Technology",
+"metaTitle": "Cloud Architect Resume Template | Scalable ROI",
+"metaDescription": "ATS-optimized Cloud Architect resume template with cloud migration impact, cost optimization, and measurable scalability results.",
+"quickAnswer": "A strong Cloud Architect resume must demonstrate measurable impact on cloud scalability, cost optimization, and security architecture. Hiring managers expect deep expertise in AWS, Azure, Google Cloud Platform, Terraform, Kubernetes, Docker, and infrastructure-as-code frameworks. For example: \"Led migration of 120 on-prem applications to AWS using Terraform and Kubernetes, reducing infrastructure costs by 32% and improving deployment speed by 55%.\" Another strong example is \"Designed multi-region Azure architecture supporting 99.99% uptime SLA and scaling to 3x peak traffic without performance degradation.\" These bullets clearly connect architecture decisions to reliability and financial outcomes.\n\nYour resume should also highlight governance and automation strategy. For instance: \"Implemented CI/CD pipelines with GitHub Actions and Docker, reducing production release time from 10 days to 2 days and decreasing rollback incidents by 40%.\" Mention cloud security controls and quantify outcomes such as reducing critical misconfigurations by 60% after deploying AWS Config and IAM policy restructuring. A compelling cloud architect resume connects multi-cloud expertise, automation, cost efficiency, security posture, and measurable business scalability.",
+"topSkills": ["AWS", "Microsoft Azure", "Google Cloud Platform", "Terraform", "Kubernetes", "Docker", "CI/CD Pipelines", "Infrastructure as Code", "Cloud Security Architecture", "IAM Policies", "Serverless Architecture", "Microservices Design", "Cost Optimization", "High Availability Design", "DevOps Integration"],
+"resumeTips": [
+{
+"title": "Quantify Cloud Migration Impact",
+"description": "Include measurable cost and performance improvements. For example, \"Reduced infrastructure costs by 30% after migrating workloads to AWS using Terraform.\" Financial and operational metrics are essential."
+},
+{
+"title": "Highlight Scalability Achievements",
+"description": "Recruiters value high-availability design. Example: \"Architected system handling 3x traffic growth while maintaining 99.99% uptime in Azure.\" Scalability metrics matter."
+},
+{
+"title": "Show Automation and CI/CD Gains",
+"description": "Mention deployment improvements. For instance, \"Reduced deployment cycle from 12 days to 3 days by implementing CI/CD pipelines with Docker.\" Speed demonstrates DevOps maturity."
+},
+{
+"title": "Demonstrate Security Improvements",
+"description": "Include measurable hardening outcomes. Example: \"Reduced critical cloud misconfigurations by 55% using AWS Config and IAM governance controls.\" Security metrics elevate profile."
+},
+{
+"title": "Quantify Infrastructure Scope",
+"description": "Show size of environment managed. For example, \"Architected infrastructure supporting 500+ microservices across multi-region AWS environment.\" Scope signals seniority."
+},
+{
+"title": "Structure Resume Around Architecture Outcomes",
+"description": "Keep most cloud architect resumes to 1–2 pages. Start with core platforms such as AWS or Azure. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% cost reduction."
+}
+],
+"commonResponsibilities": [
+"Design and implement scalable cloud architectures",
+"Lead cloud migration and modernization initiatives",
+"Establish governance, security, and compliance controls",
+"Optimize cloud cost and resource utilization",
+"Implement CI/CD and infrastructure automation",
+"Collaborate with engineering and DevOps teams"
+],
+"averageSalary": "$140,000 - $180,000",
+"salaryRange": "$110,000 - $260,000",
+"salaryGrowth": "Up 8–12% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Amazon Web Services", "Microsoft", "Google", "IBM", "Oracle", "Accenture", "Deloitte", "Salesforce"],
+"faqs": [
+{
+"question": "How long should a Cloud Architect resume be?",
+"answer": "Most cloud architects use 1–2 pages depending on project scope. Focus on measurable scalability, cost optimization, and uptime outcomes."
+},
+{
+"question": "Should I include cloud platforms certified in?",
+"answer": "Yes. Mention AWS, Azure, or GCP certifications and connect them to measurable architecture results such as reducing costs by 30%."
+},
+{
+"question": "How do I show architecture impact?",
+"answer": "Highlight outcomes such as achieving 99.99% uptime or reducing deployment time by 70% through CI/CD implementation."
+},
+{
+"question": "Is multi-cloud experience important?",
+"answer": "Yes. Mention designing hybrid or multi-cloud environments and tie them to measurable improvements such as 3x scalability capacity."
+}
+],
+"relatedRoles": ["devops-engineer", "site-reliability-engineer", "cloud-engineer", "software-architect", "information-security-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global cloud architecture hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "it-support-specialist",
+"jobTitle": "IT Support Specialist",
+"jobTitleVariants": ["Technical Support Specialist", "IT Support Technician", "Help Desk Specialist", "IT Service Desk Analyst", "Desktop Support Specialist"],
+"industry": "Technology",
+"metaTitle": "IT Support Specialist Resume Template | SLA",
+"metaDescription": "ATS-optimized IT Support Specialist resume template with SLA compliance, ticket resolution metrics, and measurable user satisfaction improvements.",
+"quickAnswer": "A strong IT Support Specialist resume must demonstrate measurable improvements in ticket resolution speed, SLA compliance, and end-user satisfaction. Hiring managers expect proficiency with ServiceNow, Jira Service Management, Zendesk, Active Directory, Windows, macOS, and remote support tools such as TeamViewer. For example: \"Resolved 1,200+ support tickets per quarter in ServiceNow, reducing average resolution time from 48 hours to 18 hours and improving SLA compliance to 98%.\" Another strong example is \"Automated user account provisioning in Active Directory, reducing onboarding setup time from 2 hours to 20 minutes and saving 15 hours per month.\" These bullets clearly connect support work to operational efficiency.\n\nYour resume should also highlight user satisfaction and system reliability. For instance: \"Maintained 95%+ customer satisfaction score across 3 consecutive quarters while supporting 600+ end users.\" Mention hardware lifecycle management and quantify outcomes such as reducing device downtime by 37% after implementing preventive maintenance schedules in Jira. A compelling IT support specialist resume connects technical troubleshooting, ticketing system expertise, automation, and measurable service performance improvements.",
+"topSkills": ["ServiceNow", "Jira Service Management", "Zendesk", "Active Directory", "Windows", "macOS", "TeamViewer", "Remote Troubleshooting", "Ticket Resolution", "SLA Management", "User Provisioning", "Hardware Support", "Software Installation", "Network Troubleshooting", "Customer Service"],
+"resumeTips": [
+{
+"title": "Quantify Ticket Resolution Volume",
+"description": "Include number of tickets handled and resolution improvements. For example, \"Resolved 1,500 tickets per quarter with 97% SLA compliance in ServiceNow.\" Volume and compliance metrics matter."
+},
+{
+"title": "Highlight Resolution Time Reduction",
+"description": "Recruiters value efficiency gains. Example: \"Reduced average resolution time from 36 hours to 12 hours using Jira workflow automation.\" Time savings strengthen profile."
+},
+{
+"title": "Show User Satisfaction Metrics",
+"description": "Mention measurable CSAT improvements. For instance, \"Maintained 96% customer satisfaction score while supporting 500+ users.\" Satisfaction metrics stand out."
+},
+{
+"title": "Demonstrate Automation Impact",
+"description": "Include time savings from scripting or system changes. Example: \"Reduced onboarding setup time by 75% using Active Directory automation.\" Automation adds value."
+},
+{
+"title": "Quantify Device or User Coverage",
+"description": "Show scale of environment supported. For example, \"Provided IT support for 700+ employees across 4 office locations.\" Scope signals capability."
+},
+{
+"title": "Structure Resume Around SLA and Service Impact",
+"description": "Keep most IT support specialist resumes to 1 page. Start with ticketing systems such as ServiceNow or Jira. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% reduction in resolution time."
+}
+],
+"commonResponsibilities": [
+"Resolve technical support tickets and user issues",
+"Administer Active Directory and user accounts",
+"Install and configure hardware and software",
+"Ensure SLA compliance and ticket tracking",
+"Provide remote troubleshooting and support",
+"Maintain IT documentation and asset records"
+],
+"averageSalary": "$55,000 - $75,000",
+"salaryRange": "$45,000 - $110,000",
+"salaryGrowth": "Up 4–7% from 2024",
+"jobGrowth": "Steady demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Microsoft", "Amazon", "Google", "IBM", "Accenture", "Dell Technologies", "HP Enterprise", "Oracle"],
+"faqs": [
+{
+"question": "How long should an IT Support Specialist resume be?",
+"answer": "Most IT support specialists should keep their resume to 1 page. Focus on ticket resolution metrics, SLA compliance, and user satisfaction outcomes."
+},
+{
+"question": "Should I include number of users supported?",
+"answer": "Yes. Mention supporting 500+ or 1,000+ end users to demonstrate scale."
+},
+{
+"question": "How do I show service performance impact?",
+"answer": "Highlight measurable results such as reducing resolution time by 24 hours or achieving 98% SLA compliance."
+},
+{
+"question": "Is ticketing system experience important?",
+"answer": "Yes. Mention ServiceNow, Jira, or Zendesk and connect them to measurable improvements such as 40% faster resolution times."
+}
+],
+"relatedRoles": ["systems-administrator", "network-engineer", "it-support-engineer", "desktop-support-technician", "cloud-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global IT support hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "cloud-architect",
+"jobTitle": "Cloud Architect",
+"jobTitleVariants": ["Senior Cloud Architect", "Enterprise Cloud Architect", "Solutions Architect - Cloud", "AWS Cloud Architect", "Azure Cloud Architect"],
+"industry": "Technology",
+"metaTitle": "Cloud Architect Resume Template | Scalable ROI",
+"metaDescription": "ATS-optimized Cloud Architect resume template with cloud migration impact, cost optimization, and measurable scalability results.",
+"quickAnswer": "A strong Cloud Architect resume must demonstrate measurable impact on cloud scalability, cost optimization, and security architecture. Hiring managers expect deep expertise in AWS, Azure, Google Cloud Platform, Terraform, Kubernetes, Docker, and infrastructure-as-code frameworks. For example: \"Led migration of 120 on-prem applications to AWS using Terraform and Kubernetes, reducing infrastructure costs by 32% and improving deployment speed by 55%.\" Another strong example is \"Designed multi-region Azure architecture supporting 99.99% uptime SLA and scaling to 3x peak traffic without performance degradation.\" These bullets clearly connect architecture decisions to reliability and financial outcomes.\n\nYour resume should also highlight governance and automation strategy. For instance: \"Implemented CI/CD pipelines with GitHub Actions and Docker, reducing production release time from 10 days to 2 days and decreasing rollback incidents by 40%.\" Mention cloud security controls and quantify outcomes such as reducing critical misconfigurations by 60% after deploying AWS Config and IAM policy restructuring. A compelling cloud architect resume connects multi-cloud expertise, automation, cost efficiency, security posture, and measurable business scalability.",
+"topSkills": ["AWS", "Microsoft Azure", "Google Cloud Platform", "Terraform", "Kubernetes", "Docker", "CI/CD Pipelines", "Infrastructure as Code", "Cloud Security Architecture", "IAM Policies", "Serverless Architecture", "Microservices Design", "Cost Optimization", "High Availability Design", "DevOps Integration"],
+"resumeTips": [
+{
+"title": "Quantify Cloud Migration Impact",
+"description": "Include measurable cost and performance improvements. For example, \"Reduced infrastructure costs by 30% after migrating workloads to AWS using Terraform.\" Financial and operational metrics are essential."
+},
+{
+"title": "Highlight Scalability Achievements",
+"description": "Recruiters value high-availability design. Example: \"Architected system handling 3x traffic growth while maintaining 99.99% uptime in Azure.\" Scalability metrics matter."
+},
+{
+"title": "Show Automation and CI/CD Gains",
+"description": "Mention deployment improvements. For instance, \"Reduced deployment cycle from 12 days to 3 days by implementing CI/CD pipelines with Docker.\" Speed demonstrates DevOps maturity."
+},
+{
+"title": "Demonstrate Security Improvements",
+"description": "Include measurable hardening outcomes. Example: \"Reduced critical cloud misconfigurations by 55% using AWS Config and IAM governance controls.\" Security metrics elevate profile."
+},
+{
+"title": "Quantify Infrastructure Scope",
+"description": "Show size of environment managed. For example, \"Architected infrastructure supporting 500+ microservices across multi-region AWS environment.\" Scope signals seniority."
+},
+{
+"title": "Structure Resume Around Architecture Outcomes",
+"description": "Keep most cloud architect resumes to 1–2 pages. Start with core platforms such as AWS or Azure. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% cost reduction."
+}
+],
+"commonResponsibilities": [
+"Design and implement scalable cloud architectures",
+"Lead cloud migration and modernization initiatives",
+"Establish governance, security, and compliance controls",
+"Optimize cloud cost and resource utilization",
+"Implement CI/CD and infrastructure automation",
+"Collaborate with engineering and DevOps teams"
+],
+"averageSalary": "$140,000 - $180,000",
+"salaryRange": "$110,000 - $260,000",
+"salaryGrowth": "Up 8–12% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Amazon Web Services", "Microsoft", "Google", "IBM", "Oracle", "Accenture", "Deloitte", "Salesforce"],
+"faqs": [
+{
+"question": "How long should a Cloud Architect resume be?",
+"answer": "Most cloud architects use 1–2 pages depending on project scope. Focus on measurable scalability, cost optimization, and uptime outcomes."
+},
+{
+"question": "Should I include cloud platforms certified in?",
+"answer": "Yes. Mention AWS, Azure, or GCP certifications and connect them to measurable architecture results such as reducing costs by 30%."
+},
+{
+"question": "How do I show architecture impact?",
+"answer": "Highlight outcomes such as achieving 99.99% uptime or reducing deployment time by 70% through CI/CD implementation."
+},
+{
+"question": "Is multi-cloud experience important?",
+"answer": "Yes. Mention designing hybrid or multi-cloud environments and tie them to measurable improvements such as 3x scalability capacity."
+}
+],
+"relatedRoles": ["devops-engineer", "site-reliability-engineer", "cloud-engineer", "software-architect", "information-security-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global cloud architecture hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "it-support-specialist",
+"jobTitle": "IT Support Specialist",
+"jobTitleVariants": ["Technical Support Specialist", "IT Support Technician", "Help Desk Specialist", "IT Service Desk Analyst", "Desktop Support Specialist"],
+"industry": "Technology",
+"metaTitle": "IT Support Specialist Resume Template | SLA",
+"metaDescription": "ATS-optimized IT Support Specialist resume template with SLA compliance, ticket resolution metrics, and measurable user satisfaction improvements.",
+"quickAnswer": "A strong IT Support Specialist resume must demonstrate measurable improvements in ticket resolution speed, SLA compliance, and end-user satisfaction. Hiring managers expect proficiency with ServiceNow, Jira Service Management, Zendesk, Active Directory, Windows, macOS, and remote support tools such as TeamViewer. For example: \"Resolved 1,200+ support tickets per quarter in ServiceNow, reducing average resolution time from 48 hours to 18 hours and improving SLA compliance to 98%.\" Another strong example is \"Automated user account provisioning in Active Directory, reducing onboarding setup time from 2 hours to 20 minutes and saving 15 hours per month.\" These bullets clearly connect support work to operational efficiency.\n\nYour resume should also highlight user satisfaction and system reliability. For instance: \"Maintained 95%+ customer satisfaction score across 3 consecutive quarters while supporting 600+ end users.\" Mention hardware lifecycle management and quantify outcomes such as reducing device downtime by 37% after implementing preventive maintenance schedules in Jira. A compelling IT support specialist resume connects technical troubleshooting, ticketing system expertise, automation, and measurable service performance improvements.",
+"topSkills": ["ServiceNow", "Jira Service Management", "Zendesk", "Active Directory", "Windows", "macOS", "TeamViewer", "Remote Troubleshooting", "Ticket Resolution", "SLA Management", "User Provisioning", "Hardware Support", "Software Installation", "Network Troubleshooting", "Customer Service"],
+"resumeTips": [
+{
+"title": "Quantify Ticket Resolution Volume",
+"description": "Include number of tickets handled and resolution improvements. For example, \"Resolved 1,500 tickets per quarter with 97% SLA compliance in ServiceNow.\" Volume and compliance metrics matter."
+},
+{
+"title": "Highlight Resolution Time Reduction",
+"description": "Recruiters value efficiency gains. Example: \"Reduced average resolution time from 36 hours to 12 hours using Jira workflow automation.\" Time savings strengthen profile."
+},
+{
+"title": "Show User Satisfaction Metrics",
+"description": "Mention measurable CSAT improvements. For instance, \"Maintained 96% customer satisfaction score while supporting 500+ users.\" Satisfaction metrics stand out."
+},
+{
+"title": "Demonstrate Automation Impact",
+"description": "Include time savings from scripting or system changes. Example: \"Reduced onboarding setup time by 75% using Active Directory automation.\" Automation adds value."
+},
+{
+"title": "Quantify Device or User Coverage",
+"description": "Show scale of environment supported. For example, \"Provided IT support for 700+ employees across 4 office locations.\" Scope signals capability."
+},
+{
+"title": "Structure Resume Around SLA and Service Impact",
+"description": "Keep most IT support specialist resumes to 1 page. Start with ticketing systems such as ServiceNow or Jira. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% reduction in resolution time."
+}
+],
+"commonResponsibilities": [
+"Resolve technical support tickets and user issues",
+"Administer Active Directory and user accounts",
+"Install and configure hardware and software",
+"Ensure SLA compliance and ticket tracking",
+"Provide remote troubleshooting and support",
+"Maintain IT documentation and asset records"
+],
+"averageSalary": "$55,000 - $75,000",
+"salaryRange": "$45,000 - $110,000",
+"salaryGrowth": "Up 4–7% from 2024",
+"jobGrowth": "Steady demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Microsoft", "Amazon", "Google", "IBM", "Accenture", "Dell Technologies", "HP Enterprise", "Oracle"],
+"faqs": [
+{
+"question": "How long should an IT Support Specialist resume be?",
+"answer": "Most IT support specialists should keep their resume to 1 page. Focus on ticket resolution metrics, SLA compliance, and user satisfaction outcomes."
+},
+{
+"question": "Should I include number of users supported?",
+"answer": "Yes. Mention supporting 500+ or 1,000+ end users to demonstrate scale."
+},
+{
+"question": "How do I show service performance impact?",
+"answer": "Highlight measurable results such as reducing resolution time by 24 hours or achieving 98% SLA compliance."
+},
+{
+"question": "Is ticketing system experience important?",
+"answer": "Yes. Mention ServiceNow, Jira, or Zendesk and connect them to measurable improvements such as 40% faster resolution times."
+}
+],
+"relatedRoles": ["systems-administrator", "network-engineer", "it-support-engineer", "desktop-support-technician", "cloud-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global IT support hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "help-desk-analyst",
+"jobTitle": "Help Desk Analyst",
+"jobTitleVariants": ["Service Desk Analyst", "IT Help Desk Technician", "Technical Support Analyst", "IT Service Desk Specialist", "Desktop Support Analyst"],
+"industry": "Technology",
+"metaTitle": "Help Desk Analyst Resume Template | SLA & CSAT",
+"metaDescription": "ATS-optimized Help Desk Analyst resume template with ticket resolution metrics, SLA compliance, and measurable user satisfaction impact.",
+"quickAnswer": "A strong Help Desk Analyst resume must demonstrate measurable improvements in ticket resolution speed, SLA compliance, and user satisfaction. Hiring managers expect hands-on experience with ServiceNow, Jira Service Management, Zendesk, Active Directory, Windows, macOS, and remote tools such as TeamViewer. For example: \"Resolved 1,400+ support tickets per quarter in ServiceNow, reducing average resolution time from 42 hours to 16 hours and increasing SLA compliance from 89% to 98%.\" Another strong example is \"Automated password reset and user provisioning workflows in Active Directory, reducing onboarding setup time from 90 minutes to 15 minutes and saving 18 hours per month.\" These bullets clearly connect support work to operational efficiency.\n\nYour resume should also highlight customer satisfaction and system reliability. For instance: \"Maintained 96% CSAT score across 4 consecutive quarters while supporting 800+ end users across 3 offices.\" Mention incident trend analysis and quantify outcomes such as reducing recurring hardware-related tickets by 33% after implementing preventive maintenance tracking in Jira. A compelling help desk analyst resume connects ticketing system expertise, troubleshooting speed, automation, and measurable service performance outcomes.",
+"topSkills": ["ServiceNow", "Jira Service Management", "Zendesk", "Active Directory", "Windows", "macOS", "TeamViewer", "Ticket Resolution", "SLA Management", "Remote Troubleshooting", "User Provisioning", "Hardware Support", "Software Installation", "Network Troubleshooting", "Customer Service"],
+"resumeTips": [
+{
+"title": "Quantify Ticket Volume and SLA Compliance",
+"description": "Include measurable ticket metrics. For example, \"Resolved 1,200 tickets per quarter with 97% SLA compliance in ServiceNow.\" Volume and compliance show operational capacity."
+},
+{
+"title": "Highlight Resolution Time Reduction",
+"description": "Recruiters value efficiency gains. Example: \"Reduced average ticket resolution time from 36 hours to 14 hours using Jira workflow automation.\" Time savings stand out."
+},
+{
+"title": "Show Customer Satisfaction Metrics",
+"description": "Mention measurable CSAT performance. For instance, \"Maintained 95%+ satisfaction rating while supporting 600+ employees.\" Service quality matters."
+},
+{
+"title": "Demonstrate Automation Improvements",
+"description": "Include measurable automation impact. Example: \"Reduced account setup time by 80% using Active Directory scripting.\" Automation elevates profile."
+},
+{
+"title": "Quantify Environment Scale",
+"description": "Show infrastructure coverage. For example, \"Provided help desk support for 900+ users across hybrid Windows and macOS environments.\" Scope signals experience."
+},
+{
+"title": "Structure Resume Around Service Impact",
+"description": "Keep most help desk analyst resumes to 1 page. Start with ticketing systems such as ServiceNow or Zendesk. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% faster resolution time."
+}
+],
+"commonResponsibilities": [
+"Resolve technical support tickets and user issues",
+"Administer Active Directory and account access",
+"Troubleshoot hardware and software problems",
+"Ensure SLA compliance and ticket documentation",
+"Provide remote and on-site technical support",
+"Track recurring issues and recommend preventive actions"
+],
+"averageSalary": "$55,000 - $75,000",
+"salaryRange": "$45,000 - $105,000",
+"salaryGrowth": "Up 4–7% from 2024",
+"jobGrowth": "Steady demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Microsoft", "Amazon", "Google", "IBM", "Accenture", "Dell Technologies", "HP Enterprise", "Oracle"],
+"faqs": [
+{
+"question": "How long should a Help Desk Analyst resume be?",
+"answer": "Most help desk analysts should keep their resume to 1 page. Focus on ticket resolution metrics, SLA compliance, and user satisfaction outcomes."
+},
+{
+"question": "Should I include number of users supported?",
+"answer": "Yes. Mention supporting 500+ or 1,000+ users to demonstrate environment scale and workload capacity."
+},
+{
+"question": "How do I show service performance impact?",
+"answer": "Highlight measurable results such as reducing resolution time by 20+ hours or increasing SLA compliance by 10 percentage points."
+},
+{
+"question": "Is ticketing system expertise essential?",
+"answer": "Yes. Mention tools like ServiceNow, Jira, or Zendesk and connect them to measurable improvements such as 40% faster resolution."
+}
+],
+"relatedRoles": ["it-support-specialist", "systems-administrator", "desktop-support-technician", "network-engineer", "it-support-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global IT service desk hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "solutions-architect",
+"jobTitle": "Solutions Architect",
+"jobTitleVariants": ["Technical Solutions Architect", "Enterprise Solutions Architect", "Pre-Sales Solutions Architect", "Cloud Solutions Architect", "Systems Solutions Architect"],
+"industry": "Technology",
+"metaTitle": "Solutions Architect Resume Template | Scalable Design",
+"metaDescription": "ATS-optimized Solutions Architect resume template with architecture design, cloud integration, and measurable client impact examples.",
+"quickAnswer": "A strong Solutions Architect resume must demonstrate measurable impact on system scalability, client adoption, and architecture reliability. Hiring managers expect expertise in AWS, Azure, Google Cloud Platform, Kubernetes, Docker, Terraform, API integrations, and solution design frameworks. For example: \"Designed AWS-based microservices architecture for enterprise client supporting 2M monthly users, reducing infrastructure costs by 28% and improving deployment frequency by 60%.\" Another strong example is \"Led technical pre-sales engagements for 15 enterprise accounts, contributing to $12M in new ARR by delivering scalable architecture blueprints and proof-of-concept deployments.\" These bullets clearly connect architecture strategy to financial and performance outcomes.\n\nYour resume should also highlight integration and modernization initiatives. For instance: \"Integrated 8 legacy systems using RESTful APIs and Azure services, reducing data synchronization errors by 46% and improving system response time by 38%.\" Mention DevOps enablement and quantify outcomes such as reducing production incidents by 35% after implementing CI/CD automation with Terraform and Docker. A compelling solutions architect resume connects client-facing strategy, cloud engineering depth, automation, and measurable scalability and revenue impact.",
+"topSkills": ["AWS", "Microsoft Azure", "Google Cloud Platform", "Kubernetes", "Docker", "Terraform", "API Integration", "Microservices Architecture", "CI/CD Pipelines", "Solution Design", "Cloud Migration", "Pre-Sales Engineering", "High Availability Design", "DevOps Practices", "Enterprise Integration"],
+"resumeTips": [
+{
+"title": "Quantify Scalability Achievements",
+"description": "Include measurable performance metrics. For example, \"Architected platform supporting 3x user growth while maintaining 99.99% uptime in AWS.\" Scalability outcomes are critical."
+},
+{
+"title": "Highlight Revenue Contribution",
+"description": "Recruiters value business impact. Example: \"Supported $10M+ ARR growth through technical solution design and pre-sales architecture.\" Revenue metrics elevate profile."
+},
+{
+"title": "Show Cost Optimization Results",
+"description": "Mention financial savings. For instance, \"Reduced cloud infrastructure costs by 30% using Terraform-based resource optimization.\" Cost impact matters."
+},
+{
+"title": "Demonstrate Integration Impact",
+"description": "Include measurable improvements. Example: \"Reduced system integration errors by 45% after implementing REST API framework in Azure.\" Integration metrics stand out."
+},
+{
+"title": "Quantify Client or User Scale",
+"description": "Show breadth of solution reach. For example, \"Delivered architecture supporting 1.5M monthly active users across global regions.\" Scale signals enterprise experience."
+},
+{
+"title": "Structure Resume Around Architecture and Business Outcomes",
+"description": "Keep most solutions architect resumes to 1–2 pages. Start with core platforms such as AWS or Azure. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% improvement in deployment speed."
+}
+],
+"commonResponsibilities": [
+"Design scalable and secure solution architectures",
+"Lead cloud migration and integration projects",
+"Collaborate with sales and engineering teams",
+"Develop proof-of-concept and technical proposals",
+"Optimize system performance and cost efficiency",
+"Ensure high availability and security compliance"
+],
+"averageSalary": "$130,000 - $170,000",
+"salaryRange": "$100,000 - $240,000",
+"salaryGrowth": "Up 7–11% from 2024",
+"jobGrowth": "Strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Amazon Web Services", "Microsoft", "Google", "Salesforce", "Oracle", "IBM", "Accenture", "Cisco"],
+"faqs": [
+{
+"question": "How long should a Solutions Architect resume be?",
+"answer": "Most solutions architects use 1–2 pages depending on project complexity and client portfolio. Focus on measurable scalability, revenue impact, and cost optimization outcomes."
+},
+{
+"question": "Should I include pre-sales experience?",
+"answer": "Yes. Mention supporting multimillion-dollar ARR growth or leading proof-of-concept deployments to demonstrate business contribution."
+},
+{
+"question": "How do I show architecture impact?",
+"answer": "Highlight measurable outcomes such as reducing cloud costs by 30% or improving deployment frequency by 60%."
+},
+{
+"question": "Is multi-cloud expertise important?",
+"answer": "Yes. Mention AWS, Azure, or GCP experience and tie them to measurable scalability and reliability metrics."
+}
+],
+"relatedRoles": ["cloud-architect", "software-architect", "devops-engineer", "enterprise-architect", "technical-product-manager"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global solutions architecture hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "technical-support-engineer",
+"jobTitle": "Technical Support Engineer",
+"jobTitleVariants": ["Application Support Engineer", "Product Support Engineer", "Customer Support Engineer", "Technical Solutions Support Engineer", "Software Support Engineer"],
+"industry": "Technology",
+"metaTitle": "Technical Support Engineer Resume Template | SLA",
+"metaDescription": "ATS-optimized Technical Support Engineer resume template with SLA compliance, root cause analysis, and measurable incident resolution impact.",
+"quickAnswer": "A strong Technical Support Engineer resume must demonstrate measurable impact on incident resolution speed, SLA compliance, and product reliability. Hiring managers expect proficiency with tools such as Jira Service Management, ServiceNow, Zendesk, SQL, Linux, Postman, and monitoring platforms like Datadog or New Relic. For example: \"Resolved 900+ Tier 2 and Tier 3 technical incidents per quarter in Jira, reducing average resolution time from 36 hours to 11 hours and improving SLA compliance from 88% to 97%.\" Another strong example is \"Performed root cause analysis using SQL queries and Linux log inspection, reducing recurring production incidents by 42% over 6 months.\" These bullets clearly connect troubleshooting expertise to measurable reliability improvements.\n\nYour resume should also highlight collaboration with engineering teams and automation initiatives. For instance: \"Built diagnostic scripts in Bash to automate log collection, reducing troubleshooting time by 55% and saving 22 hours per month.\" Mention customer impact metrics and quantify outcomes such as increasing CSAT score from 4.1 to 4.7 out of 5 after improving escalation workflows in Zendesk. A compelling technical support engineer resume connects debugging depth, cross-functional communication, automation, and measurable service performance improvements.",
+"topSkills": ["Jira Service Management", "ServiceNow", "Zendesk", "SQL", "Linux", "Postman", "Datadog", "New Relic", "Root Cause Analysis", "API Troubleshooting", "Log Analysis", "SLA Management", "Customer Communication", "Bash Scripting", "Incident Management"],
+"resumeTips": [
+{
+"title": "Quantify Incident Resolution Improvements",
+"description": "Include measurable SLA gains. For example, \"Reduced average incident resolution time from 30 hours to 10 hours using Jira workflows.\" Speed and compliance are critical."
+},
+{
+"title": "Highlight Root Cause Analysis Impact",
+"description": "Recruiters value recurring issue reduction. Example: \"Reduced repeat incidents by 40% after performing SQL-based log analysis and deploying fixes.\" Root cause metrics strengthen profile."
+},
+{
+"title": "Show Automation Time Savings",
+"description": "Mention scripting impact. For instance, \"Reduced troubleshooting effort by 50% using Bash scripts to automate log extraction.\" Automation adds measurable value."
+},
+{
+"title": "Demonstrate Customer Satisfaction Gains",
+"description": "Include CSAT improvements. Example: \"Improved customer satisfaction score from 4.0 to 4.8 after optimizing Zendesk escalation processes.\" Service quality matters."
+},
+{
+"title": "Quantify Environment Scale",
+"description": "Show system coverage. For example, \"Supported SaaS platform serving 50,000+ monthly active users.\" Scale signals operational exposure."
+},
+{
+"title": "Structure Resume Around Reliability and SLA Metrics",
+"description": "Keep most technical support engineer resumes to 1 page. Start with ticketing and monitoring tools such as Jira or Datadog. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% reduction in resolution time."
+}
+],
+"commonResponsibilities": [
+"Resolve Tier 2 and Tier 3 technical support incidents",
+"Perform root cause analysis and log troubleshooting",
+"Collaborate with engineering teams on bug fixes",
+"Monitor system alerts and performance metrics",
+"Maintain SLA compliance and ticket documentation",
+"Automate diagnostic and support workflows"
+],
+"averageSalary": "$80,000 - $110,000",
+"salaryRange": "$60,000 - $160,000",
+"salaryGrowth": "Up 6–10% from 2024",
+"jobGrowth": "Strong demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Microsoft", "Amazon", "Google", "Salesforce", "Oracle", "Atlassian", "IBM", "ServiceNow"],
+"faqs": [
+{
+"question": "How long should a Technical Support Engineer resume be?",
+"answer": "Most technical support engineers should keep their resume to 1 page. If supporting complex enterprise platforms, a concise 2-page resume may be appropriate. Focus on measurable SLA and incident resolution metrics."
+},
+{
+"question": "Should I include ticket volume handled?",
+"answer": "Yes. Mention resolving 800+ or 1,000+ tickets per quarter to demonstrate workload and operational capacity."
+},
+{
+"question": "How do I show troubleshooting expertise?",
+"answer": "Highlight measurable reductions in recurring incidents or resolution time after performing SQL queries, log analysis, or automation scripting."
+},
+{
+"question": "Is monitoring tool experience important?",
+"answer": "Yes. Mention tools like Datadog or New Relic and connect them to measurable improvements such as reducing outage detection time by hours."
+}
+],
+"relatedRoles": ["help-desk-analyst", "it-support-specialist", "systems-administrator", "site-reliability-engineer", "devops-engineer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global technical support hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+},
+{
+"slug": "database-administrator",
+"jobTitle": "Database Administrator",
+"jobTitleVariants": ["DBA", "Senior Database Administrator", "SQL Database Administrator", "Oracle Database Administrator", "Database Operations Engineer"],
+"industry": "Technology",
+"metaTitle": "Database Administrator Resume Template | Uptime",
+"metaDescription": "ATS-optimized Database Administrator resume template with performance tuning, uptime metrics, and measurable data reliability improvements.",
+"quickAnswer": "A strong Database Administrator resume must demonstrate measurable improvements in database performance, uptime, and data security. Hiring managers expect expertise in MySQL, PostgreSQL, Microsoft SQL Server, Oracle, MongoDB, AWS RDS, and monitoring tools such as Nagios or Datadog. For example: \"Optimized SQL Server indexes and queries for 3TB transactional database, reducing query latency by 58% and improving system throughput by 35%.\" Another strong example is \"Managed 120+ production databases on AWS RDS, increasing uptime from 99.5% to 99.99% and reducing backup recovery time from 4 hours to 45 minutes.\" These bullets clearly connect database tuning to measurable reliability gains.\n\nYour resume should also highlight automation and security improvements. For instance: \"Implemented automated backup and failover strategy using PostgreSQL replication, reducing potential data loss exposure by 70%.\" Mention capacity planning and quantify outcomes such as reducing storage costs by 25% after migrating legacy workloads to optimized cloud instances in AWS. A compelling database administrator resume connects performance tuning expertise, cloud database management, automation, and measurable availability and cost improvements.",
+"topSkills": ["MySQL", "PostgreSQL", "Microsoft SQL Server", "Oracle", "MongoDB", "AWS RDS", "Database Performance Tuning", "Query Optimization", "Backup and Recovery", "Replication", "Database Security", "High Availability", "Capacity Planning", "Monitoring Tools", "SQL Scripting"],
+"resumeTips": [
+{
+"title": "Quantify Query Performance Improvements",
+"description": "Include measurable latency reductions. For example, \"Reduced average query response time by 50% after index optimization in SQL Server.\" Performance metrics are central to DBA roles."
+},
+{
+"title": "Highlight Uptime Improvements",
+"description": "Recruiters value reliability. Example: \"Improved database uptime from 99.4% to 99.99% using replication and failover configurations.\" Availability matters."
+},
+{
+"title": "Show Backup and Recovery Gains",
+"description": "Mention recovery time improvements. For instance, \"Reduced backup restoration time from 5 hours to 1 hour using automated scripts.\" Recovery metrics strengthen profile."
+},
+{
+"title": "Demonstrate Storage Cost Optimization",
+"description": "Include financial impact. Example: \"Reduced database storage costs by 28% after migrating workloads to AWS RDS optimized instances.\" Cost savings elevate profile."
+},
+{
+"title": "Quantify Database Scale Managed",
+"description": "Show scope of responsibility. For example, \"Administered 150+ production databases totaling 5TB of data.\" Scale signals experience level."
+},
+{
+"title": "Structure Resume Around Reliability and Performance Metrics",
+"description": "Keep most database administrator resumes to 1–2 pages. Start with core platforms such as SQL Server or Oracle. Follow with 3–4 measurable achievements per role including at least 1 metric like 40% query performance improvement."
+}
+],
+"commonResponsibilities": [
+"Manage and maintain production databases",
+"Optimize database performance and query execution",
+"Implement backup, recovery, and replication strategies",
+"Ensure high availability and disaster recovery readiness",
+"Monitor database health and security",
+"Collaborate with developers on schema design"
+],
+"averageSalary": "$100,000 - $135,000",
+"salaryRange": "$75,000 - $190,000",
+"salaryGrowth": "Up 6–10% from 2024",
+"jobGrowth": "Strong demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Oracle", "Microsoft", "Amazon", "Google", "IBM", "Salesforce", "Accenture", "Dell Technologies"],
+"faqs": [
+{
+"question": "How long should a Database Administrator resume be?",
+"answer": "Most DBAs use 1–2 pages depending on database complexity and infrastructure scale. Focus on measurable uptime, performance tuning, and recovery improvements."
+},
+{
+"question": "Should I include data volume managed?",
+"answer": "Yes. Mention managing multi-terabyte databases or 100+ production instances to demonstrate scope."
+},
+{
+"question": "How do I show performance optimization impact?",
+"answer": "Highlight measurable reductions in query latency or improvements in throughput after index tuning or configuration changes."
+},
+{
+"question": "Is cloud database experience important?",
+"answer": "Yes. Mention AWS RDS or Azure SQL and connect them to measurable outcomes such as reducing recovery time by hours."
+}
+],
+"relatedRoles": ["data-engineer", "site-reliability-engineer", "systems-administrator", "cloud-engineer", "backend-developer"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global database administration hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 15,
+"exampleMetricsCount": 20,
+"uniquenessScore": 9
+}
+}
+,
+
+{
+"slug": "instructional-designer",
+"jobTitle": "Instructional Designer",
+"jobTitleVariants": ["Learning Experience Designer", "E-Learning Designer", "Curriculum Designer", "Corporate Instructional Designer", "Learning and Development Designer"],
+"industry": "Education",
+"metaTitle": "Instructional Designer Resume Template | L&D ROI",
+"metaDescription": "ATS-optimized Instructional Designer resume template with LMS impact, e-learning metrics, and measurable training effectiveness results.",
+"quickAnswer": "A strong Instructional Designer resume must demonstrate measurable improvements in learner engagement, course completion rates, and training effectiveness. Hiring managers expect proficiency in Articulate 360, Storyline, Adobe Captivate, Camtasia, Canva, SCORM compliance, and LMS platforms such as Moodle or Cornerstone. For example: \"Designed 12 SCORM-compliant e-learning modules in Articulate 360, increasing course completion rate from 64% to 89% and reducing onboarding time by 30%.\" Another strong example is \"Implemented blended learning strategy using Moodle and interactive video content in Camtasia, improving post-training assessment scores from 72% to 91% across 400+ employees.\" These bullets clearly connect instructional strategy to measurable learning outcomes.\n\nYour resume should also highlight performance alignment and analytics. For instance: \"Conducted needs analysis and redesigned sales enablement curriculum, increasing quarterly sales performance by 18% within 2 quarters.\" Mention learning analytics and quantify outcomes such as reducing training costs by $120K annually after consolidating instructor-led sessions into digital modules via Cornerstone LMS. A compelling instructional designer resume connects adult learning theory, LMS expertise, multimedia development, and measurable business performance impact.",
+"topSkills": ["Articulate 360", "Storyline", "Adobe Captivate", "Camtasia", "Canva", "Moodle", "Cornerstone LMS", "SCORM Compliance", "Curriculum Development", "Needs Analysis", "Learning Analytics", "Blended Learning Design", "Assessment Design", "Adult Learning Theory", "Multimedia Development"],
+"resumeTips": [
+{
+"title": "Quantify Learning Outcome Improvements",
+"description": "Include measurable score or completion gains. For example, \"Improved assessment scores from 70% to 90% using Articulate Storyline interactive modules.\" Learning impact is central to the role."
+},
+{
+"title": "Highlight Course Completion Metrics",
+"description": "Recruiters value engagement improvements. Example: \"Increased course completion rate by 25 percentage points after migrating content to Moodle.\" Engagement metrics strengthen credibility."
+},
+{
+"title": "Show Business Performance Alignment",
+"description": "Mention measurable business outcomes. For instance, \"Increased sales productivity by 15% after redesigning enablement training.\" Business impact elevates profile."
+},
+{
+"title": "Demonstrate Cost Efficiency Gains",
+"description": "Include cost reduction metrics. Example: \"Reduced annual training delivery costs by $100K by converting instructor-led training into SCORM modules.\" Financial outcomes matter."
+},
+{
+"title": "Quantify Learner Audience Scale",
+"description": "Show scope of programs delivered. For example, \"Developed e-learning content serving 1,000+ global employees.\" Scale signals experience."
+},
+{
+"title": "Structure Resume Around Learning and ROI Metrics",
+"description": "Keep most instructional designer resumes to 1–2 pages. Start with tools such as Articulate 360 or Adobe Captivate. Follow with 3–4 measurable achievements per role including at least 1 metric like 20% increase in completion rates."
+}
+],
+"commonResponsibilities": [
+"Design and develop e-learning and blended learning programs",
+"Conduct needs analysis and performance gap assessments",
+"Create SCORM-compliant multimedia training modules",
+"Measure and analyze learning effectiveness metrics",
+"Collaborate with subject matter experts",
+"Maintain and update LMS course content"
+],
+"averageSalary": "$75,000 - $105,000",
+"salaryRange": "$60,000 - $150,000",
+"salaryGrowth": "Up 5–8% from 2024",
+"jobGrowth": "Strong demand projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Google", "Amazon", "Microsoft", "Accenture", "Deloitte", "IBM", "LinkedIn", "Pearson"],
+"faqs": [
+{
+"question": "How long should an Instructional Designer resume be?",
+"answer": "Most instructional designers use 1–2 pages depending on portfolio depth. Focus on measurable learning outcomes, LMS expertise, and business impact metrics."
+},
+{
+"question": "Should I include LMS platforms used?",
+"answer": "Yes. Mention Moodle, Cornerstone, or other LMS platforms and connect them to measurable improvements such as 25% increase in course completion."
+},
+{
+"question": "How do I show training effectiveness?",
+"answer": "Highlight assessment score improvements, completion rate gains, or business performance outcomes tied to redesigned programs."
+},
+{
+"question": "Is SCORM experience important?",
+"answer": "Yes. Include SCORM-compliant module development and link it to measurable engagement or cost reduction results."
+}
+],
+"relatedRoles": ["learning-and-development-specialist", "college-lecturer", "school-teacher", "curriculum-developer", "training-manager"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global learning and development hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 14,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+},
+{
+"slug": "nurse",
+"jobTitle": "Registered Nurse",
+"jobTitleVariants": ["Staff Nurse", "Clinical Nurse", "Hospital Nurse", "RN", "Patient Care Nurse"],
+"industry": "Healthcare",
+"metaTitle": "Registered Nurse Resume Template | Patient Care",
+"metaDescription": "ATS-optimized Registered Nurse resume template with patient care outcomes, clinical metrics, and measurable healthcare impact.",
+"quickAnswer": "A strong Registered Nurse resume must demonstrate measurable impact on patient outcomes, clinical efficiency, and care quality. Hiring managers expect proficiency with Electronic Health Record (EHR) systems such as Epic or Cerner, medication administration systems, patient monitoring equipment, and triage protocols. For example: \"Managed care for 20+ patients per shift in high-acuity unit using Epic EHR, reducing medication administration errors by 38% and improving patient discharge time by 22%.\" Another strong example is \"Implemented bedside handoff protocol and electronic documentation workflow in Cerner, increasing patient satisfaction scores from 82% to 94% within 2 quarters.\" These bullets clearly connect clinical practice to measurable healthcare outcomes.\n\nYour resume should also highlight compliance, teamwork, and emergency response. For instance: \"Reduced hospital-acquired infection rate by 31% after enforcing updated infection control procedures and PPE compliance audits.\" Mention patient education and quantify outcomes such as decreasing 30-day readmission rates by 15% after launching discharge counseling sessions for 120 cardiac patients. A compelling nurse resume connects compassionate patient care, EHR expertise, clinical accuracy, and measurable quality-of-care improvements.",
+"topSkills": ["Epic EHR", "Cerner", "Patient Assessment", "Medication Administration", "IV Therapy", "Triage Protocols", "Infection Control", "Patient Education", "Clinical Documentation", "Vital Signs Monitoring", "Emergency Response", "Care Coordination", "Electronic Health Records", "HIPAA Compliance", "Team Collaboration"],
+"resumeTips": [
+{
+"title": "Quantify Patient Outcome Improvements",
+"description": "Include measurable healthcare metrics. For example, \"Reduced medication errors by 35% using barcode medication administration in Epic.\" Patient safety metrics are central."
+},
+{
+"title": "Highlight Patient Load Managed",
+"description": "Recruiters value scope. Example: \"Provided care for 18–22 patients per shift in acute care unit.\" Workload signals capability."
+},
+{
+"title": "Show Quality of Care Metrics",
+"description": "Mention satisfaction or infection rate improvements. For instance, \"Improved patient satisfaction from 80% to 93% after implementing bedside rounding protocol.\" Quality metrics matter."
+},
+{
+"title": "Demonstrate Compliance and Safety",
+"description": "Include regulatory outcomes. Example: \"Maintained 100% HIPAA compliance and achieved 0 safety violations across 2 years.\" Compliance strengthens credibility."
+},
+{
+"title": "Quantify Readmission or Recovery Improvements",
+"description": "Show measurable patient progress. For example, \"Reduced 30-day readmission rate by 12% through structured discharge education.\" Outcome improvements elevate profile."
+},
+{
+"title": "Structure Resume Around Clinical Outcomes",
+"description": "Keep most registered nurse resumes to 1–2 pages. Start with clinical certifications and EHR platforms such as Epic or Cerner. Follow with 3–4 measurable achievements per role including at least 1 metric like 20% reduction in medication errors."
+}
+],
+"commonResponsibilities": [
+"Assess and monitor patient health conditions",
+"Administer medications and IV therapies",
+"Maintain accurate electronic health records",
+"Coordinate care with physicians and specialists",
+"Educate patients and families on treatment plans",
+"Ensure compliance with healthcare regulations"
+],
+"averageSalary": "$75,000 - $100,000",
+"salaryRange": "$60,000 - $140,000",
+"salaryGrowth": "Up 5–9% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Mayo Clinic", "Cleveland Clinic", "Johns Hopkins Hospital", "Kaiser Permanente", "HCA Healthcare", "Mount Sinai Health System", "NHS", "Apollo Hospitals"],
+"faqs": [
+{
+"question": "How long should a Registered Nurse resume be?",
+"answer": "Most registered nurses use 1–2 pages depending on clinical experience and certifications. Focus on measurable patient outcomes and safety metrics."
+},
+{
+"question": "Should I include patient load numbers?",
+"answer": "Yes. Mention managing 15–25 patients per shift to demonstrate workload capacity and clinical exposure."
+},
+{
+"question": "How do I show quality improvement impact?",
+"answer": "Highlight measurable reductions in infection rates, medication errors, or readmission rates."
+},
+{
+"question": "Is EHR proficiency important?",
+"answer": "Yes. Mention systems like Epic or Cerner and connect them to measurable improvements such as reducing documentation errors."
+}
+],
+"relatedRoles": ["nurse-practitioner", "clinical-nurse-specialist", "physician-assistant", "medical-assistant", "healthcare-administrator"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global healthcare hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 13,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+}
+,
+
+{
+"slug": "medical-assistant",
+"jobTitle": "Medical Assistant",
+"jobTitleVariants": ["Clinical Medical Assistant", "Certified Medical Assistant (CMA)", "Outpatient Medical Assistant", "Physician Office Assistant", "Healthcare Medical Assistant"],
+"industry": "Healthcare",
+"metaTitle": "Medical Assistant Resume Template | Patient Care",
+"metaDescription": "ATS-optimized Medical Assistant resume template with patient care metrics, clinical support impact, and measurable healthcare efficiency results.",
+"quickAnswer": "A strong Medical Assistant resume must demonstrate measurable impact on patient flow efficiency, clinical accuracy, and administrative support. Hiring managers expect proficiency with Electronic Health Record (EHR) systems such as Epic or Cerner, medical terminology, vital signs monitoring, phlebotomy, and appointment scheduling systems. For example: \"Assisted with care for 30+ patients per day using Epic EHR, reducing patient wait times from 25 minutes to 12 minutes and improving clinic throughput by 28%.\" Another strong example is \"Performed 15+ daily blood draws and administered vaccines with 0 documentation errors over 12 months.\" These bullets clearly connect clinical assistance to measurable operational outcomes.\n\nYour resume should also highlight administrative efficiency and patient satisfaction. For instance: \"Managed front-desk scheduling for 4 physicians using Cerner, reducing no-show rate from 18% to 9% through automated reminder calls.\" Mention compliance and quantify outcomes such as maintaining 100% HIPAA compliance and reducing documentation errors by 35% after implementing structured intake forms. A compelling medical assistant resume connects compassionate patient interaction, EHR proficiency, clinical precision, and measurable healthcare efficiency improvements.",
+"topSkills": ["Epic EHR", "Cerner", "Vital Signs Monitoring", "Phlebotomy", "Patient Intake", "Medical Terminology", "Appointment Scheduling", "HIPAA Compliance", "Clinical Documentation", "Vaccination Administration", "Front Desk Operations", "Insurance Verification", "Specimen Collection", "Patient Education", "Electronic Health Records"],
+"resumeTips": [
+{
+"title": "Quantify Patient Volume Supported",
+"description": "Include measurable patient load. For example, \"Supported 25–35 patients daily in outpatient clinic using Epic.\" Volume demonstrates clinical capacity."
+},
+{
+"title": "Highlight Wait Time Reduction",
+"description": "Recruiters value operational efficiency. Example: \"Reduced patient wait times by 40% after optimizing intake workflow in Cerner.\" Efficiency metrics matter."
+},
+{
+"title": "Show Documentation Accuracy Improvements",
+"description": "Mention measurable error reduction. For instance, \"Reduced patient charting errors by 30% through standardized intake forms.\" Accuracy strengthens credibility."
+},
+{
+"title": "Demonstrate Vaccination or Lab Accuracy",
+"description": "Include clinical precision metrics. Example: \"Administered 300+ vaccinations annually with 0 adverse documentation incidents.\" Safety impact stands out."
+},
+{
+"title": "Quantify Scheduling and No-Show Reduction",
+"description": "Show administrative improvements. For example, \"Reduced appointment no-show rate from 20% to 10% using automated reminders.\" Administrative metrics elevate profile."
+},
+{
+"title": "Structure Resume Around Patient and Clinic Impact",
+"description": "Keep most medical assistant resumes to 1 page. Start with certifications and EHR systems such as Epic or Cerner. Follow with 3–4 measurable achievements per role including at least 1 metric like 30% efficiency improvement."
+}
+],
+"commonResponsibilities": [
+"Assist physicians with patient examinations and procedures",
+"Record vital signs and update electronic health records",
+"Schedule appointments and manage patient intake",
+"Administer injections and collect lab specimens",
+"Verify insurance and maintain patient documentation",
+"Ensure compliance with healthcare regulations"
+],
+"averageSalary": "$38,000 - $52,000",
+"salaryRange": "$32,000 - $75,000",
+"salaryGrowth": "Up 4–7% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Mayo Clinic", "Cleveland Clinic", "Kaiser Permanente", "HCA Healthcare", "Mount Sinai Health System", "NHS", "Apollo Hospitals", "Tenet Healthcare"],
+"faqs": [
+{
+"question": "How long should a Medical Assistant resume be?",
+"answer": "Most medical assistants should keep their resume to 1 page. Focus on measurable patient volume, wait time reduction, and documentation accuracy improvements."
+},
+{
+"question": "Should I include certifications?",
+"answer": "Yes. Include CMA, RMA, or BLS certifications and connect them to clinical responsibilities such as safe vaccine administration."
+},
+{
+"question": "How do I show patient care impact?",
+"answer": "Highlight measurable results such as reducing wait times by 10+ minutes or supporting 30 patients daily with high accuracy."
+},
+{
+"question": "Is EHR experience important?",
+"answer": "Yes. Mention Epic or Cerner and tie them to measurable improvements such as reducing documentation errors by 30%."
+}
+],
+"relatedRoles": ["nurse", "physician-assistant", "medical-receptionist", "healthcare-administrator", "phlebotomist"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global allied healthcare hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 13,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+},
+{
+"slug": "pharmacist",
+"jobTitle": "Pharmacist",
+"jobTitleVariants": ["Clinical Pharmacist", "Retail Pharmacist", "Hospital Pharmacist", "Staff Pharmacist", "Pharmacy Manager"],
+"industry": "Healthcare",
+"metaTitle": "Pharmacist Resume Template | Patient Safety",
+"metaDescription": "ATS-optimized Pharmacist resume template with medication safety metrics, prescription accuracy, and measurable patient care impact.",
+"quickAnswer": "A strong Pharmacist resume must demonstrate measurable impact on medication safety, prescription accuracy, and patient counseling outcomes. Hiring managers expect proficiency with pharmacy management systems such as PioneerRx, McKesson, Epic Willow, and knowledge of drug utilization review, inventory management, and HIPAA compliance. For example: \"Reviewed and dispensed 250+ prescriptions daily using PioneerRx, reducing medication dispensing errors by 45% over 1 year.\" Another strong example is \"Conducted medication therapy management (MTM) sessions for 400+ patients annually, improving medication adherence rates from 68% to 87%.\" These bullets clearly connect pharmaceutical expertise to measurable patient safety outcomes.\n\nYour resume should also highlight operational efficiency and regulatory compliance. For instance: \"Optimized inventory management using McKesson system, reducing expired medication waste by 38% and lowering annual inventory costs by $95K.\" Mention vaccination administration and quantify outcomes such as administering 1,200+ immunizations annually with 100% documentation accuracy in Epic Willow. A compelling pharmacist resume connects clinical knowledge, pharmacy system expertise, patient counseling, and measurable safety and operational improvements.",
+"topSkills": ["PioneerRx", "McKesson", "Epic Willow", "Medication Therapy Management", "Drug Utilization Review", "Prescription Verification", "Inventory Management", "HIPAA Compliance", "Immunization Administration", "Patient Counseling", "Pharmacy Operations", "Clinical Pharmacology", "Compounding", "Insurance Claims Processing", "Regulatory Compliance"],
+"resumeTips": [
+{
+"title": "Quantify Prescription Volume and Accuracy",
+"description": "Include measurable dispensing metrics. For example, \"Dispensed 200–300 prescriptions daily with 99.9% accuracy using PioneerRx.\" Volume and precision are central."
+},
+{
+"title": "Highlight Medication Safety Improvements",
+"description": "Recruiters value error reduction. Example: \"Reduced medication errors by 40% through enhanced drug utilization review protocols.\" Safety metrics matter."
+},
+{
+"title": "Show Medication Adherence Gains",
+"description": "Mention patient outcome improvements. For instance, \"Improved adherence rates by 20 percentage points after MTM counseling sessions.\" Patient care impact stands out."
+},
+{
+"title": "Demonstrate Inventory Cost Savings",
+"description": "Include financial metrics. Example: \"Reduced inventory waste by 35% using McKesson stock optimization tools.\" Operational efficiency elevates profile."
+},
+{
+"title": "Quantify Immunization Impact",
+"description": "Show public health contribution. For example, \"Administered 1,000+ vaccines annually with 100% documentation compliance in Epic Willow.\" Scale signals experience."
+},
+{
+"title": "Structure Resume Around Safety and Compliance Outcomes",
+"description": "Keep most pharmacist resumes to 1–2 pages. Start with pharmacy systems such as PioneerRx or Epic Willow. Follow with 3–4 measurable achievements per role including at least 1 metric like 30% error reduction."
+}
+],
+"commonResponsibilities": [
+"Review and dispense prescription medications",
+"Conduct medication therapy management sessions",
+"Verify dosage accuracy and prevent drug interactions",
+"Manage pharmacy inventory and ordering systems",
+"Administer vaccinations and counsel patients",
+"Ensure compliance with healthcare regulations"
+],
+"averageSalary": "$110,000 - $135,000",
+"salaryRange": "$90,000 - $160,000",
+"salaryGrowth": "Up 3–6% from 2024",
+"jobGrowth": "Moderate growth projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["CVS Health", "Walgreens", "Rite Aid", "Walmart Health", "Mayo Clinic", "Kaiser Permanente", "NHS", "Apollo Hospitals"],
+"faqs": [
+{
+"question": "How long should a Pharmacist resume be?",
+"answer": "Most pharmacists use 1–2 pages depending on clinical experience and specialization. Focus on measurable prescription accuracy, medication safety, and patient counseling outcomes."
+},
+{
+"question": "Should I include prescription volume?",
+"answer": "Yes. Mention dispensing 200+ prescriptions daily to demonstrate workload and operational scale."
+},
+{
+"question": "How do I show medication safety impact?",
+"answer": "Highlight measurable reductions in dispensing errors or improvements in adherence rates after MTM programs."
+},
+{
+"question": "Is pharmacy software experience important?",
+"answer": "Yes. Mention systems like PioneerRx, McKesson, or Epic Willow and tie them to measurable efficiency or accuracy improvements."
+}
+],
+"relatedRoles": ["medical-assistant", "nurse", "clinical-pharmacist", "pharmacy-technician", "healthcare-administrator"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global pharmacy hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 13,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+}
+
+,
+
+{
+"slug": "physiotherapist",
+"jobTitle": "Physiotherapist",
+"jobTitleVariants": ["Physical Therapist", "Clinical Physiotherapist", "Rehabilitation Therapist", "Orthopedic Physiotherapist", "Sports Physiotherapist"],
+"industry": "Healthcare",
+"metaTitle": "Physiotherapist Resume Template | Patient Recovery",
+"metaDescription": "ATS-optimized Physiotherapist resume template with recovery metrics, treatment outcomes, and measurable patient mobility improvements.",
+"quickAnswer": "A strong Physiotherapist resume must demonstrate measurable impact on patient mobility, recovery timelines, and rehabilitation outcomes. Hiring managers expect experience with electronic medical record systems such as Epic or Cerner, treatment planning tools, exercise prescription software, and rehabilitation equipment. For example: \"Developed individualized rehabilitation plans for 18–22 patients per day using Epic documentation, reducing average post-surgery recovery time by 25% and improving mobility scores by 30% within 8 weeks.\" Another strong example is \"Implemented sports injury prevention program for 120 athletes, decreasing repeat injury rate by 40% over 1 season.\" These bullets clearly connect therapeutic interventions to measurable patient outcomes.\n\nYour resume should also highlight patient education and interdisciplinary collaboration. For instance: \"Reduced chronic lower back pain recurrence by 35% after introducing structured home exercise programs tracked through digital assessment tools.\" Mention operational efficiency and quantify outcomes such as increasing clinic patient throughput by 20% after optimizing appointment scheduling workflows in Cerner. A compelling physiotherapist resume connects clinical assessment expertise, treatment planning precision, patient education, and measurable rehabilitation success.",
+"topSkills": ["Patient Assessment", "Treatment Planning", "Manual Therapy", "Exercise Prescription", "Epic EHR", "Cerner", "Rehabilitation Equipment", "Injury Prevention", "Mobility Assessment", "Pain Management", "Post-Surgical Rehabilitation", "Sports Therapy", "Clinical Documentation", "Patient Education", "Care Coordination"],
+"resumeTips": [
+{
+"title": "Quantify Patient Recovery Improvements",
+"description": "Include measurable recovery metrics. For example, \"Reduced post-operative recovery time by 20% through structured mobility programs documented in Epic.\" Recovery outcomes are central."
+},
+{
+"title": "Highlight Patient Volume Managed",
+"description": "Recruiters value clinical scope. Example: \"Provided therapy for 20 patients daily across orthopedic and sports injury cases.\" Workload signals experience."
+},
+{
+"title": "Show Mobility Score Gains",
+"description": "Mention measurable improvement scales. For instance, \"Improved functional mobility scores by 28% within 6 weeks of treatment.\" Objective metrics strengthen credibility."
+},
+{
+"title": "Demonstrate Injury Recurrence Reduction",
+"description": "Include prevention results. Example: \"Reduced repeat sports injuries by 35% after implementing targeted strengthening protocols.\" Preventive care impact stands out."
+},
+{
+"title": "Quantify Clinic Efficiency Improvements",
+"description": "Show operational contributions. For example, \"Increased clinic throughput by 18% by streamlining documentation in Cerner.\" Efficiency metrics elevate profile."
+},
+{
+"title": "Structure Resume Around Measurable Rehabilitation Outcomes",
+"description": "Keep most physiotherapist resumes to 1–2 pages. Start with certifications and EHR systems such as Epic. Follow with 3–4 measurable achievements per role including at least 1 metric like 25% mobility improvement."
+}
+],
+"commonResponsibilities": [
+"Assess patient mobility and physical function",
+"Develop and implement individualized treatment plans",
+"Document progress in electronic medical records",
+"Administer manual therapy and therapeutic exercises",
+"Educate patients on home exercise programs",
+"Collaborate with physicians and care teams"
+],
+"averageSalary": "$75,000 - $100,000",
+"salaryRange": "$60,000 - $140,000",
+"salaryGrowth": "Up 5–8% from 2024",
+"jobGrowth": "Very strong growth projected through 2032",
+"demandLevel": "Very High",
+"topCompanies": ["Mayo Clinic", "Cleveland Clinic", "Kaiser Permanente", "HCA Healthcare", "NHS", "Apollo Hospitals", "Select Medical", "ATI Physical Therapy"],
+"faqs": [
+{
+"question": "How long should a Physiotherapist resume be?",
+"answer": "Most physiotherapists use 1–2 pages depending on clinical experience and specializations. Focus on measurable patient recovery outcomes and mobility improvements."
+},
+{
+"question": "Should I include patient volume?",
+"answer": "Yes. Mention treating 15–25 patients daily to demonstrate workload capacity and clinical exposure."
+},
+{
+"question": "How do I show rehabilitation success?",
+"answer": "Highlight measurable improvements such as reducing recovery time by 20% or increasing mobility scores by 30%."
+},
+{
+"question": "Is EHR experience important?",
+"answer": "Yes. Mention systems like Epic or Cerner and connect them to measurable documentation efficiency or throughput gains."
+}
+],
+"relatedRoles": ["nurse", "medical-assistant", "occupational-therapist", "sports-therapist", "healthcare-administrator"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global rehabilitation hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 11,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+},
+{
+"slug": "graphic-designer",
+"jobTitle": "Graphic Designer",
+"jobTitleVariants": ["Visual Designer", "Creative Designer", "Brand Designer", "Marketing Graphic Designer", "Digital Graphic Designer"],
+"industry": "Marketing",
+"metaTitle": "Graphic Designer Resume Template | Portfolio Impact",
+"metaDescription": "ATS-optimized Graphic Designer resume template with creative metrics, brand performance impact, and measurable campaign results.",
+"quickAnswer": "A strong Graphic Designer resume must demonstrate measurable impact on brand engagement, campaign performance, and visual consistency. Hiring managers expect proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign), Figma, Canva, After Effects, and brand design systems. For example: \"Designed multi-channel marketing assets in Adobe Illustrator and Photoshop, increasing social media engagement rate by 45% and boosting click-through rate from 2.1% to 3.8% across 6 campaigns.\" Another strong example is \"Led website redesign in Figma, improving average session duration by 28% and reducing bounce rate by 22% within 3 months.\" These bullets clearly connect design execution to measurable marketing results.\n\nYour resume should also highlight brand consistency and production efficiency. For instance: \"Developed brand guidelines and visual identity toolkit, reducing design revision cycles by 35% and accelerating asset turnaround time by 40%.\" Mention campaign performance and quantify outcomes such as contributing to $500K in incremental revenue after launching high-converting email visuals designed in InDesign. A compelling graphic designer resume connects creative vision, design tools expertise, cross-channel collaboration, and measurable business impact.",
+"topSkills": ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Figma", "Canva", "After Effects", "Brand Identity Design", "Typography", "Layout Design", "Visual Storytelling", "UI Design", "Social Media Graphics", "Email Design", "Creative Direction", "Marketing Collaboration"],
+"resumeTips": [
+{
+"title": "Quantify Engagement Improvements",
+"description": "Include measurable campaign metrics. For example, \"Increased social media engagement by 40% after redesigning visual templates in Photoshop.\" Engagement outcomes are essential."
+},
+{
+"title": "Highlight Conversion Rate Gains",
+"description": "Recruiters value marketing impact. Example: \"Improved landing page conversion rate from 2% to 4% using Figma-based UI redesign.\" Conversion metrics strengthen profile."
+},
+{
+"title": "Show Brand Consistency Improvements",
+"description": "Mention revision cycle reduction. For instance, \"Reduced design revisions by 30% after implementing standardized brand guidelines.\" Process efficiency matters."
+},
+{
+"title": "Demonstrate Revenue Contribution",
+"description": "Include financial outcomes. Example: \"Contributed to $400K in campaign revenue through high-performing email visuals created in InDesign.\" Business impact elevates profile."
+},
+{
+"title": "Quantify Asset Production Volume",
+"description": "Show scale of creative output. For example, \"Produced 25+ marketing assets monthly across digital and print channels.\" Volume signals productivity."
+},
+{
+"title": "Structure Resume Around Portfolio and Performance Metrics",
+"description": "Keep most graphic designer resumes to 1–2 pages. Start with core tools such as Adobe Creative Suite and Figma. Follow with 3–4 measurable achievements per role including at least 1 metric like 30% engagement growth."
+}
+],
+"commonResponsibilities": [
+"Design visual assets for digital and print campaigns",
+"Develop and maintain brand identity guidelines",
+"Collaborate with marketing and product teams",
+"Create social media, web, and email graphics",
+"Revise designs based on stakeholder feedback",
+"Ensure visual consistency across channels"
+],
+"averageSalary": "$60,000 - $85,000",
+"salaryRange": "$45,000 - $130,000",
+"salaryGrowth": "Up 4–7% from 2024",
+"jobGrowth": "Moderate growth projected through 2032",
+"demandLevel": "High",
+"topCompanies": ["Adobe", "Canva", "Nike", "Apple", "Google", "Meta", "HubSpot", "Accenture"],
+"faqs": [
+{
+"question": "How long should a Graphic Designer resume be?",
+"answer": "Most graphic designers use 1–2 pages depending on portfolio depth. Focus on measurable engagement, conversion, and revenue outcomes."
+},
+{
+"question": "Should I include a portfolio link?",
+"answer": "Yes. Always include a portfolio showcasing 8–12 of your strongest projects and connect them to measurable campaign results."
+},
+{
+"question": "How do I show business impact as a designer?",
+"answer": "Highlight metrics such as increasing engagement by 30% or improving conversion rates after redesigning assets."
+},
+{
+"question": "Is Adobe Creative Suite proficiency essential?",
+"answer": "Yes. Mention Photoshop, Illustrator, and InDesign and tie them to measurable campaign performance improvements."
+}
+],
+"relatedRoles": ["ui-designer", "product-designer", "marketing-manager", "brand-manager", "content-marketing-manager"],
+"authorName": "ShortlistAI Editorial",
+"authorTitle": "Resume Optimization Team",
+"sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global creative industry hiring trends as of 2026.",
+"schemaVersion": "v1",
+"qualityChecks": {
+"bannedPhrasesFound": [],
+"exampleToolsMentioned": 12,
+"exampleMetricsCount": 20,
+"uniquenessScore": 8
+}
+}
+]

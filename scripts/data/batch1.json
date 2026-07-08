@@ -1,0 +1,1622 @@
+[
+  {
+    "slug": "software-engineer",
+    "jobTitle": "Software Engineer",
+    "jobTitleVariants": [
+      "Backend Engineer",
+      "Application Developer",
+      "Platform Engineer",
+      "Full Stack Engineer",
+      "Software Developer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Software Engineer Resume Template | Production-Ready",
+    "metaDescription": "ATS-optimized Software Engineer resume template with real code, cloud, and CI/CD examples plus measurable production impact.",
+    "quickAnswer": "A strong Software Engineer resume must demonstrate that you ship reliable, scalable systems in production. Hiring managers look for clear examples of backend development with languages like Java or Python and frameworks such as Spring Boot or Django, plus real cloud deployment experience on AWS or GCP. For example: \"Built REST APIs in Spring Boot with PostgreSQL serving 1.3M requests per day at 99.95% uptime.\" Another high-signal bullet is \"Reduced API latency from 480 ms to 190 ms by adding Redis caching and optimizing SQL indexes, increasing checkout conversion by 11% in 3 months.\" These examples show depth and measurable business value.\n\nYour resume should also cover infrastructure and release practices. For instance: \"Containerized services using Docker and deployed on Kubernetes (EKS), increasing release frequency from 3 to 14 per month via GitHub Actions CI/CD.\" Mention observability tools like Datadog or Grafana and quantify outcomes such as cutting P1 incidents by 27% over 2 quarters. Strong resumes connect code, infrastructure, and user impact in one clear narrative.",
+    "topSkills": [
+      "Java",
+      "Python",
+      "Spring Boot",
+      "Django",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "System Design",
+      "Microservices",
+      "Redis",
+      "Debugging"
+    ],
+    "resumeTips": [
+      {
+        "title": "Lead With Production Systems",
+        "description": "Start each role with deployed systems and scale. For example, \"Built Python microservice on AWS processing 85K daily transactions with 99.9% uptime.\" Mention monitoring tools like Datadog and show measurable results such as reducing incident count by 30% in 6 months. This signals ownership beyond coding."
+      },
+      {
+        "title": "Show End-to-End Ownership",
+        "description": "Highlight backend, data, and deployment layers together. Example: \"Developed React frontend integrated with Spring Boot APIs and deployed via Docker to Kubernetes.\" Include a metric like improving page load time from 2.7s to 1.5s after bundle optimization. Full lifecycle delivery stands out."
+      },
+      {
+        "title": "Quantify CI/CD Improvements",
+        "description": "Recruiters value safe releases. For example, \"Implemented GitHub Actions pipeline with 80% automated test coverage, reducing regression defects by 24% over 2 quarters.\" Mention Terraform if you provisioned infrastructure as code."
+      },
+      {
+        "title": "Structure for Fast Scanning",
+        "description": "Keep most mid-level engineers to 1 page. Place a concise technical skills section near the top listing Java, Python, AWS, Docker, and Kubernetes. Follow with 3–5 measurable bullets per role, each including at least 1 number such as 15% cost reduction or 20% throughput increase."
+      },
+      {
+        "title": "Highlight Scalability Work",
+        "description": "If you handled growth, quantify it. For example, \"Migrated monolith to microservices using Kubernetes, supporting growth from 250K to 800K monthly users.\" Add cost or reliability impact such as reducing downtime by 35% year over year."
+      },
+      {
+        "title": "Tie Collaboration to Metrics",
+        "description": "When mentioning product or design collaboration, show outcomes. Example: \"Partnered with product to launch 4 features in 2 quarters, increasing weekly active users by 18%.\" Quantified cross-functional results are stronger than generic teamwork claims."
+      }
+    ],
+    "commonResponsibilities": [
+      "Design and implement scalable backend services",
+      "Develop and test new product features",
+      "Deploy applications through CI/CD pipelines",
+      "Monitor system health and resolve production issues",
+      "Collaborate with product, design, and QA teams",
+      "Participate in architecture and code reviews"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $180,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Netflix",
+      "Stripe",
+      "Shopify",
+      "Atlassian"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Software Engineer resume be?",
+        "answer": "Most mid-level software engineers should keep their resume to 1 page. If you have 8+ years across multiple systems or leadership roles, a focused 2-page resume is acceptable. Every section should include measurable impact and relevant technologies."
+      },
+      {
+        "question": "Should I include GitHub projects?",
+        "answer": "Yes, especially if they demonstrate production practices like REST APIs, automated tests, or CI/CD with GitHub Actions. For example, a project with 1K stars or 15K monthly downloads strengthens credibility. Focus on quality and real-world relevance."
+      },
+      {
+        "question": "How can I show impact if my work was internal?",
+        "answer": "Quantify operational metrics such as uptime, latency, deployment speed, or cost savings. For example, reducing build time from 30 minutes to 9 minutes using Docker caching is meaningful even if users were internal teams."
+      },
+      {
+        "question": "Is system design important on a resume?",
+        "answer": "Yes for mid-level and senior engineers. Mention architecture decisions like implementing Redis caching to handle 2x traffic growth or sharding PostgreSQL for scale. Concrete scale examples signal readiness."
+      }
+    ],
+    "relatedRoles": [
+      "backend-developer",
+      "frontend-developer",
+      "full-stack-developer",
+      "devops-engineer",
+      "site-reliability-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and hiring trends for global engineering roles as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 15,
+      "exampleMetricsCount": 18,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "frontend-developer",
+    "jobTitle": "Frontend Developer",
+    "jobTitleVariants": [
+      "Frontend Engineer",
+      "UI Developer",
+      "React Developer",
+      "Web UI Engineer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Frontend Developer Resume Template | React & UX",
+    "metaDescription": "ATS-optimized Frontend Developer resume template with React, performance, and UX metrics to showcase measurable product impact.",
+    "quickAnswer": "A strong Frontend Developer resume must show measurable improvements in user experience, performance, and engagement using modern frameworks like React, Vue, or Angular. Instead of listing UI tasks, show impact such as \"Built React dashboard with TypeScript and Redux serving 120K monthly users, improving task completion rate by 16%.\" Another strong example: \"Reduced Largest Contentful Paint from 3.2s to 1.8s by implementing code splitting and lazy loading, lowering bounce rate by 14% in 2 months.\" Concrete performance metrics stand out.\n\nYou should also demonstrate collaboration and release practices. For example, \"Worked with Figma designs to implement accessible UI components and deployed via Vercel with GitHub Actions, increasing release cadence from 2 to 10 deployments per month.\" Mention tools like Lighthouse, Webpack, or Jest and quantify improvements such as boosting accessibility score from 72 to 96. Frontend resumes should clearly connect UI code to business and usability outcomes.",
+    "topSkills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Redux",
+      "Next.js",
+      "Webpack",
+      "Jest",
+      "REST APIs",
+      "Responsive Design",
+      "Accessibility (WCAG)",
+      "Performance Optimization",
+      "Figma"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Performance Improvements",
+        "description": "Use web metrics such as LCP, CLS, and page load time. Example: \"Improved LCP from 3.4s to 1.9s using code splitting and image compression.\" Show impact on bounce rate or conversion, such as a 12% lift in signups after performance tuning."
+      },
+      {
+        "title": "Highlight Framework Expertise",
+        "description": "Specify core libraries like React, Redux, or Next.js. For example, \"Migrated legacy jQuery app to React and TypeScript, reducing bug reports by 28% in 4 months.\" This shows modernization impact."
+      },
+      {
+        "title": "Demonstrate Testing Rigor",
+        "description": "Mention Jest or Cypress for frontend testing. Example: \"Increased unit test coverage to 78% using Jest, reducing production UI defects by 22%.\" Testing metrics signal reliability."
+      },
+      {
+        "title": "Structure for UX Impact",
+        "description": "Keep resume to 1 page and lead with tools like React, TypeScript, and Next.js. Follow with bullets tied to user metrics such as 15% engagement growth or 20% faster load times. Recruiters should quickly see UI scale and results."
+      },
+      {
+        "title": "Show Accessibility and Standards",
+        "description": "Include accessibility improvements. Example: \"Improved WCAG compliance score from 70 to 95 using semantic HTML and ARIA labels.\" Accessibility gains demonstrate mature frontend practice."
+      },
+      {
+        "title": "Connect UI to Business Metrics",
+        "description": "Tie interface changes to outcomes. For example, \"Redesigned checkout UI based on Figma prototypes, increasing completed purchases by 13% in 6 weeks.\" Business-linked UI work stands out."
+      }
+    ],
+    "commonResponsibilities": [
+      "Develop responsive user interfaces",
+      "Optimize web performance and accessibility",
+      "Integrate frontend with REST or GraphQL APIs",
+      "Collaborate with design and product teams",
+      "Write unit and integration tests",
+      "Maintain UI consistency across devices"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $170,000",
+    "salaryGrowth": "Up 6–10% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Meta",
+      "Amazon",
+      "Airbnb",
+      "Stripe",
+      "Shopify",
+      "Netflix",
+      "Atlassian"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Frontend Developer resume be?",
+        "answer": "Most mid-level frontend developers should keep their resume to 1 page. If you have 8+ years across multiple large-scale applications, a concise 2-page resume is acceptable. Focus on performance metrics and framework depth."
+      },
+      {
+        "question": "Should I include design tools?",
+        "answer": "Yes, if you work closely with designers. Mention tools like Figma and show measurable outcomes such as improving task completion by 15% after implementing new UI flows."
+      },
+      {
+        "question": "How do I stand out from other React developers?",
+        "answer": "Show measurable performance and business outcomes. For example, reducing load time from 3s to 1.8s and increasing conversion by 12% is stronger than listing React alone."
+      },
+      {
+        "question": "Is backend knowledge important?",
+        "answer": "Basic backend understanding helps. Mention integration with REST APIs or GraphQL and explain how efficient data fetching reduced load time by 18%."
+      }
+    ],
+    "relatedRoles": [
+      "software-engineer",
+      "full-stack-developer",
+      "ui-ux-designer",
+      "backend-developer",
+      "mobile-app-developer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and global frontend hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 14,
+      "exampleMetricsCount": 17,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "backend-developer",
+    "jobTitle": "Backend Developer",
+    "jobTitleVariants": [
+      "Backend Engineer",
+      "API Developer",
+      "Server-Side Developer",
+      "Platform Backend Engineer",
+      "Java Backend Developer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Backend Developer Resume Template | API & Cloud",
+    "metaDescription": "ATS-optimized Backend Developer resume template with API, database, and cloud examples plus measurable production impact.",
+    "quickAnswer": "A strong Backend Developer resume must demonstrate ownership of APIs, databases, and scalable server-side systems. Hiring managers expect concrete examples using tools like Java, Node.js, or Python along with frameworks such as Spring Boot or Express and databases like PostgreSQL or MongoDB. For example: \"Built REST APIs in Spring Boot backed by PostgreSQL handling 2M daily requests with 99.97% uptime.\" Another high-impact example is \"Reduced average query time from 380 ms to 140 ms by redesigning indexes and introducing Redis caching, cutting support tickets by 21% within 3 months.\" These metrics show performance optimization and business value.\n\nYou should also highlight infrastructure and deployment practices. For instance: \"Containerized Node.js services with Docker and deployed to AWS ECS, increasing release frequency from 4 to 16 per month using GitHub Actions.\" Mention monitoring tools such as Datadog or Prometheus and quantify reliability outcomes like reducing P1 incidents by 32% over 2 quarters. A backend resume should connect APIs, data modeling, infrastructure, and measurable system impact.",
+    "topSkills": [
+      "Java",
+      "Node.js",
+      "Python",
+      "Spring Boot",
+      "Express.js",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Microservices"
+    ],
+    "resumeTips": [
+      {
+        "title": "Show API Scale and Usage",
+        "description": "Quantify traffic and reliability for APIs you built. For example, \"Developed authentication service in Node.js serving 120K monthly users with 99.9% uptime.\" Include tools like Postman for API testing and metrics such as reducing authentication errors by 18% over 4 months."
+      },
+      {
+        "title": "Highlight Database Optimization",
+        "description": "Demonstrate query tuning and schema design. Example: \"Optimized PostgreSQL queries using indexing and partitioning, reducing report generation time from 9 minutes to 2 minutes.\" Mention tools like pgAdmin or EXPLAIN plans to show technical depth."
+      },
+      {
+        "title": "Emphasize Infrastructure Experience",
+        "description": "Recruiters value cloud and containerization exposure. For example, \"Deployed microservices to AWS using Docker and Kubernetes, lowering infrastructure costs by 15% after rightsizing instances.\" Tie infra work to uptime or cost savings."
+      },
+      {
+        "title": "Structure Resume for Clarity",
+        "description": "Keep most mid-level backend resumes to 1 page. Place a technical skills section near the top listing Java, SQL, AWS, and Docker. Follow with 3–5 measurable bullets per role, each including at least 1 number such as 25% latency reduction or 20% throughput gain."
+      },
+      {
+        "title": "Show CI/CD and Testing",
+        "description": "Mention automated pipelines and test coverage. Example: \"Implemented GitHub Actions CI pipeline with 85% unit test coverage, reducing regression defects by 27% in 6 months.\" Include frameworks like JUnit or PyTest if used."
+      },
+      {
+        "title": "Tie Backend to Business Impact",
+        "description": "Explain how backend work influenced revenue or retention. For example, \"Improved payment processing reliability from 96% to 99.8%, increasing completed transactions by 13% in 1 quarter.\" Clear business linkage strengthens credibility."
+      }
+    ],
+    "commonResponsibilities": [
+      "Design and implement scalable server-side logic",
+      "Develop and maintain RESTful APIs",
+      "Optimize database performance and queries",
+      "Deploy backend services to cloud environments",
+      "Monitor application health and troubleshoot incidents",
+      "Collaborate with frontend and product teams"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $180,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Stripe",
+      "Shopify",
+      "Uber",
+      "Atlassian"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Backend Developer resume be?",
+        "answer": "Most mid-level backend developers should keep their resume to 1 page. If you have 8+ years working on multiple distributed systems, a focused 2-page resume is acceptable. Ensure each bullet includes measurable system impact and relevant backend tools."
+      },
+      {
+        "question": "Should I include database technologies separately?",
+        "answer": "Yes. Clearly list databases such as PostgreSQL, MongoDB, or Redis in your skills section. Recruiters often scan for specific technologies, and mentioning query optimization or indexing improvements strengthens credibility."
+      },
+      {
+        "question": "How do I demonstrate scalability experience?",
+        "answer": "Quantify traffic growth and architecture decisions. For example, supporting growth from 400K to 1.2M users by implementing microservices with Kubernetes is more compelling than stating scalability in general terms."
+      },
+      {
+        "question": "Is cloud experience mandatory?",
+        "answer": "For most modern backend roles, yes. Mention AWS, GCP, or Azure along with deployment tooling like Docker. Include measurable improvements such as increasing release frequency from 4 to 16 per month."
+      }
+    ],
+    "relatedRoles": [
+      "software-engineer",
+      "full-stack-developer",
+      "devops-engineer",
+      "site-reliability-engineer",
+      "api-developer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand figures are approximate based on public compensation benchmarks and global backend hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 18,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "full-stack-developer",
+    "jobTitle": "Full Stack Developer",
+    "jobTitleVariants": [
+      "Full Stack Engineer",
+      "Fullstack Developer",
+      "Web Application Developer",
+      "End-to-End Software Engineer",
+      "JavaScript Full Stack Developer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Full Stack Developer Resume Template | End-to-End",
+    "metaDescription": "ATS-optimized Full Stack Developer resume template with frontend, backend, and cloud examples plus measurable user impact.",
+    "quickAnswer": "A strong Full Stack Developer resume must prove you can design, build, and deploy end-to-end applications. Hiring managers look for measurable frontend and backend impact using tools like React or Next.js on the client side and Node.js or Spring Boot with PostgreSQL on the server. For example: \"Built React and Node.js application serving 150K monthly users, increasing feature adoption by 19% in 4 months.\" Another strong example is \"Reduced API response time from 520 ms to 210 ms by optimizing SQL queries and adding Redis caching, improving checkout conversion by 12%.\" These bullets demonstrate cross-layer ownership.\n\nYou should also highlight infrastructure and release practices. For instance: \"Deployed full-stack application using Docker on AWS and implemented GitHub Actions CI/CD, increasing release frequency from 2 to 12 per month.\" Mention observability tools like Grafana and quantify reliability improvements such as reducing production incidents by 28% over 2 quarters. A strong full stack resume connects UI performance, backend efficiency, cloud deployment, and business outcomes.",
+    "topSkills": [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Spring Boot",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Docker",
+      "GitHub Actions",
+      "System Design",
+      "Responsive Design"
+    ],
+    "resumeTips": [
+      {
+        "title": "Demonstrate Frontend Impact",
+        "description": "Show measurable UX improvements. Example: \"Improved page load time from 3.1s to 1.7s using code splitting and lazy loading in React, reducing bounce rate by 15%.\" Connect UI work to user engagement or revenue outcomes."
+      },
+      {
+        "title": "Show Backend Optimization",
+        "description": "Highlight server-side tuning. For example, \"Optimized PostgreSQL queries and added Redis caching, increasing throughput by 22% under peak load.\" Mention profiling tools or logs used to identify bottlenecks."
+      },
+      {
+        "title": "Emphasize Cloud Deployment",
+        "description": "Include deployment tooling and metrics. Example: \"Containerized full-stack app with Docker and deployed to AWS ECS, cutting deployment time from 40 minutes to 10 minutes.\" Tie infrastructure work to release speed or cost savings."
+      },
+      {
+        "title": "Structure Resume Around Projects",
+        "description": "Keep most mid-level full stack resumes to 1 page. Start with a skills section listing React, Node.js, SQL, and AWS. Follow with 3–4 end-to-end projects showing both frontend and backend metrics such as 18% adoption growth or 20% performance gains."
+      },
+      {
+        "title": "Highlight Testing Coverage",
+        "description": "Mention Jest, Cypress, or backend test frameworks. Example: \"Increased automated test coverage to 82%, reducing post-release defects by 26% in 6 months.\" Testing depth shows reliability."
+      },
+      {
+        "title": "Tie Collaboration to Results",
+        "description": "Specify teams and measurable outcomes. For example, \"Worked with product and design to launch 6 features in 3 quarters, driving 14% increase in weekly active users.\" Quantified collaboration stands out."
+      }
+    ],
+    "commonResponsibilities": [
+      "Develop and maintain frontend and backend components",
+      "Integrate client-side interfaces with server APIs",
+      "Design and optimize database schemas",
+      "Deploy applications to cloud environments",
+      "Write automated tests across stack layers",
+      "Collaborate with cross-functional product teams"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $180,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Shopify",
+      "Stripe",
+      "Airbnb",
+      "Atlassian"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Full Stack Developer resume be?",
+        "answer": "Most mid-level full stack developers should keep their resume to 1 page. If you have 8+ years or multiple large-scale systems, a concise 2-page resume is acceptable. Ensure each project shows both frontend and backend impact."
+      },
+      {
+        "question": "Should I list frontend and backend tools separately?",
+        "answer": "Yes. Clearly group tools such as React and TypeScript under frontend and Node.js or Spring Boot under backend. Recruiters often scan for specific stack keywords."
+      },
+      {
+        "question": "How do I show end-to-end ownership?",
+        "answer": "Use examples that combine UI, API, and deployment. For instance, building a React interface, connecting it to Node.js APIs, and deploying on AWS with measurable gains like 15% higher adoption demonstrates ownership."
+      },
+      {
+        "question": "Is cloud experience necessary?",
+        "answer": "For most roles, yes. Mention AWS, GCP, or Azure and quantify outcomes such as increasing release frequency from 2 to 12 per month after implementing CI/CD."
+      }
+    ],
+    "relatedRoles": [
+      "software-engineer",
+      "frontend-developer",
+      "backend-developer",
+      "devops-engineer",
+      "mobile-app-developer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand figures are approximate based on public compensation data and global full stack hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 17,
+      "exampleMetricsCount": 18,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "mobile-app-developer",
+    "jobTitle": "Mobile App Developer",
+    "jobTitleVariants": [
+      "iOS Developer",
+      "Android Developer",
+      "Mobile Software Engineer",
+      "React Native Developer",
+      "Flutter Developer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Mobile App Developer Resume Template | iOS & Android",
+    "metaDescription": "ATS-optimized Mobile App Developer resume template with iOS, Android, and cross-platform examples plus measurable app performance impact.",
+    "quickAnswer": "A strong Mobile App Developer resume must demonstrate shipped apps, measurable user growth, and performance optimization across iOS and Android platforms. Hiring managers look for concrete examples using Swift, Kotlin, or cross-platform tools like React Native or Flutter. For example: \"Built iOS app in Swift with MVVM architecture, reaching 120K downloads and maintaining 4.6★ rating across 2 app store releases.\" Another strong bullet: \"Reduced app startup time from 2.8s to 1.5s by optimizing image assets and lazy loading data, increasing Day 1 retention by 13% in 3 months.\" These metrics show both technical and product impact.\n\nYour resume should also cover backend integration and release workflows. For instance: \"Integrated REST APIs using Retrofit and deployed builds through CI/CD with GitHub Actions and Fastlane, increasing release frequency from 1 to 6 updates per month.\" Mention crash monitoring tools like Firebase Crashlytics and quantify improvements such as reducing crash rate from 2.4% to 0.9% over 2 quarters. A high-impact mobile resume connects UX, performance, reliability, and business metrics.",
+    "topSkills": [
+      "Swift",
+      "Kotlin",
+      "React Native",
+      "Flutter",
+      "Android SDK",
+      "iOS SDK",
+      "REST APIs",
+      "Firebase",
+      "SQLite",
+      "MVVM Architecture",
+      "GitHub Actions",
+      "Fastlane",
+      "UI/UX Implementation",
+      "Performance Optimization",
+      "App Store Deployment"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify App Adoption",
+        "description": "Show downloads, ratings, and active users. For example, \"Launched Android app in Kotlin reaching 85K downloads and 4.5★ rating within 6 months.\" Include retention or engagement metrics such as increasing weekly active users by 18% after feature updates."
+      },
+      {
+        "title": "Highlight Performance Optimization",
+        "description": "Demonstrate improvements in load time and responsiveness. Example: \"Reduced API fetch latency from 650 ms to 240 ms using caching and background threading, improving session length by 12%.\" Performance metrics differentiate strong candidates."
+      },
+      {
+        "title": "Show Backend Integration",
+        "description": "Mention REST or GraphQL integration. For example, \"Integrated payment API using Retrofit and Firebase Authentication, increasing successful transactions by 15% in 1 quarter.\" Tie integration to measurable business results."
+      },
+      {
+        "title": "Emphasize CI/CD and Releases",
+        "description": "Recruiters value release automation. Example: \"Implemented Fastlane and GitHub Actions pipeline, reducing release cycle from 10 days to 3 days.\" Include crash monitoring improvements such as lowering crash rate by 1.5 percentage points."
+      },
+      {
+        "title": "Structure Resume for Clarity",
+        "description": "Keep most mid-level mobile resumes to 1 page. Start with core tools like Swift, Kotlin, Flutter, and Firebase. Follow with 3–4 measurable bullets per role that include metrics such as 20% retention growth or 25% performance gains."
+      },
+      {
+        "title": "Demonstrate UX Collaboration",
+        "description": "Explain collaboration with designers using Figma prototypes. For example, \"Implemented redesigned onboarding flow, increasing activation rate from 58% to 72% in 8 weeks.\" Tie UX changes to adoption metrics."
+      }
+    ],
+    "commonResponsibilities": [
+      "Develop and maintain iOS and Android applications",
+      "Integrate mobile apps with backend APIs",
+      "Optimize performance and memory usage",
+      "Publish apps to App Store and Google Play",
+      "Monitor crashes and resolve production issues",
+      "Collaborate with design and product teams"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $170,000",
+    "salaryGrowth": "Up 6–10% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Meta",
+      "Uber",
+      "Airbnb",
+      "Stripe",
+      "Spotify",
+      "Amazon",
+      "Shopify"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Mobile App Developer resume be?",
+        "answer": "Most mid-level mobile developers should keep their resume to 1 page. If you have 8+ years across multiple large-scale apps, a concise 2-page resume is acceptable. Focus on downloads, retention, crash rate, and performance metrics."
+      },
+      {
+        "question": "Should I include app store links?",
+        "answer": "Yes. Include links to published apps and briefly mention metrics such as 100K downloads or 4.7★ ratings. Visible proof of shipped products strengthens credibility."
+      },
+      {
+        "question": "How do I stand out in a crowded mobile market?",
+        "answer": "Show measurable improvements in performance, retention, or monetization. For example, reducing crash rate from 2.4% to 0.9% using Firebase Crashlytics demonstrates real impact beyond coding features."
+      },
+      {
+        "question": "Is cross-platform experience valuable?",
+        "answer": "Yes, especially if you used React Native or Flutter to ship features to both iOS and Android. Mention measurable outcomes like 30% faster development cycles after adopting a shared codebase."
+      }
+    ],
+    "relatedRoles": [
+      "software-engineer",
+      "frontend-developer",
+      "full-stack-developer",
+      "backend-developer",
+      "ui-ux-designer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global mobile hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 17,
+      "exampleMetricsCount": 18,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "devops-engineer",
+    "jobTitle": "DevOps Engineer",
+    "jobTitleVariants": [
+      "Cloud DevOps Engineer",
+      "Infrastructure Engineer",
+      "Platform Engineer",
+      "Site Automation Engineer",
+      "Cloud Operations Engineer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "DevOps Engineer Resume Template | Cloud & CI/CD",
+    "metaDescription": "ATS-optimized DevOps Engineer resume template with AWS, Kubernetes, and CI/CD examples plus measurable uptime and cost impact.",
+    "quickAnswer": "A strong DevOps Engineer resume must show measurable improvements in deployment speed, system reliability, and cloud cost optimization. Hiring managers expect experience with AWS or Azure, containerization using Docker, and orchestration with Kubernetes. For example: \"Built CI/CD pipeline in GitHub Actions deploying to AWS EKS, increasing release frequency from 4 to 20 deployments per month.\" Another strong example: \"Reduced infrastructure costs by 22% by implementing autoscaling policies and rightsizing EC2 instances while maintaining 99.95% uptime.\" These bullets demonstrate automation and operational impact.\n\nYou should also highlight monitoring and incident response. For instance: \"Implemented observability stack with Prometheus and Grafana, reducing mean time to recovery from 75 minutes to 28 minutes across 3 production services.\" Mention Infrastructure as Code tools like Terraform and quantify results such as provisioning environments 60% faster than manual setup. DevOps resumes should clearly connect automation, reliability, scalability, and business continuity.",
+    "topSkills": [
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions",
+      "Jenkins",
+      "Linux",
+      "Bash Scripting",
+      "Prometheus",
+      "Grafana",
+      "CI/CD",
+      "Infrastructure as Code",
+      "Cloud Security",
+      "Monitoring"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Deployment Improvements",
+        "description": "Show release frequency and automation gains. For example, \"Implemented Jenkins pipeline reducing deployment time from 50 minutes to 12 minutes.\" Include metrics like increasing deployments per month from 3 to 18."
+      },
+      {
+        "title": "Demonstrate Reliability Metrics",
+        "description": "Mention uptime, MTTR, or incident reduction. Example: \"Improved system uptime from 99.2% to 99.95% by introducing Kubernetes health checks and autoscaling.\" Quantified reliability stands out."
+      },
+      {
+        "title": "Highlight Cost Optimization",
+        "description": "Show financial impact of infrastructure decisions. For example, \"Reduced AWS spend by 19% after implementing reserved instances and autoscaling policies.\" Cost awareness is highly valued."
+      },
+      {
+        "title": "Structure for Tool Visibility",
+        "description": "Keep most mid-level DevOps resumes to 1 page. Place a technical stack section near the top listing AWS, Kubernetes, Terraform, and CI/CD tools. Follow with measurable bullets including at least 1 metric such as 30% faster provisioning or 20% fewer incidents."
+      },
+      {
+        "title": "Emphasize Infrastructure as Code",
+        "description": "Mention Terraform or CloudFormation with results. Example: \"Automated environment provisioning with Terraform, reducing setup time from 2 days to 3 hours.\" Tie automation to developer productivity gains."
+      },
+      {
+        "title": "Show Security and Compliance",
+        "description": "Include security automation examples. For instance, \"Implemented IAM role audits and vulnerability scans, reducing critical security findings by 40% over 2 quarters.\" Security improvements strengthen DevOps profiles."
+      }
+    ],
+    "commonResponsibilities": [
+      "Design and maintain CI/CD pipelines",
+      "Manage cloud infrastructure and deployments",
+      "Monitor system performance and uptime",
+      "Automate provisioning using Infrastructure as Code",
+      "Implement security best practices in cloud environments",
+      "Collaborate with development teams to improve release processes"
+    ],
+    "averageSalary": "$90,000 - $120,000",
+    "salaryRange": "$70,000 - $180,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Meta",
+      "Netflix",
+      "Stripe",
+      "Shopify",
+      "Atlassian"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a DevOps Engineer resume be?",
+        "answer": "Most mid-level DevOps engineers should keep their resume to 1 page. If you have 8+ years managing complex multi-region infrastructure, a concise 2-page resume is acceptable. Ensure each bullet includes measurable automation or reliability impact."
+      },
+      {
+        "question": "Is Kubernetes mandatory for DevOps roles?",
+        "answer": "For many modern roles, yes. Mention Kubernetes with measurable outcomes such as increasing deployment frequency from 4 to 20 per month or improving uptime to 99.95%."
+      },
+      {
+        "question": "How do I demonstrate impact beyond automation?",
+        "answer": "Tie automation to business results. For example, reducing mean time to recovery from 75 minutes to 28 minutes improves customer experience and revenue protection."
+      },
+      {
+        "question": "Should I include scripting languages?",
+        "answer": "Yes. Mention Bash or Python used for automation and quantify results like reducing manual tasks by 12 hours per week through scripting."
+      }
+    ],
+    "relatedRoles": [
+      "site-reliability-engineer",
+      "cloud-engineer",
+      "software-engineer",
+      "backend-developer",
+      "platform-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and global DevOps hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 18,
+      "exampleMetricsCount": 18,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "site-reliability-engineer",
+    "jobTitle": "Site Reliability Engineer",
+    "jobTitleVariants": [
+      "SRE",
+      "Reliability Engineer",
+      "Platform Reliability Engineer",
+      "Production Engineer",
+      "Infrastructure Reliability Engineer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Site Reliability Engineer Resume Template | SRE",
+    "metaDescription": "ATS-optimized Site Reliability Engineer resume template with uptime, incident, and automation metrics using cloud and monitoring tools.",
+    "quickAnswer": "A strong Site Reliability Engineer resume must demonstrate measurable improvements in uptime, incident response, and system scalability. Hiring managers expect hands-on experience with cloud platforms like AWS or GCP, container orchestration using Kubernetes, and observability stacks such as Prometheus and Grafana. For example: \"Improved service uptime from 99.3% to 99.95% by implementing Kubernetes health checks and autoscaling policies across 6 production services.\" Another strong example: \"Reduced mean time to recovery (MTTR) from 82 minutes to 29 minutes by introducing alerting with Prometheus and centralized logging via ELK stack.\" These metrics show operational ownership.\n\nYou should also highlight automation and capacity planning. For instance: \"Automated infrastructure provisioning using Terraform, reducing environment setup time from 2 days to 4 hours and enabling 15 new staging environments in 1 quarter.\" Mention CI/CD tools like GitHub Actions or Jenkins and quantify outcomes such as increasing deployment frequency from 5 to 22 releases per month. An effective SRE resume clearly connects reliability engineering, automation, scalability, and business continuity.",
+    "topSkills": [
+      "AWS",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "GitHub Actions",
+      "Jenkins",
+      "Linux",
+      "Bash",
+      "Incident Management",
+      "Capacity Planning",
+      "Cloud Networking"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Reliability Improvements",
+        "description": "Always include uptime and SLA metrics. For example, \"Raised uptime from 99.2% to 99.95% across 4 services using autoscaling and load balancing.\" Include customer-facing impact such as reducing SLA breaches by 40% in 2 quarters."
+      },
+      {
+        "title": "Show Incident Response Impact",
+        "description": "Mention MTTR and alerting improvements. Example: \"Implemented Prometheus alerting and on-call rotations, reducing MTTR from 75 minutes to 28 minutes.\" Quantify incident volume reduction, such as cutting P1 incidents by 33% year over year."
+      },
+      {
+        "title": "Highlight Infrastructure as Code",
+        "description": "Recruiters expect Terraform or CloudFormation. For example, \"Automated VPC and Kubernetes cluster provisioning with Terraform, reducing setup time from 16 hours to 3 hours.\" Tie automation to deployment scalability."
+      },
+      {
+        "title": "Structure Resume Around Metrics",
+        "description": "Keep most mid-level SRE resumes to 1 page. Place a tools section near the top listing Kubernetes, Terraform, Prometheus, and AWS. Follow with 3–5 impact bullets per role, each with at least 1 metric such as 30% faster recovery or 20% cost savings."
+      },
+      {
+        "title": "Demonstrate Deployment Automation",
+        "description": "Show CI/CD improvements. Example: \"Integrated GitHub Actions with Kubernetes rollouts, increasing deployment frequency from 4 to 18 releases per month.\" Deployment metrics show DevOps alignment."
+      },
+      {
+        "title": "Connect Reliability to Cost",
+        "description": "Tie infrastructure work to financial results. For example, \"Optimized autoscaling and reserved instances, lowering AWS costs by 21% while maintaining 99.95% uptime.\" Business-aware reliability stands out."
+      }
+    ],
+    "commonResponsibilities": [
+      "Maintain high availability and uptime of production systems",
+      "Implement monitoring and alerting frameworks",
+      "Automate infrastructure provisioning and deployments",
+      "Respond to and resolve production incidents",
+      "Perform capacity planning and scalability testing",
+      "Collaborate with engineering teams on reliability best practices"
+    ],
+    "averageSalary": "$95,000 - $130,000",
+    "salaryRange": "$75,000 - $190,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Netflix",
+      "Stripe",
+      "Shopify",
+      "Uber"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Site Reliability Engineer resume be?",
+        "answer": "Most mid-level SREs should keep their resume to 1 page. If you manage multi-region infrastructure with 8+ years of experience, a concise 2-page resume is acceptable. Ensure each bullet includes measurable reliability or automation metrics."
+      },
+      {
+        "question": "Is Kubernetes mandatory for SRE roles?",
+        "answer": "For most modern SRE roles, yes. Mention Kubernetes along with measurable outcomes such as improving uptime to 99.95% or increasing deployment frequency from 5 to 20 per month."
+      },
+      {
+        "question": "How do I demonstrate incident management impact?",
+        "answer": "Quantify MTTR, SLA improvements, and incident reduction. For example, reducing MTTR from 82 minutes to 29 minutes using improved alerting systems shows operational ownership."
+      },
+      {
+        "question": "Should I include scripting experience?",
+        "answer": "Yes. Mention Bash or Python used for automation and quantify results such as eliminating 10 hours of manual maintenance per week through scripting."
+      }
+    ],
+    "relatedRoles": [
+      "devops-engineer",
+      "cloud-engineer",
+      "platform-engineer",
+      "backend-developer",
+      "software-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and global SRE hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 18,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "data-analyst",
+    "jobTitle": "Data Analyst",
+    "jobTitleVariants": [
+      "Business Data Analyst",
+      "Analytics Analyst",
+      "BI Analyst",
+      "Reporting Analyst"
+    ],
+    "industry": "Analytics",
+    "metaTitle": "Data Analyst Resume Template | SQL & BI Metrics",
+    "metaDescription": "ATS-optimized Data Analyst resume template with SQL, Python, and dashboard examples plus measurable business impact.",
+    "quickAnswer": "A strong Data Analyst resume must prove you can transform raw data into measurable business outcomes using SQL, Python, and BI tools like Tableau or Power BI. Instead of listing reporting tasks, show impact such as \"Built automated Tableau dashboard tracking 30 KPIs, reducing weekly reporting time from 7 hours to 50 minutes.\" Another strong example: \"Wrote advanced SQL queries on Snowflake to analyze churn drivers, enabling targeted campaigns that reduced churn by 8% in 1 quarter.\" These bullets highlight both technical and business value.\n\nYour resume should also demonstrate statistical thinking and stakeholder communication. For example: \"Conducted cohort analysis in Python using pandas, identifying pricing sensitivity that increased upsell revenue by 14% over 6 months.\" Mention data pipeline tools like dbt or Airflow and quantify quality improvements such as reducing reporting discrepancies from 6% to under 1%. Strong analyst resumes clearly connect data queries, visualization, and measurable decisions.",
+    "topSkills": [
+      "SQL",
+      "Python",
+      "pandas",
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "Snowflake",
+      "BigQuery",
+      "dbt",
+      "Airflow",
+      "Data Cleaning",
+      "Statistical Analysis",
+      "Dashboard Design",
+      "Data Visualization",
+      "Stakeholder Communication"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Time Savings",
+        "description": "Show automation impact. For example, \"Automated monthly reports in Excel and Power BI, cutting manual work by 16 hours per month.\" Time-based metrics demonstrate operational value."
+      },
+      {
+        "title": "Highlight Advanced SQL Skills",
+        "description": "Mention window functions, joins, and CTEs. Example: \"Used window functions in Snowflake to analyze 3 years of sales data, uncovering 11% seasonal revenue trends.\" Technical depth stands out."
+      },
+      {
+        "title": "Link Analysis to Revenue",
+        "description": "Tie insights to financial results. For example, \"Identified high-value customer segments in Tableau, contributing to 17% increase in campaign ROI over 2 quarters.\" Avoid analysis without measurable outcome."
+      },
+      {
+        "title": "Structure Resume for Clarity",
+        "description": "Keep most mid-level analyst resumes to 1 page. Place a skills section near the top listing SQL, Python, Tableau, and Excel. Follow with 3–4 impact bullets per role, each including at least 1 metric such as 10% growth or 20% error reduction."
+      },
+      {
+        "title": "Demonstrate Data Quality Work",
+        "description": "Include validation and pipeline examples. For instance, \"Implemented data tests in dbt reducing reporting discrepancies from 5% to 0.8% over 2 months.\" Quality metrics show reliability."
+      },
+      {
+        "title": "Show Cross-Team Influence",
+        "description": "Explain how insights changed decisions. Example: \"Presented retention analysis to product and marketing, leading to feature update that improved retention by 9% across 60K users.\" Quantified influence is compelling."
+      }
+    ],
+    "commonResponsibilities": [
+      "Query and analyze structured datasets",
+      "Build dashboards and recurring reports",
+      "Clean and validate data sources",
+      "Translate insights into business recommendations",
+      "Support experimentation and A/B test analysis",
+      "Collaborate with product, marketing, and finance teams"
+    ],
+    "averageSalary": "$70,000 - $95,000",
+    "salaryRange": "$55,000 - $130,000",
+    "salaryGrowth": "Up 6–10% from 2024",
+    "jobGrowth": "Solid demand projected over the next 5 years",
+    "demandLevel": "High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Deloitte",
+      "Accenture",
+      "Uber",
+      "Airbnb"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Data Analyst resume be?",
+        "answer": "Most mid-level data analysts should keep their resume to 1 page. If you have 8+ years of experience or extensive analytics projects, a focused 2-page resume is acceptable. Each bullet should include SQL usage and measurable business impact."
+      },
+      {
+        "question": "Should I list every dashboard I built?",
+        "answer": "No. Focus on dashboards tied to measurable outcomes such as reducing reporting time from 7 hours to 50 minutes. Mention tools like Tableau or Power BI and the impact they created."
+      },
+      {
+        "question": "Is Python required for data analyst roles?",
+        "answer": "Not always, but it strengthens your profile. Mention pandas or NumPy if you used them to influence metrics such as improving forecast accuracy by 12%."
+      },
+      {
+        "question": "How do I show impact if my work was internal?",
+        "answer": "Quantify operational or financial improvements. For example, reducing reconciliation errors from 4% to 1% using SQL validation queries demonstrates real value even for internal teams."
+      }
+    ],
+    "relatedRoles": [
+      "business-analyst",
+      "data-scientist",
+      "marketing-analyst",
+      "fp&a-analyst",
+      "analytics-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and global analytics hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 17,
+      "exampleMetricsCount": 19,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "data-scientist",
+    "jobTitle": "Data Scientist",
+    "jobTitleVariants": [
+      "Machine Learning Scientist",
+      "Applied Data Scientist",
+      "Analytics Scientist",
+      "Quantitative Data Scientist",
+      "AI Data Scientist"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Data Scientist Resume Template | ML & Python",
+    "metaDescription": "ATS-optimized Data Scientist resume template with Python, ML, and measurable model impact across revenue, retention, and forecasting.",
+    "quickAnswer": "A strong Data Scientist resume must demonstrate measurable business impact from statistical analysis and machine learning models built in Python or R. Hiring managers expect hands-on experience with pandas, scikit-learn, TensorFlow or PyTorch, and SQL for data extraction. For example: \"Built churn prediction model in Python using scikit-learn, increasing retention by 9% and preserving $1.2M in annual recurring revenue.\" Another strong example is \"Developed XGBoost model trained on 3 years of transaction data in Snowflake, improving fraud detection recall from 71% to 86% while reducing false positives by 18%.\" These bullets show modeling depth and financial impact.\n\nYour resume should also cover experimentation and deployment. For instance: \"Designed and analyzed 12 A/B tests using Python and SciPy, identifying pricing changes that increased conversion rate by 14% over 1 quarter.\" Mention model deployment using Docker and AWS SageMaker, and quantify results such as reducing model inference latency from 320 ms to 110 ms. A compelling data scientist resume connects data pipelines, modeling techniques, and measurable outcomes.",
+    "topSkills": [
+      "Python",
+      "R",
+      "SQL",
+      "pandas",
+      "scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "A/B Testing",
+      "Statistical Modeling",
+      "Snowflake",
+      "BigQuery",
+      "Docker",
+      "AWS SageMaker",
+      "Data Visualization"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Model Performance",
+        "description": "Include metrics such as precision, recall, AUC, or revenue impact. For example, \"Improved model AUC from 0.74 to 0.88 using feature engineering and hyperparameter tuning in scikit-learn.\" Tie performance to business metrics like increasing retention by 7%."
+      },
+      {
+        "title": "Highlight End-to-End Projects",
+        "description": "Show data extraction, modeling, and deployment together. Example: \"Queried 50M rows using SQL in BigQuery, trained XGBoost model in Python, and deployed via Docker to AWS.\" Add measurable impact such as reducing churn by 8%."
+      },
+      {
+        "title": "Demonstrate Experimentation Rigor",
+        "description": "Mention A/B testing and statistical validation. For example, \"Designed 10 controlled experiments analyzed with SciPy, leading to 12% improvement in feature adoption.\" Clear experimental design signals maturity."
+      },
+      {
+        "title": "Structure Resume Around Impact",
+        "description": "Keep most mid-level data scientist resumes to 1 page. Place a technical skills section near the top listing Python, SQL, TensorFlow, and cloud tools. Follow with 3–4 measurable project bullets per role, each including at least 1 metric such as 15% revenue growth or 20% error reduction."
+      },
+      {
+        "title": "Show Feature Engineering Depth",
+        "description": "Explain transformation techniques. For example, \"Engineered 25 new features from clickstream data using pandas, increasing model accuracy by 11%.\" Feature impact is as important as algorithm choice."
+      },
+      {
+        "title": "Include Production Deployment",
+        "description": "Recruiters value models in production. Example: \"Deployed real-time scoring API using Flask and Docker, processing 60K predictions per day with 99.9% availability.\" Production metrics differentiate strong candidates."
+      }
+    ],
+    "commonResponsibilities": [
+      "Build and validate predictive models",
+      "Analyze large datasets to uncover insights",
+      "Design and evaluate experiments",
+      "Deploy models to production environments",
+      "Collaborate with product and engineering teams",
+      "Communicate findings to stakeholders"
+    ],
+    "averageSalary": "$95,000 - $130,000",
+    "salaryRange": "$75,000 - $190,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Netflix",
+      "Airbnb",
+      "Uber",
+      "Stripe"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Data Scientist resume be?",
+        "answer": "Most mid-level data scientists should keep their resume to 1 page. If you have 8+ years of experience or multiple large-scale ML deployments, a focused 2-page resume is acceptable. Every project should include measurable model performance and business impact."
+      },
+      {
+        "question": "Should I include academic research projects?",
+        "answer": "Yes, especially if they include strong modeling or statistical rigor. Mention tools like Python, TensorFlow, or R and include metrics such as accuracy improvements or dataset size (for example, 5M records)."
+      },
+      {
+        "question": "How do I show business impact?",
+        "answer": "Tie model results to financial or operational outcomes. For example, reducing churn by 9% or increasing campaign ROI by 15% is more compelling than listing algorithms alone."
+      },
+      {
+        "question": "Is deployment experience important?",
+        "answer": "Yes. Mention Docker, AWS SageMaker, or Flask APIs and quantify impact such as handling 60K predictions per day or reducing inference time from 320 ms to 110 ms."
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "data-analyst",
+      "analytics-engineer",
+      "ai-engineer",
+      "business-analyst"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global data science hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 19,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "machine-learning-engineer",
+    "jobTitle": "Machine Learning Engineer",
+    "jobTitleVariants": [
+      "ML Engineer",
+      "Applied Machine Learning Engineer",
+      "AI Engineer",
+      "ML Platform Engineer",
+      "Deep Learning Engineer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Machine Learning Engineer Resume Template | MLOps",
+    "metaDescription": "ATS-optimized Machine Learning Engineer resume template with MLOps, deployment, and scalable ML system examples.",
+    "quickAnswer": "A strong Machine Learning Engineer resume must show production-grade model deployment, scalable pipelines, and measurable system performance. Hiring managers expect deep experience with Python, TensorFlow or PyTorch, and data processing frameworks like Spark, along with MLOps tooling such as MLflow and Docker. For example: \"Built real-time recommendation model in PyTorch deployed on AWS SageMaker, increasing average order value by 11% across 200K users.\" Another strong example: \"Reduced model training time from 9 hours to 2.5 hours by parallelizing data preprocessing in Spark and optimizing GPU utilization.\" These bullets show engineering rigor and measurable outcomes.\n\nYou should also highlight monitoring and lifecycle management. For instance: \"Implemented model versioning with MLflow and automated retraining pipelines via Airflow, reducing model drift incidents by 35% over 6 months.\" Mention Kubernetes for scalable inference and quantify reliability such as maintaining 99.9% API availability while serving 75K predictions per hour. An effective ML engineer resume connects modeling, infrastructure, automation, and business impact.",
+    "topSkills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Spark",
+      "SQL",
+      "MLflow",
+      "Airflow",
+      "Docker",
+      "Kubernetes",
+      "AWS SageMaker",
+      "Feature Engineering",
+      "Model Deployment",
+      "CI/CD for ML",
+      "Data Pipelines",
+      "Monitoring"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Model Deployment Scale",
+        "description": "Include inference volume and availability. For example, \"Deployed real-time scoring API handling 75K predictions per hour with 99.9% uptime.\" Scale metrics differentiate ML engineering from research roles."
+      },
+      {
+        "title": "Highlight Training Optimization",
+        "description": "Show compute efficiency gains. Example: \"Reduced GPU training cost by 28% by optimizing batch size and mixed precision training in PyTorch.\" Cost and time improvements show engineering depth."
+      },
+      {
+        "title": "Demonstrate MLOps Practices",
+        "description": "Mention tools like MLflow, Airflow, or Kubeflow. For example, \"Automated model retraining pipeline using Airflow, cutting manual retraining effort by 10 hours per week.\" Automation metrics are critical."
+      },
+      {
+        "title": "Structure Resume Around Systems",
+        "description": "Keep most mid-level ML engineer resumes to 1 page. Start with core stack including Python, Spark, Kubernetes, and AWS. Follow with 3–4 system-level projects showing metrics such as 20% latency reduction or 15% revenue lift."
+      },
+      {
+        "title": "Show Feature Store Experience",
+        "description": "Explain data pipeline contributions. For example, \"Built feature pipeline in Spark processing 100M records daily, improving model accuracy by 9%.\" Data engineering depth strengthens ML profiles."
+      },
+      {
+        "title": "Tie Models to Business KPIs",
+        "description": "Always link model output to revenue, retention, or cost savings. Example: \"Recommendation engine increased click-through rate by 17% and generated $850K additional annual revenue.\" Clear KPI linkage stands out."
+      }
+    ],
+    "commonResponsibilities": [
+      "Develop and deploy machine learning models",
+      "Build scalable data pipelines for training and inference",
+      "Automate model retraining and monitoring",
+      "Optimize model performance and resource usage",
+      "Collaborate with data scientists and backend engineers",
+      "Maintain reliability and availability of ML services"
+    ],
+    "averageSalary": "$100,000 - $135,000",
+    "salaryRange": "$80,000 - $200,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "OpenAI",
+      "NVIDIA",
+      "Airbnb",
+      "Uber"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Machine Learning Engineer resume be?",
+        "answer": "Most mid-level ML engineers should keep their resume to 1 page. If you have 8+ years building large-scale ML systems, a concise 2-page resume is acceptable. Focus on deployment scale, automation, and measurable performance improvements."
+      },
+      {
+        "question": "How is an ML Engineer resume different from a Data Scientist resume?",
+        "answer": "An ML engineer resume emphasizes deployment, scalability, and MLOps tooling such as Kubernetes and MLflow. It should highlight system availability, inference volume, and automation metrics rather than only model accuracy."
+      },
+      {
+        "question": "Is cloud experience required?",
+        "answer": "For most roles, yes. Mention AWS, GCP, or Azure along with tools like Docker and Kubernetes. Include measurable outcomes such as reducing inference latency from 300 ms to 120 ms."
+      },
+      {
+        "question": "Should I include research publications?",
+        "answer": "Include them if relevant, but prioritize production systems. A deployed model serving 75K predictions per hour with measurable revenue impact typically carries more weight than academic citations alone."
+      }
+    ],
+    "relatedRoles": [
+      "data-scientist",
+      "ai-engineer",
+      "backend-developer",
+      "analytics-engineer",
+      "software-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global ML engineering hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 20,
+      "exampleMetricsCount": 19,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "product-manager",
+    "jobTitle": "Product Manager",
+    "jobTitleVariants": [
+      "Digital Product Manager",
+      "Growth Product Manager",
+      "Product Owner",
+      "SaaS Product Manager",
+      "Platform Product Manager"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Product Manager Resume Template | Roadmap & KPI",
+    "metaDescription": "ATS-optimized Product Manager resume template with roadmap, analytics, and measurable KPI examples to increase interviews.",
+    "quickAnswer": "A strong Product Manager resume must demonstrate ownership of roadmap decisions, cross-functional execution, and measurable business impact. Hiring managers expect clear examples using tools like Jira, Figma, Amplitude, Mixpanel, and SQL to guide prioritization and validate outcomes. For example: \"Launched onboarding redesign using Figma prototypes and A/B testing in Optimizely, increasing activation rate from 61% to 76% in 8 weeks.\" Another strong bullet is \"Reprioritized backlog using RICE scoring in Jira, reallocating 30% of sprint capacity toward retention features and reducing churn by 9% over 6 months.\" These examples show strategy tied to data.\n\nYour resume should also highlight analytics fluency and go-to-market ownership. For instance: \"Analyzed funnel data in Amplitude and wrote SQL queries in BigQuery to identify drop-off points, improving trial-to-paid conversion by 14% in 1 quarter.\" Mention OKRs, stakeholder alignment, and measurable revenue impact such as increasing ARPU by 11% after pricing experiments. A compelling product manager resume connects strategy, experimentation, and financial outcomes.",
+    "topSkills": [
+      "Product Roadmapping",
+      "Jira",
+      "Figma",
+      "Amplitude",
+      "Mixpanel",
+      "SQL",
+      "BigQuery",
+      "A/B Testing",
+      "Optimizely",
+      "OKRs",
+      "RICE Prioritization",
+      "User Research",
+      "Stakeholder Management",
+      "Agile Methodologies",
+      "Go-to-Market Strategy"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Business Outcomes",
+        "description": "Tie each feature to revenue, retention, or conversion metrics. For example, \"Introduced referral program tracked in Mixpanel, increasing monthly signups by 23% in 3 months.\" Business-linked metrics show ownership beyond delivery."
+      },
+      {
+        "title": "Show Prioritization Frameworks",
+        "description": "Mention structured decision methods like RICE or MoSCoW. Example: \"Used RICE scoring in Jira to select top 6 initiatives, accelerating release cycle by 18% over 2 quarters.\" This demonstrates strategic thinking."
+      },
+      {
+        "title": "Highlight Analytics Depth",
+        "description": "Recruiters value data fluency. For instance, \"Wrote SQL queries in BigQuery to analyze funnel drop-off, identifying 12% friction in payment step.\" Tie analysis to measurable product improvements."
+      },
+      {
+        "title": "Structure Resume Around Impact",
+        "description": "Keep most mid-level PM resumes to 1 page. Start with a concise summary mentioning domain and scale, such as B2B SaaS with 70K MAUs. Follow with 3–4 high-impact initiatives per role, each including at least 1 metric like 15% retention growth."
+      },
+      {
+        "title": "Demonstrate Experimentation Rigor",
+        "description": "Include A/B testing examples. Example: \"Ran 8 A/B tests in Optimizely, with 4 winning variants improving engagement by 10% or more.\" Controlled experimentation signals product maturity."
+      },
+      {
+        "title": "Show Cross-Functional Leadership",
+        "description": "Specify teams and measurable results. For example, \"Aligned engineering, design, and marketing to launch 5 features in 2 quarters, increasing weekly active users by 17%.\" Quantified collaboration strengthens leadership credibility."
+      }
+    ],
+    "commonResponsibilities": [
+      "Define and communicate product roadmap",
+      "Translate business goals into product requirements",
+      "Prioritize backlog using structured frameworks",
+      "Analyze product metrics and user behavior",
+      "Lead cross-functional product development cycles",
+      "Plan and execute go-to-market strategies"
+    ],
+    "averageSalary": "$110,000 - $140,000",
+    "salaryRange": "$80,000 - $200,000",
+    "salaryGrowth": "Up slightly from 2024",
+    "jobGrowth": "Solid demand projected over the next 5 years",
+    "demandLevel": "High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Atlassian",
+      "Airbnb",
+      "Stripe",
+      "Shopify"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Product Manager resume be?",
+        "answer": "Most mid-level product managers should keep their resume to 1 page. If you have 8+ years across multiple products or business units, a concise 2-page resume is acceptable. Ensure every initiative ties to measurable business impact."
+      },
+      {
+        "question": "Should I include technical skills as a Product Manager?",
+        "answer": "Yes, especially tools like Jira, SQL, or analytics platforms such as Amplitude. Showing you can analyze funnel data or write queries strengthens credibility with engineering teams."
+      },
+      {
+        "question": "How do I show strategic thinking?",
+        "answer": "Highlight prioritization frameworks and trade-offs. For example, reallocating 30% of sprint capacity using RICE scoring and reducing churn by 9% demonstrates strategy tied to measurable outcomes."
+      },
+      {
+        "question": "Is domain specialization important?",
+        "answer": "Yes. Mention context such as B2B SaaS with 70K MAUs or fintech products handling $5M monthly transaction volume. Clear domain scale helps recruiters assess relevance quickly."
+      }
+    ],
+    "relatedRoles": [
+      "technical-product-manager",
+      "growth-product-manager",
+      "ux-designer",
+      "business-analyst",
+      "product-designer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global product hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 17,
+      "exampleMetricsCount": 19,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "technical-product-manager",
+    "jobTitle": "Technical Product Manager",
+    "jobTitleVariants": [
+      "TPM",
+      "Platform Product Manager",
+      "API Product Manager",
+      "Infrastructure Product Manager",
+      "Technical Program Product Manager"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Technical Product Manager Resume Template | APIs",
+    "metaDescription": "ATS-optimized Technical Product Manager resume template with API, platform, and measurable delivery impact examples.",
+    "quickAnswer": "A strong Technical Product Manager resume must demonstrate ownership of complex technical systems, API platforms, and cross-functional execution with engineering teams. Hiring managers expect experience with tools like Jira, Confluence, Postman, and SQL, along with familiarity with cloud platforms such as AWS. For example: \"Led API platform roadmap in Jira, enabling 35% faster partner integrations and reducing integration defects by 22% in 2 quarters.\" Another strong example is \"Defined microservices migration plan with engineering, reallocating 40% of sprint capacity and improving system uptime from 99.2% to 99.9%.\" These bullets show technical fluency and measurable reliability gains.\n\nYour resume should also highlight analytics and stakeholder alignment. For instance: \"Analyzed API usage data in BigQuery and built dashboards in Tableau, identifying top 20% endpoints driving 68% of traffic and prioritizing performance improvements.\" Mention writing PRDs in Confluence and validating releases with Postman tests, tying work to measurable outcomes such as increasing developer adoption by 18% over 6 months. A compelling TPM resume connects technical depth, roadmap execution, and business results.",
+    "topSkills": [
+      "Jira",
+      "Confluence",
+      "SQL",
+      "BigQuery",
+      "Tableau",
+      "Postman",
+      "API Design",
+      "Microservices Architecture",
+      "AWS",
+      "Kubernetes",
+      "Product Roadmapping",
+      "Stakeholder Management",
+      "Agile Methodologies",
+      "OKRs",
+      "Technical Documentation"
+    ],
+    "resumeTips": [
+      {
+        "title": "Show Technical System Ownership",
+        "description": "Highlight APIs, platforms, or infrastructure projects. For example, \"Led redesign of authentication API, reducing integration time from 14 days to 6 days.\" System-level impact differentiates TPM roles."
+      },
+      {
+        "title": "Quantify Engineering Alignment",
+        "description": "Demonstrate sprint or release impact. Example: \"Partnered with engineering to deliver 12 major releases in 1 year, improving deployment reliability by 20%.\" Measurable delivery metrics stand out."
+      },
+      {
+        "title": "Highlight Data-Driven Decisions",
+        "description": "Mention analytics tools such as SQL, BigQuery, or Tableau. For instance, \"Analyzed 10M API calls to prioritize endpoints, reducing average response time by 25%.\" Data-backed prioritization is key."
+      },
+      {
+        "title": "Structure Resume for Technical Depth",
+        "description": "Keep most mid-level TPM resumes to 1 page. Begin with a skills section listing APIs, SQL, AWS, and Jira. Follow with 3–4 platform initiatives per role, each including at least 1 measurable metric such as 15% uptime gain or 30% faster integration."
+      },
+      {
+        "title": "Demonstrate Documentation Rigor",
+        "description": "Mention PRDs, RFCs, and Confluence documentation. Example: \"Authored 25+ PRDs and technical RFCs, aligning 3 engineering squads and reducing scope creep by 18%.\" Documentation quality impacts execution."
+      },
+      {
+        "title": "Connect Technical Work to Revenue",
+        "description": "Tie system improvements to business KPIs. For example, \"Improved partner API reliability to 99.9%, increasing enterprise renewals by 11% in 1 fiscal year.\" Financial linkage strengthens impact."
+      }
+    ],
+    "commonResponsibilities": [
+      "Define technical product roadmap and architecture priorities",
+      "Write detailed PRDs and technical specifications",
+      "Align engineering, design, and business stakeholders",
+      "Analyze system metrics and API performance",
+      "Prioritize platform and infrastructure initiatives",
+      "Support go-to-market for technical features"
+    ],
+    "averageSalary": "$115,000 - $150,000",
+    "salaryRange": "$85,000 - $210,000",
+    "salaryGrowth": "Up slightly from 2024",
+    "jobGrowth": "Solid demand projected over the next 5 years",
+    "demandLevel": "High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Stripe",
+      "Atlassian",
+      "Snowflake",
+      "Shopify"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Technical Product Manager resume be?",
+        "answer": "Most mid-level TPMs should keep their resume to 1 page. If you have 8+ years managing large-scale platforms or infrastructure products, a concise 2-page resume is acceptable. Ensure every initiative shows measurable technical and business outcomes."
+      },
+      {
+        "question": "How is a TPM resume different from a PM resume?",
+        "answer": "A TPM resume emphasizes APIs, architecture decisions, system reliability, and technical documentation. It should include tools like SQL, Postman, and cloud platforms along with measurable engineering outcomes."
+      },
+      {
+        "question": "Should I include coding experience?",
+        "answer": "Include it if relevant, especially if it improved delivery or debugging speed. For example, writing SQL queries to analyze 10M API calls and reducing latency by 25% strengthens technical credibility."
+      },
+      {
+        "question": "Is infrastructure experience important?",
+        "answer": "Yes for platform or API-focused roles. Mention AWS, Kubernetes, or microservices initiatives with metrics such as improving uptime from 99.2% to 99.9%."
+      }
+    ],
+    "relatedRoles": [
+      "product-manager",
+      "platform-engineer",
+      "backend-developer",
+      "program-manager",
+      "solutions-architect"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global technical product hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 18,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "data-engineer",
+    "jobTitle": "Data Engineer",
+    "jobTitleVariants": [
+      "Analytics Engineer",
+      "Big Data Engineer",
+      "ETL Developer",
+      "Data Platform Engineer",
+      "Cloud Data Engineer"
+    ],
+    "industry": "Technology",
+    "metaTitle": "Data Engineer Resume Template | ETL & Cloud",
+    "metaDescription": "ATS-optimized Data Engineer resume template with SQL, Spark, and cloud pipeline examples plus measurable data reliability impact.",
+    "quickAnswer": "A strong Data Engineer resume must demonstrate ownership of scalable data pipelines, warehouse architecture, and measurable reliability improvements. Hiring managers expect hands-on experience with SQL, Python, Spark, and cloud platforms such as AWS or GCP, along with tools like Airflow and dbt. For example: \"Built ETL pipelines in Python and Spark processing 120M records daily into Snowflake, reducing data latency from 6 hours to 45 minutes.\" Another high-impact example is \"Implemented data validation tests in dbt, decreasing reporting discrepancies from 7% to 0.9% over 3 months.\" These bullets show pipeline scale and data quality impact.\n\nYou should also highlight infrastructure and orchestration. For instance: \"Orchestrated 85 daily workflows in Airflow on AWS EMR, increasing pipeline reliability from 96% to 99.8% and cutting incident volume by 31% over 2 quarters.\" Mention containerization with Docker and deployment automation via GitHub Actions, tying improvements to business outcomes such as enabling real-time dashboards used by 15 business teams. A compelling data engineer resume connects data ingestion, transformation, cloud infrastructure, and measurable system performance.",
+    "topSkills": [
+      "SQL",
+      "Python",
+      "Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "BigQuery",
+      "AWS",
+      "GCP",
+      "Docker",
+      "GitHub Actions",
+      "Data Warehousing",
+      "ETL/ELT Pipelines",
+      "Data Modeling",
+      "Data Quality Monitoring"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Pipeline Scale",
+        "description": "Include record volume and latency improvements. For example, \"Processed 150M daily events using Spark on AWS EMR, reducing data availability delay from 8 hours to 1 hour.\" Scale metrics differentiate strong engineers."
+      },
+      {
+        "title": "Highlight Data Quality Impact",
+        "description": "Show validation and testing rigor. Example: \"Implemented 120+ dbt tests reducing reporting discrepancies from 6% to 0.8% in 2 months.\" Data reliability is critical for stakeholders."
+      },
+      {
+        "title": "Demonstrate Cloud Architecture",
+        "description": "Mention AWS, GCP, or Azure with measurable results. For instance, \"Migrated on-prem warehouse to Snowflake on AWS, lowering infrastructure costs by 18% while improving query performance by 25%.\" Cloud transformation impact stands out."
+      },
+      {
+        "title": "Structure Resume Around Systems",
+        "description": "Keep most mid-level data engineer resumes to 1 page. Start with a skills section listing SQL, Spark, Airflow, and cloud tools. Follow with 3–4 end-to-end pipeline projects, each including at least 1 metric such as 20% latency reduction or 30% cost savings."
+      },
+      {
+        "title": "Show Orchestration and Automation",
+        "description": "Recruiters value workflow automation. Example: \"Automated 60+ ETL jobs using Airflow, reducing manual maintenance by 12 hours per week.\" Automation metrics reinforce efficiency."
+      },
+      {
+        "title": "Tie Data Work to Business Use",
+        "description": "Explain how pipelines enabled decisions. For example, \"Enabled real-time sales dashboard in Tableau for 10 regional teams, increasing reporting adoption by 22%.\" Business linkage strengthens impact."
+      }
+    ],
+    "commonResponsibilities": [
+      "Design and build scalable data pipelines",
+      "Maintain data warehouses and lake architectures",
+      "Optimize SQL queries and data models",
+      "Implement data quality checks and monitoring",
+      "Automate workflow orchestration",
+      "Collaborate with analysts and data scientists"
+    ],
+    "averageSalary": "$95,000 - $125,000",
+    "salaryRange": "$75,000 - $190,000",
+    "salaryGrowth": "Up 6–12% from 2024",
+    "jobGrowth": "+15–25% projected through 2032",
+    "demandLevel": "Very High",
+    "topCompanies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Snowflake",
+      "Databricks",
+      "Airbnb",
+      "Uber"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Data Engineer resume be?",
+        "answer": "Most mid-level data engineers should keep their resume to 1 page. If you have 8+ years building large-scale distributed systems, a concise 2-page resume is acceptable. Ensure each project highlights pipeline scale, tooling, and measurable performance gains."
+      },
+      {
+        "question": "Should I include specific data volumes?",
+        "answer": "Yes. Mention metrics such as processing 100M+ records daily or reducing latency from 6 hours to 45 minutes. Scale data points help recruiters assess experience quickly."
+      },
+      {
+        "question": "Is cloud experience mandatory?",
+        "answer": "For most roles, yes. Include AWS, GCP, or Azure along with tools like Snowflake or BigQuery. Quantify improvements such as 25% faster query performance after migration."
+      },
+      {
+        "question": "How do I show collaboration with analysts?",
+        "answer": "Explain business outcomes enabled by your pipelines. For example, enabling dashboards used by 15 teams or improving data freshness for weekly executive reporting demonstrates impact."
+      }
+    ],
+    "relatedRoles": [
+      "analytics-engineer",
+      "data-scientist",
+      "data-analyst",
+      "machine-learning-engineer",
+      "backend-developer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation benchmarks and global data engineering hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 17,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  },
+  {
+    "slug": "business-analyst",
+    "jobTitle": "Business Analyst",
+    "jobTitleVariants": [
+      "Business Systems Analyst",
+      "Process Analyst",
+      "Operations Analyst",
+      "Functional Analyst",
+      "Business Intelligence Analyst"
+    ],
+    "industry": "Analytics",
+    "metaTitle": "Business Analyst Resume Template | KPI & SQL",
+    "metaDescription": "ATS-optimized Business Analyst resume template with SQL, dashboards, and measurable operational impact examples.",
+    "quickAnswer": "A strong Business Analyst resume must demonstrate measurable improvements in processes, KPIs, and cross-functional decision-making using tools like SQL, Excel, Tableau, or Power BI. Hiring managers look for examples such as \"Built KPI dashboard in Power BI tracking 25 operational metrics, reducing weekly reporting time from 6 hours to 1 hour.\" Another strong bullet is \"Analyzed customer lifecycle data using SQL in BigQuery, identifying bottlenecks that improved lead-to-sale conversion by 12% over 2 quarters.\" These examples show analytical depth and business impact.\n\nYour resume should also highlight stakeholder alignment and process optimization. For instance: \"Mapped end-to-end procurement workflow in Visio and implemented automation in Excel, reducing processing time from 5 days to 2 days and saving 18% in operational costs.\" Mention collaboration with finance, marketing, or operations and quantify improvements such as increasing forecast accuracy by 14% after implementing structured reporting. A compelling business analyst resume connects analysis, process change, and measurable outcomes.",
+    "topSkills": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "BigQuery",
+      "Visio",
+      "Process Mapping",
+      "KPI Development",
+      "Data Visualization",
+      "Requirements Gathering",
+      "Stakeholder Communication",
+      "Financial Analysis",
+      "A/B Testing",
+      "Dashboard Design"
+    ],
+    "resumeTips": [
+      {
+        "title": "Quantify Process Improvements",
+        "description": "Show operational gains. For example, \"Reduced order processing time from 4 days to 1.5 days by redesigning workflow in Visio and automating reports in Excel.\" Time and cost savings strengthen impact."
+      },
+      {
+        "title": "Highlight KPI Ownership",
+        "description": "Mention metrics you defined or tracked. Example: \"Defined 20+ KPIs in Power BI improving executive visibility and increasing on-time delivery by 16%.\" KPI clarity shows strategic contribution."
+      },
+      {
+        "title": "Demonstrate SQL Fluency",
+        "description": "Recruiters value data querying skills. For instance, \"Queried 10M+ records in BigQuery to identify churn drivers, contributing to 9% retention improvement.\" Technical depth differentiates analysts."
+      },
+      {
+        "title": "Structure Resume for Readability",
+        "description": "Keep most mid-level business analyst resumes to 1 page. Start with core tools like SQL, Excel, and Tableau. Follow with 3–4 measurable achievements per role, each including at least 1 metric such as 15% cost reduction or 10% efficiency gain."
+      },
+      {
+        "title": "Show Cross-Functional Impact",
+        "description": "Specify which teams benefited. Example: \"Collaborated with finance and marketing to improve campaign ROI by 13% using dashboard insights.\" Quantified collaboration stands out."
+      },
+      {
+        "title": "Link Analysis to Financial Results",
+        "description": "Tie work to revenue or savings. For example, \"Identified pricing inefficiencies through Excel modeling, increasing quarterly revenue by $420K.\" Financial linkage strengthens credibility."
+      }
+    ],
+    "commonResponsibilities": [
+      "Analyze business processes and identify improvement areas",
+      "Develop dashboards and KPI reports",
+      "Gather and document business requirements",
+      "Collaborate with cross-functional teams on initiatives",
+      "Translate data insights into actionable recommendations",
+      "Support forecasting and financial planning"
+    ],
+    "averageSalary": "$70,000 - $95,000",
+    "salaryRange": "$55,000 - $130,000",
+    "salaryGrowth": "Up 4–8% from 2024",
+    "jobGrowth": "Solid demand projected over the next 5 years",
+    "demandLevel": "High",
+    "topCompanies": [
+      "Deloitte",
+      "Accenture",
+      "PwC",
+      "EY",
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "JPMorgan Chase"
+    ],
+    "faqs": [
+      {
+        "question": "How long should a Business Analyst resume be?",
+        "answer": "Most mid-level business analysts should keep their resume to 1 page. If you have 8+ years across multiple business domains, a focused 2-page resume is acceptable. Ensure each achievement includes measurable operational or financial impact."
+      },
+      {
+        "question": "Should I emphasize technical or business skills more?",
+        "answer": "Balance both. Mention SQL, Excel, and BI tools alongside process mapping and stakeholder alignment. Showing technical analysis tied to measurable business improvements strengthens credibility."
+      },
+      {
+        "question": "Is certification important for business analysts?",
+        "answer": "Certifications like CBAP can help, but measurable outcomes matter more. For example, reducing process cycle time by 40% or increasing forecast accuracy by 14% demonstrates applied expertise."
+      },
+      {
+        "question": "How do I show impact if I supported multiple departments?",
+        "answer": "Quantify improvements for each function. For instance, improving marketing ROI by 13% and reducing finance reconciliation errors from 5% to 1% using SQL dashboards shows cross-functional value."
+      }
+    ],
+    "relatedRoles": [
+      "data-analyst",
+      "fp&a-analyst",
+      "operations-analyst",
+      "product-manager",
+      "analytics-engineer"
+    ],
+    "authorName": "ShortlistAI Editorial",
+    "authorTitle": "Resume Optimization Team",
+    "sourceNotes": "Salary and demand estimates are approximate based on public compensation data and global business analytics hiring trends as of 2026.",
+    "schemaVersion": "v1",
+    "qualityChecks": {
+      "bannedPhrasesFound": [],
+      "exampleToolsMentioned": 16,
+      "exampleMetricsCount": 20,
+      "uniquenessScore": 9
+    }
+  }
+]

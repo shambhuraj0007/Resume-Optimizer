@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  @keyframes cursor-move {
+    0% {
+      top: 60%;
+      left: 20%;
+      transform: rotate(0deg);
+    }
+
+    30% {
+      top: 30%;
+      left: 40%;
+      transform: rotate(-5deg);
+    }
+
+    50% {
+      top: 25%;
+      left: 80%;
+      transform: rotate(-10deg) scale(0.95);
+    }
+
+    60% {
+      top: 25%;
+      left: 80%;
+      transform: rotate(-10deg) scale(1);
+    }
+
+    100% {
+      top: 25%;
+      left: 80%;
+      transform: rotate(-10deg);
+    }
+  }
+
+  @keyframes cursor-label {
+
+    0%,
+    30% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+
+    40% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    80% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    100% {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+  }
+
+  .animate-cursor-move {
+    animation: cursor-move 4s ease-in-out infinite;
+  }
+
+  .animate-cursor-label {
+    animation: cursor-label 4s ease-in-out infinite;
+  }
+}
+
+@layer base {
+  :root {
+    /* Light Theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 220 90% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 220 90% 56%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 220 90% 56%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark Theme */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 220 90% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 220 90% 56%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 220 90% 56%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-foreground font-bold;
+  }
+
+  .text-muted-foreground {
+    @apply text-slate-500 dark:text-slate-400 !important;
+  }
+}
+
+/* Razorpay Modal Fixes */
+.razorpay-container {
+  z-index: 9999 !important;
+}
+
+.razorpay-container iframe {
+  z-index: 10000 !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+/* CookieScript — force out of document flow AND hide until page load
+   so it never causes CLS or becomes the LCP element */
+#cookiescript_injected,
+#cookiescript_injected_wrapper,
+#cookiescript_accept,
+.cookiescript_fsd {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 99999 !important;
+  margin: 0 !important;
+  top: auto !important;
+  visibility: hidden !important;
+}
+
+@media print {
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    background-color: white !important;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Driver.js Customization */
+.driver-popover.driverjs-theme {
+  background-color: #ffffff;
+  color: #1f2937;
+  /* Tailwind gray-800 */
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.dark .driver-popover.driverjs-theme {
+  background-color: #1e293b;
+  /* Tailwind slate-800 */
+  color: #f3f4f6;
+  /* Tailwind gray-100 */
+}
+
+/* Customize the Title */
+.driver-popover-title {
+  font-family: inherit;
+  /* Inherit app font */
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.dark .driver-popover-title {
+  color: #f9fafb;
+}
+
+/* Customize the Buttons */
+.driver-popover-footer button {
+  background-color: #0f172a;
+  /* Tailwind slate-900 */
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+  text-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.driver-popover-footer button:hover {
+  background-color: #334155;
+  /* Tailwind slate-700 */
+}
+
+.dark .driver-popover-footer button {
+  background-color: #f1f5f9;
+  /* Tailwind slate-100 */
+  color: #0f172a;
+}
+
+.dark .driver-popover-footer button:hover {
+  background-color: #e2e8f0;
+  /* Tailwind slate-200 */
+}
+
+/* Minimal elegant slim scrollbar to indicate scrollability */
+.scrollbar-thin-fade {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.4) transparent;
+}
+
+.scrollbar-thin-fade::-webkit-scrollbar {
+  height: 4px;
+  /* Tiny height for horizontal scroll */
+}
+
+.scrollbar-thin-fade::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin-fade::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.4);
+  border-radius: 10px;
+}
+
+.dark .scrollbar-thin-fade {
+  scrollbar-color: rgba(71, 85, 105, 0.6) transparent;
+}
+
+.dark .scrollbar-thin-fade::-webkit-scrollbar-thumb {
+  background-color: rgba(71, 85, 105, 0.6);
+}

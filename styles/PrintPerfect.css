@@ -1,0 +1,119 @@
+/* styles/PrintPerfect.css */
+
+/* 1. GLOBAL VARIABLES */
+:root {
+  --margin-size: 20mm;
+  --font-primary: 'Inter', 'Roboto', Arial, sans-serif;
+  --font-size-body: 10.5pt;
+  --line-height: 1.45;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm !important;
+  }
+
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .resume-wrapper,
+  .resume-page {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    /* Removed !important background to allow template sidebar gradients */
+    box-shadow: none !important;
+    border: none !important;
+    overflow: visible !important;
+    min-height: 297mm !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* 2. SCREEN PREVIEW RULES */
+@media screen {
+  .resume-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: var(--margin-size);
+    background: white;
+    margin: 2rem auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f1f5f9;
+    box-sizing: border-box;
+    position: relative;
+    color: #1a1a1a;
+  }
+}
+
+/* 3. BULLET ENFORCEMENT */
+.resume-page ul,
+#resume-content ul {
+  list-style-type: disc !important;
+  padding-left: 1.4rem !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.5em !important;
+  display: block !important;
+}
+
+.resume-page li,
+#resume-content li {
+  list-style-type: disc !important;
+  display: list-item !important;
+  margin-bottom: 0.25em !important;
+  padding-left: 0.3em !important;
+  line-height: var(--line-height) !important;
+}
+
+.resume-page li::marker {
+  color: #334155;
+  font-size: 1.1em;
+}
+
+/* 4. TYPOGRAPHY & SPACING */
+.resume-page {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height);
+}
+
+.work-item,
+.project-item,
+.education-item {
+  margin-bottom: 1.25em;
+  page-break-inside: avoid;
+}
+
+.resume-page h1,
+.resume-page h2,
+.resume-page h3,
+.resume-page h4,
+#resume-content h1,
+#resume-content h2,
+#resume-content h3,
+#resume-content h4 {
+  page-break-after: avoid;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.no-break {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.resume-page a,
+#resume-content a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,269 @@
+name: Production Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+env:
+  APP_DIR: /home/ec2-user/apps/resume
+  APP_PORT: 8888
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy on EC2
+        uses: appleboy/ssh-action@v0.1.10
+        env:
+          # Pass all secrets as before
+          GIT_CLONE_TOKEN: ${{ secrets.GIT_CLONE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+          NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
+          NEXT_PUBLIC_RAZORPAY_KEY_ID: ${{ secrets.NEXT_PUBLIC_RAZORPAY_KEY_ID }}
+          RAZORPAY_KEY_SECRET: ${{ secrets.RAZORPAY_KEY_SECRET }}
+          CASHFREE_APP_ID: ${{ secrets.CASHFREE_APP_ID }}
+          CASHFREE_SECRET_KEY: ${{ secrets.CASHFREE_SECRET_KEY }}
+          CASHFREE_PLAN_MONTHLY_ID: ${{ secrets.CASHFREE_PLAN_MONTHLY_ID }}
+          CASHFREE_PLAN_QUARTERLY_ID: ${{ secrets.CASHFREE_PLAN_QUARTERLY_ID }}
+          PAYPAL_CLIENT_ID: ${{ secrets.PAYPAL_CLIENT_ID }}
+          PAYPAL_CLIENT_SECRET: ${{ secrets.PAYPAL_CLIENT_SECRET }}
+          NEXT_PUBLIC_PAYPAL_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_PAYPAL_CLIENT_ID }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NEXT_PUBLIC_URL: ${{ secrets.NEXT_PUBLIC_URL }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_REPLY_TO: ${{ secrets.EMAIL_REPLY_TO }}
+          EMAIL_BCC_TRACKING: ${{ secrets.EMAIL_BCC_TRACKING }}
+          EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+          EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_FROM_NAME: ${{ secrets.EMAIL_FROM_NAME }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_VERIFY_SERVICE_SID: ${{ secrets.TWILIO_VERIFY_SERVICE_SID }}
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+          NEXT_PUBLIC_POSTHOG_KEY: ${{ secrets.NEXT_PUBLIC_POSTHOG_KEY }}
+          NEXT_PUBLIC_POSTHOG_HOST: ${{ secrets.NEXT_PUBLIC_POSTHOG_HOST }}
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ec2-user
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          timeout: 55m
+          command_timeout: 50m
+          # List envs to inject
+          envs: GIT_CLONE_TOKEN,MONGODB_URI,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_SECRET,NEXTAUTH_URL,NEXT_PUBLIC_RAZORPAY_KEY_ID,RAZORPAY_KEY_SECRET,CASHFREE_APP_ID,CASHFREE_SECRET_KEY,CASHFREE_PLAN_MONTHLY_ID,CASHFREE_PLAN_QUARTERLY_ID,PAYPAL_CLIENT_ID,PAYPAL_CLIENT_SECRET,NEXT_PUBLIC_PAYPAL_CLIENT_ID,OPENROUTER_API_KEY,GEMINI_API_KEY,DEEPSEEK_API_KEY,GROQ_API_KEY,NEXT_PUBLIC_URL,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION,EMAIL_FROM,EMAIL_REPLY_TO,EMAIL_BCC_TRACKING,EMAIL_HOST,EMAIL_PORT,EMAIL_USER,EMAIL_PASSWORD,EMAIL_FROM_NAME,TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN,TWILIO_VERIFY_SERVICE_SID,CLERK_SECRET_KEY,LOOPS_API_KEY,NEXT_PUBLIC_POSTHOG_KEY,NEXT_PUBLIC_POSTHOG_HOST
+          script: |
+            set -e
+            set -o pipefail
+
+            log_info() { echo -e "\033[0;32m✅ $1\033[0m"; }
+            log_warn() { echo -e "\033[1;33m⚠️  $1\033[0m"; }
+            log_error() { echo -e "\033[0;31m❌ $1\033[0m"; }
+            trap 'log_error "Deployment failed at line $LINENO"; exit 1' ERR
+
+            APP_DIR=/home/ec2-user/apps/resume
+            BACKUP_DIR="${APP_DIR}_backup_$(date +%s)"
+
+            echo "======================================"
+            echo "🚀 Starting Deployment (Optimized)"
+            echo "======================================"
+
+            # Step 1: Backup
+            echo "Step 1: Creating backup..."
+            if [ -d "$APP_DIR/.next" ]; then
+              mkdir -p "$BACKUP_DIR"
+              # Use cp -a for archive mode (preserves attributes, faster)
+              cp -a "$APP_DIR/.next" "$BACKUP_DIR/" 2>/dev/null || true
+              # Only backup node_modules if you really need to revert deps. 
+              # Skipping it speeds up backup significantly.
+              log_info "Backup created at $BACKUP_DIR"
+            else
+              log_warn "No previous build to backup"
+            fi
+
+            mkdir -p "$APP_DIR"
+            cd "$APP_DIR"
+
+            # Step 2: System dependencies (Check before install)
+            echo "Step 2: Checking system dependencies..."
+            if ! command -v node >/dev/null 2>&1; then
+               echo "Installing Node.js..."
+               curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo -E bash -
+               sudo dnf install -y nodejs
+            fi
+            
+            # Only install chromium deps if a specific library is missing to save time
+            if ! ldconfig -p | grep libgbm > /dev/null; then
+               echo "Installing Chromium dependencies..."
+               sudo dnf install -y \
+                 alsa-lib at-spi2-atk cups-libs libXcomposite libXdamage libXrandr \
+                 libgbm libxshmfence pango nss libX11 libXScrnSaver mesa-libgbm \
+                 libxkbcommon libxkbcommon-x11 gtk3 libdrm dbus-glib liberation-fonts
+               sudo ldconfig
+            fi
+
+            # Step 3: Update Repository
+            echo "Step 3: Updating repository..."
+            AUTH_URL="https://x-access-token:${GIT_CLONE_TOKEN}@github.com/shorlistAI/ShortlistAI.git"
+            
+            # Configure git locally only
+            git config --global --add safe.directory "$APP_DIR"
+            
+            if [ ! -d .git ]; then
+              echo "Existing files found, initializing Git repository..."
+              git init
+              git branch -M main
+              git remote add origin "$AUTH_URL"
+            else
+              git remote set-url origin "$AUTH_URL"
+            fi
+            
+            git fetch origin main
+            # The reset --hard will safely overwrite the old rsync files with the fresh Git files
+            git reset --hard origin/main
+            log_info "Repository updated"
+
+            # Step 4: Environment variables
+            echo "Step 4: Configuring environment..."
+            # Note: If your secrets contain '$' characters, they might be interpreted by bash.
+            # Using cat << EOF expands variables. 
+            cat > .env.production << EOF
+            MONGODB_URI=${MONGODB_URI}
+            GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+            GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+            NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+            NEXTAUTH_URL=${NEXTAUTH_URL}
+            NEXT_PUBLIC_RAZORPAY_KEY_ID=${NEXT_PUBLIC_RAZORPAY_KEY_ID}
+            RAZORPAY_KEY_SECRET=${RAZORPAY_KEY_SECRET}
+            CASHFREE_APP_ID=${CASHFREE_APP_ID}
+            CASHFREE_SECRET_KEY=${CASHFREE_SECRET_KEY}
+            CASHFREE_PLAN_MONTHLY_ID=${CASHFREE_PLAN_MONTHLY_ID}
+            CASHFREE_PLAN_QUARTERLY_ID=${CASHFREE_PLAN_QUARTERLY_ID}
+            PAYPAL_CLIENT_ID=${PAYPAL_CLIENT_ID}
+            PAYPAL_CLIENT_SECRET=${PAYPAL_CLIENT_SECRET}
+            NEXT_PUBLIC_PAYPAL_CLIENT_ID=${NEXT_PUBLIC_PAYPAL_CLIENT_ID}
+            OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+            GEMINI_API_KEY=${GEMINI_API_KEY}
+            DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+            GROQ_API_KEY=${GROQ_API_KEY}
+            NEXT_PUBLIC_URL=${NEXT_PUBLIC_URL}
+            NODE_ENV=production
+            NEXT_TELEMETRY_DISABLED=1
+            AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+            AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+            AWS_REGION=${AWS_REGION}
+            EMAIL_FROM=${EMAIL_FROM}
+            EMAIL_REPLY_TO=${EMAIL_REPLY_TO}
+            EMAIL_BCC_TRACKING=${EMAIL_BCC_TRACKING}
+            EMAIL_HOST=${EMAIL_HOST}
+            EMAIL_PORT=${EMAIL_PORT}
+            EMAIL_USER=${EMAIL_USER}
+            EMAIL_PASSWORD=${EMAIL_PASSWORD}
+            EMAIL_FROM_NAME=${EMAIL_FROM_NAME}
+            TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID}
+            TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN}
+            TWILIO_VERIFY_SERVICE_SID=${TWILIO_VERIFY_SERVICE_SID}
+            CLERK_SECRET_KEY=${CLERK_SECRET_KEY}
+            LOOPS_API_KEY=${LOOPS_API_KEY}
+            NEXT_PUBLIC_POSTHOG_KEY=${NEXT_PUBLIC_POSTHOG_KEY}
+            NEXT_PUBLIC_POSTHOG_HOST=${NEXT_PUBLIC_POSTHOG_HOST}
+            NEXT_PUBLIC_COOKIESCRIPT_ID=18665c058b9b46e167b6942103db26d1
+            
+            EOF
+            chmod 600 .env.production
+
+            # Step 5: Install dependencies (Incremental)
+            echo "Step 5: Installing dependencies..."
+            # Removed the rm -rf node_modules step. 
+            # npm ci automatically wipes node_modules if lockfile mismatches.
+            # If lockfile matches, it is fast.
+            npm ci --no-audit --legacy-peer-deps
+            log_info "Dependencies installed"
+
+            # Step 6: Build
+            echo "Step 6: Building application..."
+            export NODE_OPTIONS="--max-old-space-size=4096"
+          
+            # ---------------------------------------------------------
+            # ADD THIS: Force a clean slate to prevent Server Action IDs from clashing
+            rm -rf .next 
+            # ---------------------------------------------------------
+
+            if ! npm run build; then
+              log_error "Build failed"
+              if [ -d "$BACKUP_DIR/.next" ]; then
+                log_warn "Restoring from backup..."
+                rm -rf .next
+                cp -a "$BACKUP_DIR/.next" .
+                fi
+              exit 1
+              fi
+            log_info "Build complete"
+
+            # Step 7: Zero Downtime Reload
+            echo "Step 7: Reloading PM2..."
+            # Check if process exists
+            if pm2 describe resume > /dev/null 2>&1; then
+               # Reload allows old process to finish requests while new one starts
+               pm2 reload resume --update-env
+            else
+               pm2 start npm --name "resume" -- start
+            fi
+            pm2 save
+            
+            # Step 8: Health check
+            echo "Step 8: Health check..."
+            HEALTH_CHECK_RETRIES=5
+            RETRY_COUNT=0
+            
+            sleep 5 # Give Next.js a moment to boot
+            
+            while [ $RETRY_COUNT -lt $HEALTH_CHECK_RETRIES ]; do
+              if curl -sf http://localhost:8888 > /dev/null 2>&1; then
+                log_info "Health check passed"
+                break
+              fi
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              echo "Attempt $RETRY_COUNT..."
+              sleep 5
+            done
+            
+            if [ $RETRY_COUNT -eq $HEALTH_CHECK_RETRIES ]; then
+              log_error "Health check failed"
+              # Rollback
+              if [ -d "$BACKUP_DIR/.next" ]; then
+                 log_warn "Rolling back..."
+                 rm -rf .next
+                 cp -a "$BACKUP_DIR/.next" .
+                 pm2 reload resume --update-env
+              fi
+              exit 1
+            fi
+
+            # Step 9: Cleanup Backups
+            cd /home/ec2-user/apps
+            (ls -td resume_backup_* 2>/dev/null || true) | tail -n +4 | xargs -r rm -rf
+            
+            log_info "Deployment Successful: ${NEXT_PUBLIC_URL}"

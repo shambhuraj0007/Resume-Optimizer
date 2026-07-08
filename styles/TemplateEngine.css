@@ -1,0 +1,662 @@
+/* ================================================================ */
+/* LAYER 1: UNIVERSAL TEMPLATE ENGINE - CSS Grid Based              */
+/* Single Source of Truth: All templates defined here              */
+/* Instant switching without React re-renders                      */
+/* ================================================================ */
+
+:root {
+    /* Premium Color Palette */
+    --color-primary: #0f172a;
+    --color-secondary: #475569;
+    --color-accent: #3b82f6;
+    --color-border: #e2e8f0;
+    --color-sidebar-bg: #f8fafc;
+
+    --font-primary: 'Inter', 'Roboto', 'Open Sans', Arial, sans-serif;
+    --font-size-body: 8.1pt;
+    --font-size-heading: 9.3pt;
+    --line-height: 1.28;
+
+    --margin-section: 0.75rem;
+    --margin-item: 0.55rem;
+
+    --page-width: 210mm;
+    --page-height: 297mm;
+    --margin-page: 20mm;
+
+    /* Standardized Margins (Matching Creative) */
+    --padding-top: 1.25rem;
+    --padding-bottom: 1.25rem;
+    --padding-sidebar: 1.5rem;
+    --padding-main: 2.5rem;
+}
+
+/* ================================================================ */
+/* PAGE SETUP - Handles multi-page printing                        */
+/* ================================================================ */
+
+@media print {
+    @page {
+        size: A4;
+        margin: 20mm 0 !important;
+    }
+
+    html,
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: white !important;
+        color: black !important;
+        color-scheme: light !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .resume-wrapper {
+        min-height: auto !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 210mm !important;
+        box-sizing: border-box !important;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* ================================================================ */
+/* BASE STRUCTURE - Semantic sections                              */
+/* ================================================================ */
+
+.resume-wrapper {
+    background: white !important;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height);
+    box-sizing: border-box;
+    width: var(--page-width);
+    min-height: var(--page-height);
+    position: relative;
+    padding: var(--margin-page);
+    display: block;
+    overflow: visible;
+}
+
+/* Internal Grid Container */
+.resume-grid {
+    display: grid;
+    width: 100%;
+    min-height: 100%;
+    align-items: stretch;
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+/* ================================================================ */
+/* TEMPLATE 1: MODERN (Sidebar Layout)                             */
+/* ================================================================ */
+
+.resume-wrapper.template-modern .resume-grid {
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+    gap: 0;
+}
+
+.resume-wrapper.template-modern .resume-sidebar {
+    grid-area: sidebar;
+    background: var(--color-sidebar-bg);
+    padding: var(--padding-top) var(--padding-sidebar) var(--padding-bottom) 0;
+    border-right: 1px solid var(--color-border);
+    height: 100%;
+    padding: 2rem 1.5rem;
+}
+
+@media screen {
+    .resume-wrapper.template-modern .resume-sidebar {
+        min-height: calc(297mm - 40mm);
+    }
+
+    .resume-wrapper.template-modern .resume-sidebar section {
+        page-break-inside: auto;
+    }
+}
+
+.resume-wrapper.template-modern .resume-header {
+    grid-area: header;
+    padding: var(--padding-top) var(--padding-main) 0.25rem 0;
+    border-bottom: 2px solid var(--color-accent);
+    padding-left: calc(var(--padding-main) - 40px);
+    background: white !important;
+    position: relative;
+    padding: 1rem 1.5rem;
+    padding-top: 0;
+}
+
+/* Sync Screen and Print */
+
+.resume-wrapper.template-modern {
+    padding: 0 !important;
+}
+
+.resume-wrapper.template-professional,
+.resume-wrapper.template-minimal {
+    padding: 0 0 !important;
+}
+
+/* Creative Template Grid Fixes */
+.resume-wrapper.template-creative .resume-grid {
+    display: grid !important;
+    grid-template-rows: auto 1fr !important;
+}
+
+.resume-wrapper.template-creative .resume-header {
+    grid-column: 1 / span 2 !important;
+    grid-row: 1 !important;
+}
+
+.resume-wrapper.template-creative .resume-sidebar {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+}
+
+.resume-wrapper.template-creative .resume-main {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+}
+
+
+
+.resume-wrapper.template-modern .resume-main {
+    grid-area: main;
+    padding: 0.25rem 0 0 2.5rem;
+}
+
+/* Blue Accents for Modern */
+.resume-wrapper.template-modern h1 {
+    color: var(--color-accent);
+}
+
+.resume-wrapper.template-modern h2 {
+    color: var(--color-accent);
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 2px;
+}
+
+.resume-wrapper.template-modern {
+    padding-top: 0 !important;
+    padding-left: calc(var(--padding-main) - 2px);
+    background: linear-gradient(to right, var(--color-sidebar-bg) 0, var(--color-sidebar-bg) 260px, white 260px) !important;
+}
+
+/* ================================================================ */
+/* TEMPLATE 2: PROFESSIONAL (Vertical Stack)                       */
+/* ================================================================ */
+
+.resume-wrapper.template-professional .resume-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main";
+}
+
+.resume-wrapper.template-professional .resume-header {
+    grid-area: header;
+    text-align: left;
+    /* Changed from center to align with others */
+    border-bottom: 2px solid var(--color-accent);
+    padding-top: var(--padding-top);
+    padding-bottom: 1rem;
+    padding-left: calc(var(--padding-main) - 40px);
+    margin-bottom: 0.5rem;
+    padding-top: 0;
+}
+
+.resume-wrapper.template-professional .resume-main {
+    grid-area: main;
+}
+
+.resume-wrapper.template-professional h2 {
+    color: var(--color-accent);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resume-wrapper.template-professional {
+    padding-top: 0 !important;
+}
+
+/* ================================================================ */
+/* TEMPLATE 3: MINIMAL (Ultra Clean)                                */
+/* ================================================================ */
+
+.resume-wrapper.template-minimal .resume-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main";
+}
+
+.resume-wrapper.template-minimal .resume-header {
+    grid-area: header;
+    border-bottom: 1px solid var(--color-border);
+    padding-top: var(--padding-top);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
+    padding-left: calc(var(--padding-main) - 40px);
+    padding-top: 0;
+}
+
+.resume-wrapper.template-minimal h2 {
+    border: none;
+    background: #f1f5f9;
+    padding: 4px 12px;
+    font-size: 11pt;
+    border-radius: 4px;
+    color: var(--color-primary);
+}
+
+.resume-wrapper.template-minimal {
+    padding-top: 0 !important;
+}
+
+/* ================================================================ */
+/* UNIVERSAL COMPONENTS                                            */
+/* ================================================================ */
+
+.resume-wrapper h1 {
+    font-size: 26pt;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    page-break-after: avoid;
+}
+
+.work-item,
+.project-item,
+.education-item {
+    margin-bottom: var(--margin-item);
+    page-break-inside: avoid;
+    break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+}
+
+.resume-certifications {
+    margin-bottom: var(--margin-item);
+    page-break-inside: avoid;
+    break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+}
+
+.resume-languages div {
+    margin-bottom: var(--margin-item);
+    page-break-inside: avoid;
+    break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+}
+
+/* Prevent section heading from being orphaned at page bottom */
+.resume-wrapper h2 {
+    font-size: var(--font-size-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    margin: 1rem 0 0.5rem 0;
+    padding-bottom: 4px;
+    page-break-after: avoid;
+    orphans: 5;
+    widows: 5;
+}
+
+.resume-main section:first-child h2 {
+    margin-top: 0;
+}
+
+/* Group section heading with first item */
+section {
+    page-break-inside: avoid;
+}
+
+/* If a section's content starts on new page, bring heading with it */
+h2:not(:first-child) {
+    margin-top: 1rem;
+    page-break-before: auto;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+    page-break-after: avoid;
+}
+
+.item-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: 4px;
+    font-size: 9.5pt;
+    page-break-after: avoid;
+}
+
+.resume-wrapper ul {
+    margin: 0.35rem 0 !important;
+    padding-left: 1.25rem !important;
+    list-style-type: disc !important;
+    display: block !important;
+}
+
+.resume-wrapper li {
+    margin-bottom: 0.25rem !important;
+    display: list-item !important;
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+
+}
+
+li::marker {
+    color: var(--color-secondary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+/* Accessibility & Print Tweaks */
+.resume-sidebar section {
+    margin-bottom: 1.5rem;
+}
+
+.resume-sidebar h2 {
+    font-size: 10pt;
+    margin-top: 0;
+    border-bottom-width: 1px;
+}
+
+/* Pagination specific styling for screen */
+.page-break-line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-top: 2px dashed #ef4444;
+    z-index: 50;
+    pointer-events: none;
+}
+
+/* ================================================================ */
+/* TEMPLATE 4: CREATIVE (Gradient Sidebar with Accent) */
+/* ================================================================ */
+
+.resume-wrapper.template-creative .resume-grid {
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: auto auto;
+    /* Changed from auto 1fr to allow growing */
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+    gap: 0 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.resume-wrapper.template-creative .resume-sidebar {
+    grid-area: sidebar;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: var(--padding-sidebar);
+    border: none !important;
+    outline: none !important;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.resume-wrapper.template-creative .resume-header {
+    grid-area: header;
+    padding: var(--padding-top) var(--padding-main) 1rem 1.5rem;
+    position: relative;
+    z-index: 10;
+    background: white !important;
+    color: black;
+    width: 100%;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+
+.resume-wrapper.template-creative .resume-header .text-accent {
+    color: var(--color-accent) !important;
+}
+
+.resume-wrapper.template-creative .resume-header .text-secondary {
+    color: #475569 !important;
+}
+
+
+.resume-wrapper.template-creative .resume-main {
+    grid-area: main;
+    padding: 1rem var(--padding-main) var(--padding-bottom) var(--padding-main);
+    background: white !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0 !important;
+    min-height: 100%;
+}
+
+/* Remove default padding for creative to allow full-bleed sidebar */
+.resume-wrapper.template-creative {
+    padding: 0 !important;
+}
+
+.resume-wrapper.template-creative .resume-sidebar {
+    padding: 2rem 1.5rem;
+}
+
+.resume-wrapper.template-creative .resume-header {
+    padding: 0rem 2rem 1rem 1.5rem;
+}
+
+.resume-wrapper.template-creative .resume-sidebar h2 {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.resume-wrapper.template-creative .resume-sidebar a,
+.resume-wrapper.template-creative .resume-sidebar p {
+    color: white;
+}
+
+@media print {
+    .resume-wrapper.template-creative {
+        padding: 0 !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .resume-wrapper.template-creative .resume-sidebar {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+
+.resume-wrapper.template-creative {
+    padding: 0 !important;
+    padding-top: 0 !important;
+    background: linear-gradient(to right, #667eea 0, #667eea 280px, white 280px) !important;
+}
+
+/* ================================================================ */
+/* PAGE BREAK OPTIMIZATION - Prevent orphaned headings */
+/* ================================================================ */
+
+@media print {
+
+    /* 1. Never break before a major section heading */
+    h2:not(:first-child) {
+        page-break-before: avoid;
+        margin-top: 1.5rem;
+    }
+
+    /* 2. Heading must stay with at least one item below */
+    h2 {
+        page-break-after: avoid;
+        orphans: 3;
+        widows: 2;
+    }
+
+    /* 3. Keep entire work item together */
+    .work-item {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* 4. Keep job header with details */
+    .item-header,
+    .item-sub {
+        page-break-inside: avoid;
+        page-break-after: avoid;
+    }
+
+    /* 5. Smart section grouping */
+    .resume-main>section,
+    .resume-sidebar>section {
+        page-break-inside: auto;
+    }
+
+    /* 6. If content overflows, ensure minimum space on page */
+    .work-item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    /* 7. Prevent small gaps that force page breaks */
+    .work-item+h2 {
+        margin-top: 0.75rem;
+    }
+
+    /* 8. Bullet lists stay together */
+    ul {
+        page-break-inside: avoid;
+    }
+
+    /* 9. Explicit min-height prevents empty space */
+    .resume-page {
+        min-height: 100%;
+    }
+
+    /* Professional Experience Section */
+    section {
+        display: block;
+        page-break-inside: auto;
+    }
+
+    /* But if section is really long, allow breaks within it */
+    section.long-section {
+        page-break-inside: auto;
+    }
+
+    /* And break items only if needed */
+    section.long-section .work-item {
+        page-break-inside: avoid;
+    }
+}
+
+@media screen {
+
+    /* Screen preview - allow flexible breaks for better viewing */
+    h2 {
+        page-break-after: avoid;
+    }
+
+    .work-item {
+        page-break-inside: avoid;
+    }
+}
+
+/* Professional Experience Section */
+.resume-main section {
+    page-break-inside: auto;
+}
+
+/* Keep heading with its first item */
+section>h2:first-child {
+    page-break-after: avoid;
+}
+
+/* If heading can't fit with items, move all to next page */
+section>h2:first-child+.work-item {
+    page-break-before: auto;
+}
+
+/* ================================================================ */
+/* SMART PAGINATION RULES (CSS Column Compatible)                   */
+/* These ensure browser column engine respects page breaks          */
+/* ================================================================ */
+
+/* Enforce display: block for deterministic break behavior */
+.resume-wrapper .section {
+    display: block;
+    /* Allow sections to break across pages, but individual items will stay together */
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+.resume-wrapper .work-item,
+.resume-wrapper .education-item,
+.resume-wrapper .project-item {
+    display: block;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.resume-wrapper ul,
+.resume-wrapper li {
+    display: block;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Keep headings with their content */
+.resume-wrapper h1,
+.resume-wrapper h2,
+.resume-wrapper h3,
+.resume-wrapper h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+@media print {
+    .preview-mode {
+        column-count: auto !important;
+        column-gap: 0 !important;
+        overflow: visible !important;
+        min-height: auto !important;
+        height: auto !important;
+        display: block !important;
+        width: 100% !important;
+    }
+}
