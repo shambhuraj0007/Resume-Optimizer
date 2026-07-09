@@ -1,6 +1,6 @@
 // app/api/pdf/route.ts
 import { NextResponse, type NextRequest } from "next/server";
-import puppeteer, { type Browser } from "puppeteer";
+import type { Browser } from "puppeteer-core";
 
 // Imports removed
 
@@ -41,7 +41,7 @@ async function getBrowser(): Promise<Browser> {
     }
   }
 
-  if (browserInstance?.isConnected()) {
+  if (browserInstance?.connected) {
     return browserInstance;
   }
 
@@ -60,35 +60,58 @@ async function getBrowser(): Promise<Browser> {
 
     console.log('🚀 Launching new browser...');
 
-    // ✅ FIX 1: Use 'true' instead of 'new' for headless
-    browserInstance = await puppeteer.launch({
-      headless: true, // ✅ Changed from 'new' to true
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-gpu',
-        '--disable-extensions',
-        '--disable-software-rasterizer',
-        '--disable-web-security',
-        '--hide-scrollbars',
-        '--mute-audio',
-        '--no-first-run',
-        '--no-default-browser-check',
-        '--disable-background-networking',
-        '--disable-background-timer-throttling',
-        '--disable-backgrounding-occluded-windows',
-        '--disable-breakpad',
-        '--disable-component-extensions-with-background-pages',
-        '--disable-features=TranslateUI',
-        '--disable-ipc-flooding-protection',
-        '--disable-renderer-backgrounding',
-      ],
-      defaultViewport: {
-        width: 794,
-        height: 1123,
-      },
-    });
+    const isVercel = process.env.VERCEL || process.env.NODE_ENV === 'production';
+
+    if (isVercel) {
+      // Production / Vercel Serverless environment
+      const chromium = (await import('@sparticuz/chromium')).default as any;
+      const puppeteer = await import('puppeteer-core');
+
+      browserInstance = await puppeteer.launch({
+        args: [
+          ...chromium.args,
+          '--disable-web-security',
+        ],
+        defaultViewport: {
+          width: 794,
+          height: 1123,
+          ...chromium.defaultViewport,
+        },
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+      }) as unknown as Browser;
+    } else {
+      // Local development environment
+      const puppeteer = await import('puppeteer');
+      browserInstance = await puppeteer.launch({
+        headless: true,
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage',
+          '--disable-gpu',
+          '--disable-extensions',
+          '--disable-software-rasterizer',
+          '--disable-web-security',
+          '--hide-scrollbars',
+          '--mute-audio',
+          '--no-first-run',
+          '--no-default-browser-check',
+          '--disable-background-networking',
+          '--disable-background-timer-throttling',
+          '--disable-backgrounding-occluded-windows',
+          '--disable-breakpad',
+          '--disable-component-extensions-with-background-pages',
+          '--disable-features=TranslateUI',
+          '--disable-ipc-flooding-protection',
+          '--disable-renderer-backgrounding',
+        ],
+        defaultViewport: {
+          width: 794,
+          height: 1123,
+        },
+      }) as unknown as Browser;
+    }
 
     console.log('✅ Browser launched successfully');
 
@@ -346,7 +369,7 @@ export async function GET(request: NextRequest) {
   if (searchParams.get('stats') === 'true') {
     return NextResponse.json({
       browser: {
-        connected: browserInstance?.isConnected() ?? false,
+        connected: browserInstance?.connected ?? false,
         launching: isLaunching,
       },
       uptime: process.uptime(),
