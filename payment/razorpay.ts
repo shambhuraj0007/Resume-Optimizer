@@ -69,3 +69,14 @@ export async function refundPayment(paymentId: string, amount?: number) {
     throw error;
   }
 }
+
+// Fetch order details
+export async function fetchRazorpayOrder(orderId: string) {
+  try {
+    const order = await razorpayInstance.orders.fetch(orderId);
+    return order;
+  } catch (error) {
+    console.error('Error fetching Razorpay order:', error);
+    throw error;
+  }
+}

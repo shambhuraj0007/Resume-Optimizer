@@ -46,7 +46,7 @@ function StatusContent() {
 
       // 1. One-time Order Flow (Credits)
       if (orderId) {
-        const verifyUrl = '/api/payment/verify-cashfree';
+        const verifyUrl = '/api/payment/verify-razorpay';
         let retries = isManual ? 1 : 10;
         let successData = null;
 
@@ -65,7 +65,7 @@ function StatusContent() {
             }
 
             const s = data.status || '';
-            if (s === 'FAILED' || s === 'USER_DROPPED') {
+            if (s === 'FAILED' || s === 'failed') {
               throw new Error(data.error || 'Payment failed');
             }
           } catch (inner) { console.warn(inner); }
@@ -91,35 +91,6 @@ function StatusContent() {
           return;
         } else {
           if (isManual) toast({ title: "Still Processing", description: "Payment is still pending. Please wait or check again." });
-        }
-        return;
-      }
-
-      // 2. Subscription Flow
-      if (cfSubscriptionId || cfStatus || cfCheckoutStatus) {
-        if (cfCheckoutStatus === 'FAILED') throw new Error('Payment failed. Please try again.');
-
-        const queryString = searchParams.toString();
-        const verifyUrl = `/api/payment/verify-signature?${queryString}`;
-        const res = await fetch(verifyUrl);
-        if (!res.ok) throw new Error('Signature verification failed');
-
-        const data = await res.json();
-        setSubscriptionData({
-          cfSubscriptionId,
-          cfStatus,
-          ...data
-        });
-
-        if (data.subscriptionStatus === 'active') {
-          // Redirect to dedicated success page
-          redirectToSuccessPage({
-            credits: data.credits || 200,
-            amount: data.amount || 0,
-            currency: data.currency || 'INR',
-            plan_id: data.plan_id || 'pro',
-          });
-          return;
         }
         return;
       }

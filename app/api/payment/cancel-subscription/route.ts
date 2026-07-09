@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import User from "@/models/User";
-import { cancelCashfreeSubscription } from "@/payment/cashfree";
 import dbConnect from "@/lib/mongodb";
 
 export async function POST(req: NextRequest) {
@@ -24,15 +23,7 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: "No active subscription found" }, { status: 400 });
         }
 
-        // Call Cashfree to cancel
-        try {
-            await cancelCashfreeSubscription(user.subscriptionId);
-        } catch (apiError: any) {
-            console.error("Cashfree Cancellation Error:", apiError);
-            // Even if API fails (e.g. already cancelled), we might want to update local state if confirmed? 
-            // For now, return error.
-            return NextResponse.json({ error: apiError.message || "Failed to cancel with provider" }, { status: 500 });
-        }
+        // For one-time payments or manual subscriptions, mark cancelled in local DB directly
 
         // Update local DB
         user.subscriptionStatus = "cancelled"; // Or 'pending_cancellation' depending on immediate effect

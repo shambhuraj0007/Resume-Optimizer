@@ -1,11 +1,10 @@
-
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import dbConnect from "@/lib/mongodb";
 import Transaction from "@/models/Transaction";
 import User from "@/models/User";
-import { verifyCashfreeOrder } from "@/payment/cashfree";
+import { fetchRazorpayOrder } from "@/payment/razorpay";
 import { addCredits } from "@/payment/creditService";
 
 export async function POST(req: NextRequest) {
@@ -32,23 +31,23 @@ export async function POST(req: NextRequest) {
         const { orderId } = await req.json();
 
         if (!orderId) {
-            console.error("Verify Cashfree: Missing orderId");
+            console.error("Verify Razorpay: Missing orderId");
             return NextResponse.json({ error: "Missing orderId" }, { status: 400 });
         }
 
-        console.log(`[VERIFY CASHFREE] Verifying order: ${orderId}`);
+        console.log(`[VERIFY RAZORPAY] Verifying order: ${orderId}`);
 
         // 1. Find Transaction locally
         const transaction = await Transaction.findOne({ orderId: orderId });
         if (!transaction) {
-            console.error(`[VERIFY CASHFREE] Transaction not found for orderId: ${orderId}`);
+            console.error(`[VERIFY RAZORPAY] Transaction not found for orderId: ${orderId}`);
             return NextResponse.json({ error: "Transaction not found" }, { status: 404 });
         }
-        console.log(`[VERIFY CASHFREE] Local transaction found: ${transaction.orderId}, Status: ${transaction.status}`);
+        console.log(`[VERIFY RAZORPAY] Local transaction found: ${transaction.orderId}, Status: ${transaction.status}`);
 
         // 2. If already completed, return success immediately (Idempotency)
         if (transaction.status === "completed") {
-            console.log(`[VERIFY CASHFREE] Order already completed: ${orderId}`);
+            console.log(`[VERIFY RAZORPAY] Order already completed: ${orderId}`);
             return NextResponse.json({
                 success: true,
                 message: "Already completed",
@@ -59,17 +58,23 @@ export async function POST(req: NextRequest) {
             });
         }
 
-        // 3. Verify with Cashfree
-        console.log(`[VERIFY CASHFREE] Fetching status from Cashfree API...`);
-        const cfOrder = await verifyCashfreeOrder(orderId);
-        console.log(`[VERIFY CASHFREE] Cashfree Status: ${cfOrder.order_status}`);
+        // 3. Verify with Razorpay
+        if (!transaction.razorpayOrderId) {
+            console.error(`[VERIFY RAZORPAY] Missing razorpayOrderId in transaction: ${orderId}`);
+            return NextResponse.json({ error: "Missing Razorpay Order ID" }, { status: 400 });
+        }
+
+        console.log(`[VERIFY RAZORPAY] Fetching status from Razorpay API...`);
+        const rzpOrder = (await fetchRazorpayOrder(transaction.razorpayOrderId)) as any;
+        console.log(`[VERIFY RAZORPAY] Razorpay Status: ${rzpOrder.status}`);
 
         // Check if PAID
-        if (cfOrder.order_status === "PAID") {
+        if (rzpOrder.status === "paid") {
             // Update Transaction
             transaction.status = "completed";
-            transaction.paymentId = cfOrder.cf_order_id; // or payment_session_id or a generic payment id
-            transaction.rawResponse = cfOrder; // optional: save raw response
+            // Get payment details from rzpOrder or default
+            const paymentId = rzpOrder.payments?.items?.[0]?.id || transaction.paymentId || "rzp_pay_success";
+            transaction.paymentId = paymentId;
             await transaction.save();
 
             // Add Credits and Update Region
@@ -94,7 +99,7 @@ export async function POST(req: NextRequest) {
                 }
 
                 // ------------------------------------------------------------------
-                // LOOPS.SO INTEGRATION (Polling / Verification fallback)
+                // LOOPS.SO INTEGRATION
                 // ------------------------------------------------------------------
                 try {
                     const { syncContact, sendTransactionalEmail } = await import('@/lib/loops');
@@ -103,7 +108,6 @@ export async function POST(req: NextRequest) {
                     await syncContact(user);
 
                     // Send confirmation email
-                    // Note: We use the same 'payment_success' email loop as webhook
                     const { getReadablePlanName } = await import('@/lib/plans');
                     await sendTransactionalEmail('cmkshnmnk22vr0iya201q1mb2', user.email, {
                         name: user.name,
@@ -114,7 +118,7 @@ export async function POST(req: NextRequest) {
                         dashboardLink: `${process.env.NEXT_PUBLIC_URL}/dashboard`,
                     });
                 } catch (loopsError) {
-                    console.error('[VERIFY CASHFREE] Loops integration error:', loopsError);
+                    console.error('[VERIFY RAZORPAY] Loops integration error:', loopsError);
                 }
             }
 
@@ -126,24 +130,23 @@ export async function POST(req: NextRequest) {
                 plan_id: transaction.packageType,
             });
         } else {
-            console.warn(`[VERIFY CASHFREE] Payment not PAID. Status: ${cfOrder.order_status}`);
+            console.warn(`[VERIFY RAZORPAY] Payment not paid. Status: ${rzpOrder.status}`);
 
-            // Update Failed Status
-            if (cfOrder.order_status === "FAILED" || cfOrder.order_status === "USER_DROPPED") {
-                transaction.status = "failed"; // or 'cancelled'
+            // Update Failed Status if applicable
+            if (rzpOrder.status === "failed") {
+                transaction.status = "failed";
                 await transaction.save();
             }
 
-            // Return status to frontend so it can decide to poll or show error
             return NextResponse.json({
                 success: false,
-                status: cfOrder.order_status,
-                error: `Payment status : ${cfOrder.order_status}`
+                status: rzpOrder.status,
+                error: `Payment status: ${rzpOrder.status}`
             });
         }
 
     } catch (error: any) {
-        console.error("Verify Cashfree Error:", error);
+        console.error("Verify Razorpay Error:", error);
         return NextResponse.json({ error: error.message || "Internal Server Error" }, { status: 500 });
     }
 }

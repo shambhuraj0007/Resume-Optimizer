@@ -330,7 +330,7 @@ export default function CheckoutModal({
 
                                 <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
                                     <ShieldCheck className="h-3.5 w-3.5" />
-                                    Secure payment via Cashfree / PayPal
+                                    Secure payment via Razorpay / PayPal
                                 </div>
                             </div>
                         </div>

@@ -19,7 +19,7 @@ export interface IProduct extends Document {
     basePriceUSD: number; // Fallback price in USD
     prices: IRegionalPrice[]; // Regional pricing overrides
     paypalPlanId?: string; // PayPal subscription plan ID (for international subscriptions)
-    cashfreePlanId?: string; // Cashfree plan ID (for India subscriptions)
+    razorpayPlanId?: string; // Razorpay subscription plan ID (for India subscriptions)
     active: boolean;
     features?: string[];
     createdAt: Date;
@@ -78,7 +78,7 @@ const ProductSchema: Schema<IProduct> = new Schema(
         },
         prices: [RegionalPriceSchema],
         paypalPlanId: String, // PayPal subscription plan ID
-        cashfreePlanId: String, // Cashfree plan ID
+        razorpayPlanId: String, // Razorpay subscription plan ID
         active: {
             type: Boolean,
             default: true,

@@ -79,7 +79,7 @@ export default function PaymentHistory(): JSX.Element {
   const verifyOrder = async (orderId: string, isAuto = false) => {
     try {
       if (!isAuto) toast({ title: "Checking status..." });
-      const res = await fetch('/api/payment/verify-cashfree', {
+      const res = await fetch('/api/payment/verify-razorpay', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ orderId }),

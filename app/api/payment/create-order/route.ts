@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import User from "@/models/User";
 import Transaction from "@/models/Transaction";
-import { createCashfreeOrder } from "@/payment/cashfree";
+import { createRazorpayOrder } from "@/payment/razorpay";
 import { v4 as uuidv4 } from "uuid";
 import dbConnect from "@/lib/mongodb";
 import { validateCoupon, redeemCoupon } from "@/lib/couponService";
@@ -63,43 +63,34 @@ export async function POST(req: NextRequest) {
       const customerPhone = user.phone || "9999999999";
       const customerEmail = user.email;
 
-      // Construct returnUrl with returnTo context
-      const baseUrl = process.env.NEXTAUTH_URL || "";
-      const statusUrl = `${baseUrl}/payment/success?order_id={order_id}`;
-      const finalReturnUrl = returnTo
-        ? `${statusUrl}&returnTo=${encodeURIComponent(returnTo)}`
-        : statusUrl;
-
-      const cfOrder = await createCashfreeOrder(
-        orderId,
+      // Create Razorpay Order
+      const razorpayOrder = await createRazorpayOrder(
         finalPrice,
-        user._id.toString(),
-        customerPhone,
-        user.name,
-        customerEmail,
-        finalReturnUrl
+        'INR',
+        orderId
       );
 
       // Create Transaction Record
       await Transaction.create({
         userId: user._id,
-        gateway: 'CASHFREE',
+        gateway: 'RAZORPAY',
         orderId: orderId,
-        cfOrderId: cfOrder.cf_order_id,
+        razorpayOrderId: razorpayOrder.id,
         amount: finalPrice,
         currency: 'INR',
         credits: pack.credits,
         status: 'pending',
         packageType: packageType,
         validityMonths: 3,
-        paymentMethod: 'cashfree_pg',
+        paymentMethod: 'razorpay_pg',
         ...(appliedCoupon && { couponCode: appliedCoupon, discountAmount }),
       });
 
       return NextResponse.json({
-        gateway: 'CASHFREE',
-        payment_session_id: cfOrder.payment_session_id,
-        order_id: cfOrder.order_id,
+        gateway: 'RAZORPAY',
+        razorpay_order_id: razorpayOrder.id,
+        amount: razorpayOrder.amount, // in paise
+        currency: 'INR',
         orderId: orderId
       });
     }

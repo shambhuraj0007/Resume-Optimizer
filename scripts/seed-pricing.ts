@@ -77,11 +77,11 @@ const products = [
         period: 'month',
         billing: 'Monthly',
         discount: '75% OFF',
-        basePriceUSD: 15,
+                basePriceUSD: 15,
         prices: [
             { regionCode: 'IN', currency: 'INR', currencySymbol: '₹', amount: 599 },
         ],
-        cashfreePlanId: process.env.CASHFREE_PLAN_MONTHLY_ID || 'PRO_MONTHLY',
+        razorpayPlanId: 'PRO_MONTHLY',
         active: true,
     },
     {
@@ -96,7 +96,7 @@ const products = [
         prices: [
             { regionCode: 'IN', currency: 'INR', currencySymbol: '₹', amount: 1499 },
         ],
-        cashfreePlanId: process.env.CASHFREE_PLAN_QUARTERLY_ID || 'PRO_QUARTERLY',
+        razorpayPlanId: 'PRO_QUARTERLY',
         active: true,
     },
 

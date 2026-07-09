@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import User from "@/models/User";
-import { createCashfreeSubscription, createCashfreeOrder } from "@/payment/cashfree";
+import { createRazorpayOrder } from "@/payment/razorpay";
 import dbConnect from "@/lib/mongodb";
 import Transaction from "@/models/Transaction";
 import Product from "@/models/Product";
@@ -47,8 +47,8 @@ export async function POST(req: NextRequest) {
         const subscriptionId = `SUB_${Date.now()}`;
 
         // Determine provider based on currency/region
-        // Assuming INR -> CASHFREE, others -> PAYPAL
-        const provider = plan.prices.find((p: any) => p.currency === 'INR') ? 'CASHFREE' : 'PAYPAL';
+        // Assuming INR -> RAZORPAY, others -> PAYPAL
+        const provider = plan.prices.find((p: any) => p.currency === 'INR') ? 'RAZORPAY' : 'PAYPAL';
 
         // Get price for the plan's primary region/currency (or handle logic to pick correct price based on user region if passed)
         // For simplicity, we can use the basePriceUSD if it's international, or the specific regional price.
@@ -91,18 +91,10 @@ export async function POST(req: NextRequest) {
             couponDiscount = couponResult.discountAmount;
         }
 
-        if (provider === "CASHFREE") {
+        if (provider === "RAZORPAY") {
             // SWITCH TO ORDER FLOW (One-time payment for Credits)
 
             const orderId = `ORDER_${Date.now()}`;
-            const customerPhone = user.phone || "9999999999";
-
-            // Construct returnUrl
-            const baseUrl = process.env.NEXTAUTH_URL || "";
-            const statusUrl = `${baseUrl}/payment/success?order_id={order_id}`;
-            const finalReturnUrl = returnTo
-                ? `${statusUrl}&returnTo=${encodeURIComponent(returnTo)}`
-                : statusUrl;
 
             // Derive validity: 'month' -> 1, '3 months' -> 3, 'year' -> 12
             let validityMonths = 1;
@@ -110,36 +102,33 @@ export async function POST(req: NextRequest) {
             else if (plan.period === 'year') validityMonths = 12;
 
             // Create Order
-            const cfOrder = await createCashfreeOrder(
-                orderId,
+            const razorpayOrder = await createRazorpayOrder(
                 finalPrice,
-                String(user._id),
-                customerPhone,
-                user.name || "Customer",
-                user.email,
-                finalReturnUrl
+                'INR',
+                orderId
             );
 
             // Create Transaction Record
             await Transaction.create({
                 userId: user._id,
-                gateway: 'CASHFREE',
+                gateway: 'RAZORPAY',
                 orderId: orderId,
-                cfOrderId: cfOrder.cf_order_id,
+                razorpayOrderId: razorpayOrder.id,
                 amount: finalPrice,
                 currency: currency,
                 credits: plan.credits || 0,
                 status: 'pending',
                 packageType: planKey,
                 validityMonths: validityMonths,
-                paymentMethod: 'cashfree_pg_pro',
+                paymentMethod: 'razorpay_pg_pro',
                 ...(appliedCoupon && { couponCode: appliedCoupon, discountAmount: couponDiscount }),
             });
 
             return NextResponse.json({
-                provider: "CASHFREE",
-                payment_session_id: cfOrder.payment_session_id,
-                order_id: cfOrder.order_id,
+                provider: "RAZORPAY",
+                razorpay_order_id: razorpayOrder.id,
+                amount: razorpayOrder.amount,
+                currency: 'INR',
                 orderId: orderId, // For frontend tracking
                 isOrder: true
             });

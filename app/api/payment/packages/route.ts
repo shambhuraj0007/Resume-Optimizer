@@ -222,7 +222,7 @@ function buildPricingResponse(products: any[], region: Region) {
         credits: p.credits || 0,
         discount: p.discount || '',
         paypalPlanId: p.paypalPlanId || '', // Add PayPal plan ID
-        cashfreePlanId: p.cashfreePlanId || '', // Add Cashfree plan ID
+        razorpayPlanId: p.razorpayPlanId || '', // Add Razorpay plan ID
       };
     });
 

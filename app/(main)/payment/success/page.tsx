@@ -73,7 +73,7 @@ function SuccessContent() {
 
                     while (retries > 0) {
                         try {
-                            const res = await fetch('/api/payment/verify-cashfree', {
+                            const res = await fetch('/api/payment/verify-razorpay', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: JSON.stringify({ orderId }),
@@ -86,7 +86,7 @@ function SuccessContent() {
                             }
 
                             const s = data.status || '';
-                            if (s === 'FAILED' || s === 'USER_DROPPED') {
+                            if (s === 'FAILED' || s === 'failed') {
                                 throw new Error(data.error || 'Payment failed or was cancelled.');
                             }
                         } catch (inner: any) {
@@ -110,32 +110,6 @@ function SuccessContent() {
                     }
 
                     throw new Error('Payment verification timed out. Please check your account or try again.');
-                }
-
-                // --- Subscription Flow ---
-                if (cfSubscriptionId || cfStatus || cfCheckoutStatus) {
-                    if (cfCheckoutStatus === 'FAILED') {
-                        throw new Error('Payment failed. Please try again.');
-                    }
-
-                    const queryString = searchParams.toString();
-                    const res = await fetch(`/api/payment/verify-signature?${queryString}`);
-                    if (!res.ok) throw new Error('Signature verification failed.');
-
-                    const data = await res.json();
-
-                    if (data.subscriptionStatus === 'active') {
-                        setPaymentData({
-                            credits: data.credits || 200,
-                            amount: data.amount || 0,
-                            currency: data.currency || 'INR',
-                            planId: data.plan_id || 'pro',
-                        });
-                        setStatus('success');
-                        return;
-                    }
-
-                    throw new Error('Subscription is not active yet. Please try again.');
                 }
 
                 // --- If we have pre-populated data (e.g. from PayPal redirect) ---

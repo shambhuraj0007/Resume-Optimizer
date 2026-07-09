@@ -312,19 +312,11 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
 
     // ---------- Handlers ----------
 
-    const openCashfreeCheckout = async (sessionId: string, orderId?: string) => {
-        console.log("Opening Checkout for Session:", sessionId);
+    const openRazorpayCheckout = (orderData: any, receiptId: string) => {
+        console.log("Opening Razorpay Checkout for Order:", orderData.razorpay_order_id);
 
-        // Retry mechanism for SDK loading (Max 5 seconds)
-        let retries = 10;
-        while (retries > 0 && !(window as any).Cashfree) {
-            await new Promise(r => setTimeout(r, 500));
-            retries--;
-            console.log("Waiting for Cashfree SDK...", retries);
-        }
-
-        if (typeof window === "undefined" || !(window as any).Cashfree) {
-            console.error("Cashfree SDK not loaded after retries");
+        if (typeof window === "undefined" || !(window as any).Razorpay) {
+            console.error("Razorpay SDK not loaded");
             toast({
                 title: "Payment Error",
                 description: "Payment system unavailable. Please refresh and try again.",
@@ -333,34 +325,73 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
             return;
         }
 
-        const mode =
-            process.env.NODE_ENV === "production" ? "production" : "sandbox";
+        const options = {
+            key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "rzp_test_RjXF1HT5E6HTtf",
+            amount: orderData.amount, // in paise
+            currency: orderData.currency || "INR",
+            name: "ShortlistAI",
+            description: "Credits / Subscription Upgrade",
+            order_id: orderData.razorpay_order_id,
+            handler: async function (response: any) {
+                setCheckoutProcessing(true);
+                try {
+                    const verifyRes = await fetch("/api/payment/verify", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            razorpay_order_id: response.razorpay_order_id,
+                            razorpay_payment_id: response.razorpay_payment_id,
+                            razorpay_signature: response.razorpay_signature,
+                        }),
+                    });
+                    const verifyData = await verifyRes.json();
 
-        try {
-            const cashfree = (window as any).Cashfree({ mode });
+                    if (verifyRes.ok && verifyData.success) {
+                        toast({
+                            title: "Payment Successful!",
+                            description: "Your credits have been added.",
+                        });
 
-            const checkoutOptions = {
-                paymentSessionId: sessionId,
-                redirectTarget: "_self" as const,
-            };
+                        const params = new URLSearchParams();
+                        if (verifyData.credits) params.set('credits', String(verifyData.credits));
+                        params.set('amount', String(verifyData.amount || (orderData.amount / 100)));
+                        params.set('currency', 'INR');
+                        params.set('plan_id', verifyData.plan_id || 'unknown');
+                        params.set('source', 'RazorpayCheckout');
 
-            cashfree.checkout(checkoutOptions)
-                .catch((error: any) => {
-                    console.error("Checkout launch error:", error);
+                        router.push(`/payment/success?${params.toString()}`);
+                    } else {
+                        throw new Error(verifyData.error || "Payment verification failed");
+                    }
+                } catch (err: any) {
+                    console.error("Signature verification error:", err);
                     toast({
-                        title: "Checkout Error",
-                        description: "Failed to open payment page.",
+                        title: "Verification Failed",
+                        description: err.message || "We could not verify your signature.",
                         variant: "destructive",
                     });
-                });
-        } catch (err) {
-            console.error("SDK Initialization Error:", err);
-            toast({
-                title: "Initialization Error",
-                description: "Could not initialize payment SDK.",
-                variant: "destructive",
-            });
-        }
+                    router.push(`/payment/status?order_id=${receiptId}`);
+                } finally {
+                    setCheckoutProcessing(false);
+                }
+            },
+            prefill: {
+                name: session?.user?.name || "Customer",
+                email: session?.user?.email || "",
+            },
+            theme: {
+                color: "#2563EB",
+            },
+            modal: {
+                ondismiss: function () {
+                    setProcessingPackage(null);
+                    setCheckoutProcessing(false);
+                }
+            }
+        };
+
+        const rzp = new (window as any).Razorpay(options);
+        rzp.open();
     };
 
     const handlePackPurchase = async (couponCode?: string) => {
@@ -383,7 +414,7 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
             const data = await res.json();
             if (data.error) throw new Error(data.error);
 
-            openCashfreeCheckout(data.payment_session_id, data.orderId || data.order_id);
+            openRazorpayCheckout(data, data.orderId);
         } catch (error: any) {
             toast({
                 title: "Purchase Failed",
@@ -395,7 +426,7 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
         }
     };
 
-    const handleSubscriptionCashfree = async (planKey: string, couponCode?: string) => {
+    const handleSubscriptionRazorpay = async (planKey: string, couponCode?: string) => {
         if (!session && !isAuthenticated)
             return router.push("/signin?callbackUrl=/pricing");
 
@@ -414,36 +445,15 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
 
             if (data.error) throw new Error(data.error);
 
-            // Handle One-time Order (New Pro Flow)
-            if (data.payment_session_id) {
-                openCashfreeCheckout(data.payment_session_id, data.orderId || data.order_id);
+            // Handle One-time Order (Pro Flow)
+            if (data.provider === "RAZORPAY") {
+                openRazorpayCheckout(data, data.orderId);
                 return;
             }
 
-            if (!data.subscriptionSessionId) {
-                throw new Error("No subscription session ID returned");
+            if (data.provider === "PAYPAL") {
+                return; // Managed client-side by PayPal SDK wrapper
             }
-
-            const cashfree = (window as any).Cashfree({
-                mode: process.env.NODE_ENV === "production" ? "production" : "sandbox",
-            });
-
-            cashfree
-                .subscriptionsCheckout({
-                    subsSessionId: data.subscriptionSessionId,
-                    redirectTarget: "_self",
-                })
-                .then((result: any) => {
-                    if (result?.error) {
-                        console.error("Checkout error:", result.error);
-                        toast({
-                            title: "Checkout Failed",
-                            description:
-                                result.error.message || "Failed to open checkout",
-                            variant: "destructive",
-                        });
-                    }
-                });
         } catch (error: any) {
             toast({
                 title: "Subscription Failed",
@@ -517,9 +527,9 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
     return (
         <main className="min-h-screen bg-slate-50 dark:bg-slate-950 pt-16 pb-12 font-sans">
             <Script
-                src="https://sdk.cashfree.com/js/v3/cashfree.js"
+                src="https://checkout.razorpay.com/v1/checkout.js"
                 strategy="afterInteractive"
-                onLoad={() => console.log("Cashfree SDK Loaded")}
+                onLoad={() => console.log("Razorpay SDK Loaded")}
             />
             <section className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="text-center max-w-3xl mx-auto mb-14">
@@ -944,7 +954,7 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
                                                         period: sub.period,
                                                         credits: sub.credits,
                                                     });
-                                                    setCheckoutFlow('cashfree-sub');
+                                                     setCheckoutFlow('razorpay-sub');
                                                     setIsCheckoutOpen(true);
                                                 }}
                                                 className="w-full h-12 rounded-full text-base font-bold mb-8 shadow-sm transition-all bg-[#1877F2] hover:bg-blue-600 text-white"
@@ -1174,8 +1184,8 @@ export default function PricingPage({ hideFreeTier = false }: { hideFreeTier?: b
                     try {
                         if (checkoutFlow === 'pack') {
                             await handlePackPurchase(result.couponCode);
-                        } else if (checkoutFlow === 'cashfree-sub') {
-                            await handleSubscriptionCashfree(result.planId, result.couponCode);
+                        } else if (checkoutFlow === 'razorpay-sub') {
+                            await handleSubscriptionRazorpay(result.planId, result.couponCode);
                         } else if (checkoutFlow === 'paypal-annual') {
                             toast({
                                 title: "Processing...",
