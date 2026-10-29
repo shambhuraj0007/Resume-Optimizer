@@ -16,6 +16,12 @@ import type { LLMExtractionResult, Suggestion } from "@/lib/scoring/interfaces";
 import { matchSkillLists } from "@/lib/scoring/skillMatcher";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+const OPENROUTER_MODELS = [
+  process.env.OPENROUTER_MODEL,
+  "openrouter/free",
+  "deepseek/deepseek-v4-flash",
+  "openai/gpt-4o-mini",
+].filter((value): value is string => Boolean(value));
 
 export async function POST(req: NextRequest) {
   try {
@@ -95,8 +101,6 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
-
-
 
     // Call LLM for data extraction (not scoring)
     const llmData = await extractDataFromLLM(resumeText, jobDescription);
@@ -352,7 +356,7 @@ async function extractDataFromLLM(
     throw new Error("OpenRouter API key not configured");
   }
 
-  const prompt = `You are a MASTER  AI for an ATS (Applicant Tracking System). Your job is to extract structured data from a resume and job description and identify specific improvements about text and overall structure for the resume.
+  const prompt = `You are a MASTER  AI for an ATS (Applicant Tracking System). Your job is to extract structured data from a resume and job description and identify specific improvements about te[...]
 
 ---
 
@@ -415,17 +419,17 @@ TASK: Extract the following information in strict JSON format. Do not generate a
    - hasContactInfo: boolean (does resume have email/phone?)
 
 10. **suggestions**: Array of concrete improvement suggestions. For each:
-    - suggestion: string (what to do). Provide EXACTLY 10 suggestions, sorted by highest impact first. The system will filter these based on the candidate's score.
-    - originalText: string (current text from resume, or "MISSING" if adding new content)
-    - improvedText: string (suggested rewrite or new text to add)
-    - category: "text" | "keyword" | "other"
-    - requiresUserConfirmation: boolean (true if suggesting to add experience they might not have)
+   - suggestion: string (what to do). Provide EXACTLY 10 suggestions, sorted by highest impact first. The system will filter these based on the candidate's score.
+   - originalText: string (current text from resume, or "MISSING" if adding new content)
+   - improvedText: string (suggested rewrite or new text to add)
+   - category: "text" | "keyword" | "other"
+   - requiresUserConfirmation: boolean (true if suggesting to add experience they might not have)
 
 ---
 
 STRICT OUTPUT SCHEMA (EXAMPLE):
 
-Here is an example JSON object. Follow this exact structure and key names in your response. Use the same top-level keys and nested keys, but with values derived from the resume and job description:
+Here is an example JSON object. Follow this exact structure and key names in your response. Use the same top-level keys and nested keys, but with values derived from the resume and job descriptio[...]
 
 {
   "requiredSkills": [
@@ -508,47 +512,66 @@ CRITICAL RULES:
 
 Return the JSON now:`;
 
-  const response = await openRouterQueue.add(() =>
-    fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-        "HTTP-Referer": "https://shortlistai.cv",
-        "X-Title": "ShortlistAI",
-      },
-      body: JSON.stringify({
-        model: "deepseek/deepseek-v4-flash",
-        messages: [{ role: "user", content: prompt }],
-        response_format: { type: "json_object" },
-        temperature: 0,
-        max_tokens: 10000,
-        'HTTP-Referer': 'https://shortlistai.cv',
-        'X-Title': 'ShortlistAI',
-      }),
-    })
+  let lastError: Error | null = null;
+
+  for (const model of OPENROUTER_MODELS) {
+    try {
+      const response = await openRouterQueue.add(() =>
+        fetch("https://openrouter.ai/api/v1/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${OPENROUTER_API_KEY}`,
+            "HTTP-Referer": "https://shortlistai.cv",
+            "X-Title": "ShortlistAI",
+          },
+          body: JSON.stringify({
+            model,
+            messages: [{ role: "user", content: prompt }],
+            response_format: { type: "json_object" },
+            temperature: 0,
+            max_tokens: 10000,
+            'HTTP-Referer': 'https://shortlistai.cv',
+            'X-Title': 'ShortlistAI',
+          }),
+        })
+      );
+
+      if (!response.ok) {
+        const errorBody = await response.text();
+        lastError = new Error(`OpenRouter API error for ${model}: ${response.status} ${errorBody}`);
+        console.error(lastError.message);
+        continue;
+      }
+
+      const data = await response.json();
+      const rawContent = data?.choices?.[0]?.message?.content;
+      const content = typeof rawContent === "string"
+        ? rawContent
+        : Array.isArray(rawContent)
+          ? rawContent
+              .map((part: any) => typeof part === "string" ? part : part?.text || "")
+              .join("")
+          : "";
+
+      if (!content || !content.trim()) {
+        const providerError = data?.error?.message || "OpenRouter returned no content.";
+        lastError = new Error(`OpenRouter returned no content for ${model}: ${providerError}`);
+        console.error(lastError.message);
+        continue;
+      }
+
+      return cleanAndParseJSON(content) as LLMExtractionResult;
+    } catch (error) {
+      const err = error instanceof Error ? error : new Error("Unknown OpenRouter error");
+      lastError = err;
+      console.error(`OpenRouter request failed for model ${model}:`, err);
+    }
+  }
+
+  throw new Error(
+    lastError?.message || "OpenRouter failed to return valid content for all configured models."
   );
-
-  if (!response.ok) {
-    const errorBody = await response.text();
-    console.error("OpenRouter API error:", response.status, errorBody);
-    throw new Error(`OpenRouter API error: ${response.statusText}`);
-  }
-
-  const data = await response.json();
-  const content = data.choices?.[0]?.message?.content;
-
-  if (!content) {
-    throw new Error("No content received.");
-  }
-
-  try {
-    const result = cleanAndParseJSON(content) as LLMExtractionResult;
-    return result;
-  } catch (parseError) {
-    console.error("Failed to parse LLM response:", content);
-    throw new Error("LLM returned invalid JSON format");
-  }
 }
 
 function cleanAndParseJSON(text: string): any {
